@@ -1,0 +1,31 @@
+{
+  "engine": "V33.1-HUMAN-REVIEW",
+  "generated_at": "2026-11-06T06:43:45.471171+00:00",
+  "total_videos": 100,
+  "decisions": {
+    "APPROVE": 0,
+    "REJECT": 0,
+    "HOLD": 0,
+    "PENDING": 100
+  },
+  "ranking_is_provisional": true,
+  "automatic_approval": false,
+  "decision_source": "human_review_decisions_v33.csv",
+  "outputs": [
+    "latest_human_review_queue_v33.csv",
+    "latest_approved_topics_v33.csv",
+    "latest_rejected_topics_v33.csv",
+    "latest_hold_topics_v33.csv",
+    "latest_pending_review_v33.csv",
+    "latest_human_review_audit_v33.csv"
+  ],
+  "rules": [
+    "All new videos begin as PENDING.",
+    "Only an explicit APPROVE decision enters the approved export.",
+    "REJECT and HOLD are never exported as approved.",
+    "Existing decisions and reviewer notes are preserved.",
+    "Ranking remains provisional until content quality is evaluated.",
+    "This engine does not modify the research database.",
+    "No external API calls are made."
+  ]
+}

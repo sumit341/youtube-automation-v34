@@ -1,0 +1,42 @@
+{
+  "engine": "YouTube Universe Scanner V3.3",
+  "engine_version": "V33.1-RELEVANCE",
+  "generated_at": "2026-11-06T06:36:08.567852+00:00",
+  "database": "G:\\youtube automation\\data\\research\\youtube_universe_v33\\youtube_universe.db",
+  "database_read_only": true,
+  "api_calls": 0,
+  "input_video_count": 100,
+  "high_relevance_count": 10,
+  "review_count": 63,
+  "low_relevance_count": 27,
+  "human_review_count": 0,
+  "category_distribution": {
+    "Human Psychology": 100
+  },
+  "scoring_weights": {
+    "title": 50,
+    "description": 20,
+    "category_anchor": 20,
+    "contextual_keywords": 10
+  },
+  "thresholds": {
+    "high_relevance": 75,
+    "review_relevance": 40,
+    "low_relevance": 0
+  },
+  "limitations": [
+    "Metadata-based relevance is not transcript verification.",
+    "Keyword matching cannot fully understand semantic context.",
+    "Description keyword stuffing is reduced but not eliminated.",
+    "Search category metadata is not independent proof of relevance.",
+    "Human review is required before final topic selection.",
+    "Current database has only Human Psychology category records."
+  ],
+  "files": {
+    "master": "master_scored_videos_v33_20261106_120607.csv",
+    "high_relevance": "high_relevance_videos_v33_20261106_120607.csv",
+    "review": "relevance_review_v33_20261106_120607.csv",
+    "low_relevance": "low_relevance_videos_v33_20261106_120607.csv",
+    "audit": "relevance_audit_v33_20261106_120607.csv"
+  }
+}

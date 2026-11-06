@@ -1,0 +1,72 @@
+{
+  "engine": "YouTube Universe Scanner V3.1",
+  "generated_at": "2026-11-05T06:57:30.239232+00:00",
+  "started_at": "2026-11-05T06:57:30.125900+00:00",
+  "recent_window_days": 365,
+  "search_calls_this_run": 0,
+  "detail_calls_this_run": 0,
+  "search_jobs_planned": 30,
+  "raw_search_results_this_run": 0,
+  "unique_discovered_total": 0,
+  "new_video_details_saved_this_run": 0,
+  "master_database_total": 0,
+  "relevance_summary_this_run": {
+    "relevant_candidates": 0,
+    "review": 0,
+    "low_relevance": 0
+  },
+  "category_analysis": [
+    {
+      "category": "Human Psychology",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Money Psychology",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Power Dynamics",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Success",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Social Comparison",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    }
+  ],
+  "top_channels": [],
+  "search_audit": [],
+  "stop_reason": "All available work processed",
+  "limitations": [
+    "YouTube Search API does not expose every YouTube video.",
+    "Search results are ranked and incomplete.",
+    "Videos of 180 seconds or less are only short candidates, not confirmed Shorts.",
+    "Relevance scoring is keyword-based and needs human review.",
+    "Views per day is not true growth velocity.",
+    "A video may match more than one category.",
+    "The database contains only videos discovered by this scanner."
+  ]
+}

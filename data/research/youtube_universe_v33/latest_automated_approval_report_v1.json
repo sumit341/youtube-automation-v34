@@ -1,0 +1,46 @@
+{
+  "engine": "AUTOMATED_APPROVAL_ENGINE_V1",
+  "ruleset_version": "1.0.0",
+  "generated_at": "2026-11-06T12:47:59+05:30",
+  "video_id": "E1irX9cDX8U",
+  "topic_gate": {
+    "status": "PASS",
+    "source": "existing_human_topic_decision",
+    "decision": "APPROVE"
+  },
+  "research_gate": {
+    "decision": "AUTO_APPROVE",
+    "reason_codes": [
+      "ALL_RESEARCH_RULES_PASSED"
+    ],
+    "reason_details": [],
+    "counts": {
+      "source_count": 6,
+      "reviewed_source_count": 6,
+      "claim_count": 6,
+      "supported_claim_count": 6,
+      "evidence_count": 6,
+      "reviewed_evidence_count": 6,
+      "conflict_count": 0
+    },
+    "input_fingerprint": "6c780ac1518da06c27b698da1060d2152c446ac1535b40c518484a69984245d3",
+    "historical_human_decision": "APPROVE"
+  },
+  "script_gate": {
+    "decision": "HOLD",
+    "reason": "Script artifact not yet registered and evaluated"
+  },
+  "production_gate": {
+    "decision": "HOLD",
+    "reason": "Actual rendered assets and production QA not evaluated"
+  },
+  "publishing_gate": {
+    "decision": "HOLD",
+    "reason": "No separate publishing authorization configured"
+  },
+  "database_modified": false,
+  "existing_human_records_modified": false,
+  "youtube_api_calls": 0,
+  "rendering_started": false,
+  "publishing_authorized": false
+}

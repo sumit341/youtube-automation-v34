@@ -1,0 +1,48 @@
+{
+  "engine": "V33.1-PROVISIONAL-CANDIDATE-RANKING",
+  "generated_at": "2026-11-06T06:42:08.060997+00:00",
+  "total_videos": 100,
+  "input_counts": {
+    "performance": 100,
+    "format": 100,
+    "quality": 100
+  },
+  "ranking_formula": {
+    "relevance": 0.35,
+    "performance": 0.35,
+    "format": 0.3,
+    "content_quality": "PENDING; excluded"
+  },
+  "thresholds": {
+    "top_candidate": 75,
+    "review_candidate": 55,
+    "low_priority": "below 55"
+  },
+  "summary": {
+    "top_candidates": 14,
+    "review_candidates": 53,
+    "low_priority": 33,
+    "not_evaluated": 0,
+    "human_review_required": 100
+  },
+  "content_quality_scored": 0,
+  "ranking_is_provisional": true,
+  "database_integrity": "ok",
+  "database_video_count": 100,
+  "database_modified": false,
+  "api_calls": 0,
+  "files": {
+    "master": "candidate_ranking_master_v33_20261106_121207.csv",
+    "top": "top_candidates_v33_20261106_121207.csv",
+    "review": "ranking_review_candidates_v33_20261106_121207.csv",
+    "low": "low_priority_candidates_v33_20261106_121207.csv",
+    "not_evaluated": "ranking_not_evaluated_v33_20261106_121207.csv",
+    "human_review": "ranking_human_review_v33_20261106_121207.csv"
+  },
+  "limitations": [
+    "Ranking is provisional until content quality is evaluated.",
+    "Content quality has no weight in this ranking.",
+    "Ranking score is a shortlist priority index, not a success probability.",
+    "Human review flags are retained separately from ranking tiers."
+  ]
+}

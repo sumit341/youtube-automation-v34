@@ -1,0 +1,1350 @@
+{
+  "engine": "Research Quality Audit V2.4.1",
+  "generated_at": "2026-11-05T11:47:14",
+  "source_file": "G:\\youtube automation\\data\\research\\latest_youtube_research_v23.json",
+  "total_records": 84,
+  "quality_summary": {
+    "pass": 80,
+    "review": 4,
+    "low_quality": 0,
+    "issues": 4
+  },
+  "duplicate_audit": {
+    "total_records": 84,
+    "unique_video_ids": 84,
+    "duplicate_video_ids": 0,
+    "extra_duplicate_records": 0,
+    "duplicate_details": {}
+  },
+  "category_analysis": [
+    {
+      "category": "Human Psychology",
+      "video_count": 61,
+      "unique_channels": 52,
+      "missing_channel_id_count": 0,
+      "median_views": 621.0,
+      "median_views_per_day": 331.85,
+      "recent_video_count": 39,
+      "established_video_count": 1,
+      "evergreen_video_count": 21,
+      "recent_median_views_per_day": 18.0,
+      "short_candidate_count": 34,
+      "long_form_count": 27,
+      "top_3_channel_share_percent": 18.03
+    },
+    {
+      "category": "Money Psychology",
+      "video_count": 24,
+      "unique_channels": 24,
+      "missing_channel_id_count": 0,
+      "median_views": 123.5,
+      "median_views_per_day": 119.05,
+      "recent_video_count": 17,
+      "established_video_count": 0,
+      "evergreen_video_count": 7,
+      "recent_median_views_per_day": 16.0,
+      "short_candidate_count": 9,
+      "long_form_count": 15,
+      "top_3_channel_share_percent": 12.5
+    },
+    {
+      "category": "Power Dynamics",
+      "video_count": 24,
+      "unique_channels": 20,
+      "missing_channel_id_count": 0,
+      "median_views": 1252.0,
+      "median_views_per_day": 966.88,
+      "recent_video_count": 13,
+      "established_video_count": 0,
+      "evergreen_video_count": 11,
+      "recent_median_views_per_day": 38.6,
+      "short_candidate_count": 10,
+      "long_form_count": 14,
+      "top_3_channel_share_percent": 25.0
+    },
+    {
+      "category": "Success",
+      "video_count": 27,
+      "unique_channels": 25,
+      "missing_channel_id_count": 0,
+      "median_views": 691.0,
+      "median_views_per_day": 605.0,
+      "recent_video_count": 21,
+      "established_video_count": 1,
+      "evergreen_video_count": 5,
+      "recent_median_views_per_day": 184.0,
+      "short_candidate_count": 16,
+      "long_form_count": 11,
+      "top_3_channel_share_percent": 18.52
+    },
+    {
+      "category": "Social Comparison",
+      "video_count": 13,
+      "unique_channels": 13,
+      "missing_channel_id_count": 0,
+      "median_views": 460.0,
+      "median_views_per_day": 5.13,
+      "recent_video_count": 9,
+      "established_video_count": 1,
+      "evergreen_video_count": 3,
+      "recent_median_views_per_day": 5.13,
+      "short_candidate_count": 7,
+      "long_form_count": 6,
+      "top_3_channel_share_percent": 23.08
+    }
+  ],
+  "competitor_channels": [
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "channel_name": "Hindi TV India",
+      "video_count": 5,
+      "median_views": 14495287.0,
+      "median_views_per_day": 9056.11
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "channel_name": "Raj Shamani",
+      "video_count": 4,
+      "median_views": 14026873.5,
+      "median_views_per_day": 19834.24
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCcf1t1tH-Pp5bmu4hbAytwA",
+      "channel_name": "Escaping Ordinary (B.C Marx) ",
+      "video_count": 2,
+      "median_views": 14301425.0,
+      "median_views_per_day": 8748.52
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCMrGYMtpJBhKzBgDIPxS_aA",
+      "channel_name": "Psychology Gyan",
+      "video_count": 2,
+      "median_views": 1923.0,
+      "median_views_per_day": 1923.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCfnuZk44VjeHQq_5IIEJAnw",
+      "channel_name": "Nancy Bullard (Mrs. B TV)",
+      "video_count": 1,
+      "median_views": 106056887.0,
+      "median_views_per_day": 128026.16
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCIyCXxOCbPa5uZGNTU4H-Ww",
+      "channel_name": "Avinash Kumar",
+      "video_count": 1,
+      "median_views": 10621490.0,
+      "median_views_per_day": 21161.71
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCLAtlGr4AaEQtLd033j5w7A",
+      "channel_name": "KnowSense",
+      "video_count": 1,
+      "median_views": 7336757.0,
+      "median_views_per_day": 19224.73
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCC6gbNO098rkQKCU0ZaLITQ",
+      "channel_name": "Facts' Mine",
+      "video_count": 1,
+      "median_views": 12624165.0,
+      "median_views_per_day": 18151.95
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCoWhIOUIUCeMxJw4XVbI_6A",
+      "channel_name": "TheSutraas हिन्दी",
+      "video_count": 1,
+      "median_views": 21960554.0,
+      "median_views_per_day": 11427.31
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCEfwR1pITJFgqqyAX-RYxpg",
+      "channel_name": "The Official Geet",
+      "video_count": 1,
+      "median_views": 18276019.0,
+      "median_views_per_day": 9106.58
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCHbq_l1qnuomfJCYQTsWf_Q",
+      "channel_name": "Motivation Madness",
+      "video_count": 1,
+      "median_views": 11061154.0,
+      "median_views_per_day": 7619.26
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCuOxudQSUtgikcXETRrzXCQ",
+      "channel_name": "JeetFix",
+      "video_count": 1,
+      "median_views": 10365877.0,
+      "median_views_per_day": 5885.96
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCLipyadka5k0tWYidePqUdQ",
+      "channel_name": "해외선물 대장금",
+      "video_count": 1,
+      "median_views": 5327649.0,
+      "median_views_per_day": 4009.51
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCAeAB8ABXGoGMbXuYPmiu2A",
+      "channel_name": "The Swedish Investor",
+      "video_count": 1,
+      "median_views": 5798206.0,
+      "median_views_per_day": 2790.37
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCEAAzv2OBqxsSczKJ2QZyGQ",
+      "channel_name": "Pushkar Raj Thakur: Stock Market Educator 📈",
+      "video_count": 1,
+      "median_views": 5251746.0,
+      "median_views_per_day": 2607.49
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UClbqFnwW_1qjWwO2zl0ggvw",
+      "channel_name": "Harshvarrdhan Jain",
+      "video_count": 1,
+      "median_views": 7407114.0,
+      "median_views_per_day": 2515.04
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCTIvt9dzp2FU_2kgy4XTXAQ",
+      "channel_name": "Chanakya Drishtikon ",
+      "video_count": 1,
+      "median_views": 1440.0,
+      "median_views_per_day": 1440.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UC8IeR-jtTudGIksDuwzJyUw",
+      "channel_name": "SuMindX",
+      "video_count": 1,
+      "median_views": 1295.0,
+      "median_views_per_day": 803.51
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCwGXlQva--JI_Q7w9eRK3ig",
+      "channel_name": "Talk Like Prabh",
+      "video_count": 1,
+      "median_views": 691.0,
+      "median_views_per_day": 691.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCGroRB2q8vtMKYh6Ik_P8iA",
+      "channel_name": "Raja Aura+999",
+      "video_count": 1,
+      "median_views": 621.0,
+      "median_views_per_day": 559.07
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCPHkIRP_cTK7NLSamOS_RSA",
+      "channel_name": "UFB Quotes",
+      "video_count": 1,
+      "median_views": 458.0,
+      "median_views_per_day": 458.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCGDiLXQ7uGtNVfK47F59T-Q",
+      "channel_name": "Shrawan Mindset",
+      "video_count": 1,
+      "median_views": 620.0,
+      "median_views_per_day": 331.85
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCC5kTXYR_VvTVlHBSmc95yw",
+      "channel_name": "Philosophy In हिन्दी ",
+      "video_count": 1,
+      "median_views": 1418.0,
+      "median_views_per_day": 238.13
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCpN2-qr8F473RsmDnG6Rqaw",
+      "channel_name": "PsycheTrainer",
+      "video_count": 1,
+      "median_views": 228.0,
+      "median_views_per_day": 228.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCTlSEJQ3DmeJcnx9VaDMlEQ",
+      "channel_name": "Finance Decoded ",
+      "video_count": 1,
+      "median_views": 3620.0,
+      "median_views_per_day": 194.51
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCPhYNOHhUHwQQ_UyVkQE_2w",
+      "channel_name": "Foxiqstudio ",
+      "video_count": 1,
+      "median_views": 184.0,
+      "median_views_per_day": 184.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCLVQLQSSleMSP6RULR6Moyw",
+      "channel_name": "SwaRaaj Readers",
+      "video_count": 1,
+      "median_views": 295.0,
+      "median_views_per_day": 110.34
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCJ8sI82blfeO-rCcW3zSc7Q",
+      "channel_name": "they_sycothiix",
+      "video_count": 1,
+      "median_views": 103.0,
+      "median_views_per_day": 103.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UC6fwYIYnZOCUgL0m7qFHyZw",
+      "channel_name": "HD Nightmares List",
+      "video_count": 1,
+      "median_views": 1363.0,
+      "median_views_per_day": 52.81
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCbXdcoNQeYux1dzSHm9PBjw",
+      "channel_name": "Manifest Wealth",
+      "video_count": 1,
+      "median_views": 44.0,
+      "median_views_per_day": 44.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCsFMveRHr-I34UgTEDxpMXg",
+      "channel_name": "The Secret Code Hindi",
+      "video_count": 1,
+      "median_views": 22.0,
+      "median_views_per_day": 22.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCLBBfKdRUEhfvG1fKolfuPQ",
+      "channel_name": "Finwisepari ",
+      "video_count": 1,
+      "median_views": 18.0,
+      "median_views_per_day": 18.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCK5ZTXod_DWLJ-5avSbZ2wQ",
+      "channel_name": "Tips Mind Facts",
+      "video_count": 1,
+      "median_views": 16.0,
+      "median_views_per_day": 16.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCTv6u0v8uP09afxf9LVsWfg",
+      "channel_name": "Aarushi Chamoli",
+      "video_count": 1,
+      "median_views": 27.0,
+      "median_views_per_day": 14.23
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCkmG-SGS498SUEH9dmtk_BA",
+      "channel_name": "Seekho Our Badlo ",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 13.42
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCCkc15N0FwWmYJ_t8Z3t9gg",
+      "channel_name": "think4real",
+      "video_count": 1,
+      "median_views": 2196.0,
+      "median_views_per_day": 7.91
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCEA1RASrH5A-rlCmPiJNk7A",
+      "channel_name": "Aasim, As Is",
+      "video_count": 1,
+      "median_views": 6.0,
+      "median_views_per_day": 6.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCLGwNOr7BKnEf8_iujguG1A",
+      "channel_name": "Readers Mindset Hindi",
+      "video_count": 1,
+      "median_views": 6.0,
+      "median_views_per_day": 5.4
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCEj3TnJ0d3NLs4hO_1ZvAHg",
+      "channel_name": "Mindset with Sukh",
+      "video_count": 1,
+      "median_views": 397.0,
+      "median_views_per_day": 5.13
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UC88Ocf1u97Hdq93FEiwxNxQ",
+      "channel_name": "Audio Book 2026",
+      "video_count": 1,
+      "median_views": 5.0,
+      "median_views_per_day": 5.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCwXjmZKWcyzbEU6krtAB9AA",
+      "channel_name": "Indian Index Trading",
+      "video_count": 1,
+      "median_views": 4.0,
+      "median_views_per_day": 4.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCynNVuwo2W173CMw8MwTdCA",
+      "channel_name": "Ankit Zyro",
+      "video_count": 1,
+      "median_views": 4.0,
+      "median_views_per_day": 4.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCGUzKllnP0AiB4rNnTNF9Iw",
+      "channel_name": "Road2xfinedu",
+      "video_count": 1,
+      "median_views": 31.0,
+      "median_views_per_day": 2.64
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCDwKmTIX63DVBypbsL-sdwQ",
+      "channel_name": "Jeevan Sutra",
+      "video_count": 1,
+      "median_views": 43.0,
+      "median_views_per_day": 2.43
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCN2TKJzcLetPASyRgjf6ztQ",
+      "channel_name": "Uplift Urself",
+      "video_count": 1,
+      "median_views": 32.0,
+      "median_views_per_day": 1.45
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCbb2q4XH-7TmXZulo4rR0_w",
+      "channel_name": "kuchkaronaa • ▷ 47 lakh • 7 days  ago\n\n\n\n...",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 1.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCEkETe3oUE8rh5lXmaaNs-g",
+      "channel_name": "Ankit Negi",
+      "video_count": 1,
+      "median_views": 125.0,
+      "median_views_per_day": 0.89
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCTWRiK161mH-aUzN8TNlevg",
+      "channel_name": "kal_drishtii",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 0.37
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCa8LkT48DHwsuf-FD169Jvw",
+      "channel_name": "cash vichar",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 0.08
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCTKhD5g9HLli7B5rq5FFeLg",
+      "channel_name": "Arka_ff",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCxx2bPVnJnO_SvXw6F8sUEg",
+      "channel_name": "books attraction",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    },
+    {
+      "category": "Human Psychology",
+      "channel_id": "UCnLwFwDjvQ2AKQJE0gjkT-w",
+      "channel_name": "Listen & Learn",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCXEPVDNlm-qxRMDi8IxRecg",
+      "channel_name": "Scroll ups ",
+      "video_count": 1,
+      "median_views": 15845906.0,
+      "median_views_per_day": 20479.77
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "channel_name": "Raj Shamani",
+      "video_count": 1,
+      "median_views": 4759775.0,
+      "median_views_per_day": 10802.82
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCHbq_l1qnuomfJCYQTsWf_Q",
+      "channel_name": "Motivation Madness",
+      "video_count": 1,
+      "median_views": 11061154.0,
+      "median_views_per_day": 7619.26
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCuOxudQSUtgikcXETRrzXCQ",
+      "channel_name": "JeetFix",
+      "video_count": 1,
+      "median_views": 10365877.0,
+      "median_views_per_day": 5885.96
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCcf1t1tH-Pp5bmu4hbAytwA",
+      "channel_name": "Escaping Ordinary (B.C Marx) ",
+      "video_count": 1,
+      "median_views": 6281604.0,
+      "median_views_per_day": 5469.21
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCAeAB8ABXGoGMbXuYPmiu2A",
+      "channel_name": "The Swedish Investor",
+      "video_count": 1,
+      "median_views": 5798206.0,
+      "median_views_per_day": 2790.37
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UClbqFnwW_1qjWwO2zl0ggvw",
+      "channel_name": "Harshvarrdhan Jain",
+      "video_count": 1,
+      "median_views": 7407114.0,
+      "median_views_per_day": 2515.04
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCTIvt9dzp2FU_2kgy4XTXAQ",
+      "channel_name": "Chanakya Drishtikon ",
+      "video_count": 1,
+      "median_views": 1440.0,
+      "median_views_per_day": 1440.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCw72dra8lRc1vj7v2Sk1s3Q",
+      "channel_name": "Devil motivation0007",
+      "video_count": 1,
+      "median_views": 1187.0,
+      "median_views_per_day": 1187.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCPHkIRP_cTK7NLSamOS_RSA",
+      "channel_name": "UFB Quotes",
+      "video_count": 1,
+      "median_views": 458.0,
+      "median_views_per_day": 458.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCTlSEJQ3DmeJcnx9VaDMlEQ",
+      "channel_name": "Finance Decoded ",
+      "video_count": 1,
+      "median_views": 3620.0,
+      "median_views_per_day": 194.51
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCPhYNOHhUHwQQ_UyVkQE_2w",
+      "channel_name": "Foxiqstudio ",
+      "video_count": 1,
+      "median_views": 184.0,
+      "median_views_per_day": 184.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCuOjI-3kdvo8KzZuo_RZBJA",
+      "channel_name": "TubeXGyan",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 54.1
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCbXdcoNQeYux1dzSHm9PBjw",
+      "channel_name": "Manifest Wealth",
+      "video_count": 1,
+      "median_views": 44.0,
+      "median_views_per_day": 44.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCLBBfKdRUEhfvG1fKolfuPQ",
+      "channel_name": "Finwisepari ",
+      "video_count": 1,
+      "median_views": 18.0,
+      "median_views_per_day": 18.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCK5ZTXod_DWLJ-5avSbZ2wQ",
+      "channel_name": "Tips Mind Facts",
+      "video_count": 1,
+      "median_views": 16.0,
+      "median_views_per_day": 16.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCkmG-SGS498SUEH9dmtk_BA",
+      "channel_name": "Seekho Our Badlo ",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 13.42
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCwXjmZKWcyzbEU6krtAB9AA",
+      "channel_name": "Indian Index Trading",
+      "video_count": 1,
+      "median_views": 4.0,
+      "median_views_per_day": 4.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCynNVuwo2W173CMw8MwTdCA",
+      "channel_name": "Ankit Zyro",
+      "video_count": 1,
+      "median_views": 4.0,
+      "median_views_per_day": 4.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCGUzKllnP0AiB4rNnTNF9Iw",
+      "channel_name": "Road2xfinedu",
+      "video_count": 1,
+      "median_views": 31.0,
+      "median_views_per_day": 2.64
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCN2TKJzcLetPASyRgjf6ztQ",
+      "channel_name": "Uplift Urself",
+      "video_count": 1,
+      "median_views": 32.0,
+      "median_views_per_day": 1.45
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UC52991SiIZJv9N0jS0T56zQ",
+      "channel_name": "Lokesh Kumar",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 1.0
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCa8LkT48DHwsuf-FD169Jvw",
+      "channel_name": "cash vichar",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 0.08
+    },
+    {
+      "category": "Money Psychology",
+      "channel_id": "UCxx2bPVnJnO_SvXw6F8sUEg",
+      "channel_name": "books attraction",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "channel_name": "Raj Shamani",
+      "video_count": 2,
+      "median_views": 8565867.0,
+      "median_views_per_day": 19834.24
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "channel_name": "The Diary Of A CEO",
+      "video_count": 2,
+      "median_views": 15500435.5,
+      "median_views_per_day": 13115.96
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCBqFKDipsnzvJdt6UT0lMIg",
+      "channel_name": "Sandeep Maheshwari",
+      "video_count": 2,
+      "median_views": 12972200.0,
+      "median_views_per_day": 4000.42
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCfhWnSnlDIeHhWPE-Ok0ZfQ",
+      "channel_name": "Silent Power",
+      "video_count": 2,
+      "median_views": 104.0,
+      "median_views_per_day": 69.3
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCC6gbNO098rkQKCU0ZaLITQ",
+      "channel_name": "Facts' Mine",
+      "video_count": 1,
+      "median_views": 12624165.0,
+      "median_views_per_day": 18151.95
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCcDcn4rfCoJfQZZXnzv3SQQ",
+      "channel_name": "True Value",
+      "video_count": 1,
+      "median_views": 9943190.0,
+      "median_views_per_day": 15428.09
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCEfwR1pITJFgqqyAX-RYxpg",
+      "channel_name": "The Official Geet",
+      "video_count": 1,
+      "median_views": 18276019.0,
+      "median_views_per_day": 9106.58
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCgI26KNITusiGOFL6MLz_8Q",
+      "channel_name": "Readers Books Club",
+      "video_count": 1,
+      "median_views": 16644860.0,
+      "median_views_per_day": 7377.95
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
+      "channel_name": "TED",
+      "video_count": 1,
+      "median_views": 7147343.0,
+      "median_views_per_day": 1646.64
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCw72dra8lRc1vj7v2Sk1s3Q",
+      "channel_name": "Devil motivation0007",
+      "video_count": 1,
+      "median_views": 1187.0,
+      "median_views_per_day": 1187.0
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCPWEa3zIZNlfy9JDmRakhbg",
+      "channel_name": "Stick Mind ",
+      "video_count": 1,
+      "median_views": 1317.0,
+      "median_views_per_day": 746.77
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCGDiLXQ7uGtNVfK47F59T-Q",
+      "channel_name": "Shrawan Mindset",
+      "video_count": 1,
+      "median_views": 620.0,
+      "median_views_per_day": 331.85
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCpN2-qr8F473RsmDnG6Rqaw",
+      "channel_name": "PsycheTrainer",
+      "video_count": 1,
+      "median_views": 228.0,
+      "median_views_per_day": 228.0
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCLVQLQSSleMSP6RULR6Moyw",
+      "channel_name": "SwaRaaj Readers",
+      "video_count": 1,
+      "median_views": 295.0,
+      "median_views_per_day": 110.34
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCTv6u0v8uP09afxf9LVsWfg",
+      "channel_name": "Aarushi Chamoli",
+      "video_count": 1,
+      "median_views": 27.0,
+      "median_views_per_day": 14.23
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCLGwNOr7BKnEf8_iujguG1A",
+      "channel_name": "Readers Mindset Hindi",
+      "video_count": 1,
+      "median_views": 6.0,
+      "median_views_per_day": 5.4
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UC88Ocf1u97Hdq93FEiwxNxQ",
+      "channel_name": "Audio Book 2026",
+      "video_count": 1,
+      "median_views": 5.0,
+      "median_views_per_day": 5.0
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCEkETe3oUE8rh5lXmaaNs-g",
+      "channel_name": "Ankit Negi",
+      "video_count": 1,
+      "median_views": 125.0,
+      "median_views_per_day": 0.89
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCTWRiK161mH-aUzN8TNlevg",
+      "channel_name": "kal_drishtii",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 0.37
+    },
+    {
+      "category": "Power Dynamics",
+      "channel_id": "UCnLwFwDjvQ2AKQJE0gjkT-w",
+      "channel_name": "Listen & Learn",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "channel_name": "The Diary Of A CEO",
+      "video_count": 1,
+      "median_views": 9864246.0,
+      "median_views_per_day": 10254.71
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCC5kTXYR_VvTVlHBSmc95yw",
+      "channel_name": "Philosophy In हिन्दी ",
+      "video_count": 1,
+      "median_views": 1418.0,
+      "median_views_per_day": 238.13
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCTlSEJQ3DmeJcnx9VaDMlEQ",
+      "channel_name": "Finance Decoded ",
+      "video_count": 1,
+      "median_views": 3620.0,
+      "median_views_per_day": 194.51
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCkmG-SGS498SUEH9dmtk_BA",
+      "channel_name": "Seekho Our Badlo ",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 13.42
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCCkc15N0FwWmYJ_t8Z3t9gg",
+      "channel_name": "think4real",
+      "video_count": 1,
+      "median_views": 2196.0,
+      "median_views_per_day": 7.91
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCXqY0y7ltkG_7FEjLUEFItw",
+      "channel_name": "Khushie | Khushie Ki Duniya",
+      "video_count": 1,
+      "median_views": 680.0,
+      "median_views_per_day": 5.92
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCEj3TnJ0d3NLs4hO_1ZvAHg",
+      "channel_name": "Mindset with Sukh",
+      "video_count": 1,
+      "median_views": 397.0,
+      "median_views_per_day": 5.13
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCDwKmTIX63DVBypbsL-sdwQ",
+      "channel_name": "Jeevan Sutra",
+      "video_count": 1,
+      "median_views": 43.0,
+      "median_views_per_day": 2.43
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCKWmP-hrpi3Jb0AOH1VvEsA",
+      "channel_name": "Psychology by Monica Josan",
+      "video_count": 1,
+      "median_views": 667.0,
+      "median_views_per_day": 0.88
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCcsckzn_DvxVsIo4RHXaojg",
+      "channel_name": "FUELED BEAST",
+      "video_count": 1,
+      "median_views": 14.0,
+      "median_views_per_day": 0.81
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCE7oGsQOg6Ab5B5oh-YybYw",
+      "channel_name": "Pradeep Kumar ",
+      "video_count": 1,
+      "median_views": 12.0,
+      "median_views_per_day": 0.53
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UClv-gnVFhHHmS-k0ook8PjQ",
+      "channel_name": "Naval Badhiya",
+      "video_count": 1,
+      "median_views": 460.0,
+      "median_views_per_day": 0.48
+    },
+    {
+      "category": "Social Comparison",
+      "channel_id": "UCa8LkT48DHwsuf-FD169Jvw",
+      "channel_name": "cash vichar",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 0.08
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCBqFKDipsnzvJdt6UT0lMIg",
+      "channel_name": "Sandeep Maheshwari",
+      "video_count": 2,
+      "median_views": 30975911.5,
+      "median_views_per_day": 13606.22
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCMrGYMtpJBhKzBgDIPxS_aA",
+      "channel_name": "Psychology Gyan",
+      "video_count": 2,
+      "median_views": 1923.0,
+      "median_views_per_day": 1923.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCcf1t1tH-Pp5bmu4hbAytwA",
+      "channel_name": "Escaping Ordinary (B.C Marx) ",
+      "video_count": 1,
+      "median_views": 22321246.0,
+      "median_views_per_day": 12027.84
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "channel_name": "Raj Shamani",
+      "video_count": 1,
+      "median_views": 4759775.0,
+      "median_views_per_day": 10802.82
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCuOxudQSUtgikcXETRrzXCQ",
+      "channel_name": "JeetFix",
+      "video_count": 1,
+      "median_views": 10365877.0,
+      "median_views_per_day": 5885.96
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCTIvt9dzp2FU_2kgy4XTXAQ",
+      "channel_name": "Chanakya Drishtikon ",
+      "video_count": 1,
+      "median_views": 1440.0,
+      "median_views_per_day": 1440.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCw72dra8lRc1vj7v2Sk1s3Q",
+      "channel_name": "Devil motivation0007",
+      "video_count": 1,
+      "median_views": 1187.0,
+      "median_views_per_day": 1187.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCm23QwT3JjQFmrNdQV8Mudg",
+      "channel_name": "Tungnath valley vlogs",
+      "video_count": 1,
+      "median_views": 1165.0,
+      "median_views_per_day": 1059.61
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCEPKRbUKvAog_xBplp9x81w",
+      "channel_name": "CREATE MOTIVATION",
+      "video_count": 1,
+      "median_views": 973.0,
+      "median_views_per_day": 973.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UC8IeR-jtTudGIksDuwzJyUw",
+      "channel_name": "SuMindX",
+      "video_count": 1,
+      "median_views": 1295.0,
+      "median_views_per_day": 803.51
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCPWEa3zIZNlfy9JDmRakhbg",
+      "channel_name": "Stick Mind ",
+      "video_count": 1,
+      "median_views": 1317.0,
+      "median_views_per_day": 746.77
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCwGXlQva--JI_Q7w9eRK3ig",
+      "channel_name": "Talk Like Prabh",
+      "video_count": 1,
+      "median_views": 691.0,
+      "median_views_per_day": 691.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCGroRB2q8vtMKYh6Ik_P8iA",
+      "channel_name": "Raja Aura+999",
+      "video_count": 1,
+      "median_views": 621.0,
+      "median_views_per_day": 559.07
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCPhYNOHhUHwQQ_UyVkQE_2w",
+      "channel_name": "Foxiqstudio ",
+      "video_count": 1,
+      "median_views": 184.0,
+      "median_views_per_day": 184.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCfhWnSnlDIeHhWPE-Ok0ZfQ",
+      "channel_name": "Silent Power",
+      "video_count": 1,
+      "median_views": 100.0,
+      "median_views_per_day": 100.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCuOjI-3kdvo8KzZuo_RZBJA",
+      "channel_name": "TubeXGyan",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 54.1
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCbXdcoNQeYux1dzSHm9PBjw",
+      "channel_name": "Manifest Wealth",
+      "video_count": 1,
+      "median_views": 44.0,
+      "median_views_per_day": 44.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCkmG-SGS498SUEH9dmtk_BA",
+      "channel_name": "Seekho Our Badlo ",
+      "video_count": 1,
+      "median_views": 63.0,
+      "median_views_per_day": 13.42
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCCkc15N0FwWmYJ_t8Z3t9gg",
+      "channel_name": "think4real",
+      "video_count": 1,
+      "median_views": 2196.0,
+      "median_views_per_day": 7.91
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCEA1RASrH5A-rlCmPiJNk7A",
+      "channel_name": "Aasim, As Is",
+      "video_count": 1,
+      "median_views": 6.0,
+      "median_views_per_day": 6.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCLGwNOr7BKnEf8_iujguG1A",
+      "channel_name": "Readers Mindset Hindi",
+      "video_count": 1,
+      "median_views": 6.0,
+      "median_views_per_day": 5.4
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCGUzKllnP0AiB4rNnTNF9Iw",
+      "channel_name": "Road2xfinedu",
+      "video_count": 1,
+      "median_views": 31.0,
+      "median_views_per_day": 2.64
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCbb2q4XH-7TmXZulo4rR0_w",
+      "channel_name": "kuchkaronaa • ▷ 47 lakh • 7 days  ago\n\n\n\n...",
+      "video_count": 1,
+      "median_views": 1.0,
+      "median_views_per_day": 1.0
+    },
+    {
+      "category": "Success",
+      "channel_id": "UCE7oGsQOg6Ab5B5oh-YybYw",
+      "channel_name": "Pradeep Kumar ",
+      "video_count": 1,
+      "median_views": 12.0,
+      "median_views_per_day": 0.53
+    },
+    {
+      "category": "Success",
+      "channel_id": "UClmY02GVXQoCKy3RwPwHsKA",
+      "channel_name": "Anil The Coach ",
+      "video_count": 1,
+      "median_views": 0.0,
+      "median_views_per_day": 0.0
+    }
+  ],
+  "category_overlap": [
+    {
+      "category_1": "Human Psychology",
+      "category_2": "Money Psychology",
+      "shared_video_count": 20
+    },
+    {
+      "category_1": "Human Psychology",
+      "category_2": "Success",
+      "shared_video_count": 17
+    },
+    {
+      "category_1": "Human Psychology",
+      "category_2": "Power Dynamics",
+      "shared_video_count": 13
+    },
+    {
+      "category_1": "Money Psychology",
+      "category_2": "Success",
+      "shared_video_count": 9
+    },
+    {
+      "category_1": "Human Psychology",
+      "category_2": "Social Comparison",
+      "shared_video_count": 7
+    },
+    {
+      "category_1": "Power Dynamics",
+      "category_2": "Success",
+      "shared_video_count": 6
+    },
+    {
+      "category_1": "Money Psychology",
+      "category_2": "Social Comparison",
+      "shared_video_count": 3
+    },
+    {
+      "category_1": "Social Comparison",
+      "category_2": "Success",
+      "shared_video_count": 3
+    },
+    {
+      "category_1": "Money Psychology",
+      "category_2": "Power Dynamics",
+      "shared_video_count": 2
+    },
+    {
+      "category_1": "Power Dynamics",
+      "category_2": "Social Comparison",
+      "shared_video_count": 1
+    }
+  ],
+  "format_analysis": [
+    {
+      "format": "short_candidate",
+      "video_count": 48,
+      "median_views": 620.5,
+      "median_views_per_day": 284.99,
+      "median_engagement_percent": 3.35
+    },
+    {
+      "format": "long_form",
+      "video_count": 36,
+      "median_views": 5005760.5,
+      "median_views_per_day": 2080.84,
+      "median_engagement_percent": 2.33
+    }
+  ],
+  "top_10_provisional_topics": [
+    {
+      "topic": "Why delayed gratification is harder than it looks",
+      "category": "Success",
+      "evidence_video_count": 27,
+      "unique_competitor_channels": 25,
+      "recent_video_count": 21,
+      "recent_median_views_per_day": 184.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 1
+    },
+    {
+      "topic": "How instant gratification affects long-term success",
+      "category": "Success",
+      "evidence_video_count": 27,
+      "unique_competitor_channels": 25,
+      "recent_video_count": 21,
+      "recent_median_views_per_day": 184.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 2
+    },
+    {
+      "topic": "How emotional control influences power dynamics",
+      "category": "Power Dynamics",
+      "evidence_video_count": 24,
+      "unique_competitor_channels": 20,
+      "recent_video_count": 13,
+      "recent_median_views_per_day": 38.6,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 3
+    },
+    {
+      "topic": "Why influence is not always about authority",
+      "category": "Power Dynamics",
+      "evidence_video_count": 24,
+      "unique_competitor_channels": 20,
+      "recent_video_count": 13,
+      "recent_median_views_per_day": 38.6,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 4
+    },
+    {
+      "topic": "Why do people make emotional decisions even when they know better?",
+      "category": "Human Psychology",
+      "evidence_video_count": 61,
+      "unique_competitor_channels": 52,
+      "recent_video_count": 39,
+      "recent_median_views_per_day": 18.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 5
+    },
+    {
+      "topic": "The hidden psychology behind everyday human behaviour",
+      "category": "Human Psychology",
+      "evidence_video_count": 61,
+      "unique_competitor_channels": 52,
+      "recent_video_count": 39,
+      "recent_median_views_per_day": 18.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 6
+    },
+    {
+      "topic": "Rich vs Poor: How everyday money decisions shape the future",
+      "category": "Money Psychology",
+      "evidence_video_count": 24,
+      "unique_competitor_channels": 24,
+      "recent_video_count": 17,
+      "recent_median_views_per_day": 16.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 7
+    },
+    {
+      "topic": "Why a higher income does not always create financial freedom",
+      "category": "Money Psychology",
+      "evidence_video_count": 24,
+      "unique_competitor_channels": 24,
+      "recent_video_count": 17,
+      "recent_median_views_per_day": 16.0,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 8
+    },
+    {
+      "topic": "Why seeing other people's lifestyle changes our spending",
+      "category": "Social Comparison",
+      "evidence_video_count": 13,
+      "unique_competitor_channels": 13,
+      "recent_video_count": 9,
+      "recent_median_views_per_day": 5.13,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 9
+    },
+    {
+      "topic": "The hidden cost of comparing your progress with friends",
+      "category": "Social Comparison",
+      "evidence_video_count": 13,
+      "unique_competitor_channels": 13,
+      "recent_video_count": 9,
+      "recent_median_views_per_day": 5.13,
+      "research_note": "Provisional category-level evidence; topic-level validation still required.",
+      "provisional_rank": 10
+    }
+  ],
+  "methodology_notes": [
+    "Missing or zero views always trigger REVIEW.",
+    "Missing channel IDs trigger REVIEW.",
+    "Competitor identity uses channel_id, not display name.",
+    "Missing channel IDs are excluded from competitor ranking.",
+    "Category counts may overlap.",
+    "Top-three share is based only on this sample.",
+    "Topic ranking is provisional and requires topic-level evidence.",
+    "Short candidates are not confirmed YouTube Shorts."
+  ]
+}

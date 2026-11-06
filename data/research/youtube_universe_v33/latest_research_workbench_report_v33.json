@@ -1,0 +1,27 @@
+{
+  "engine": "YOUTUBE_UNIVERSE_V3.3_RESEARCH_WORKBENCH",
+  "generated_at": "2026-11-06T12:38:22.848639+05:30",
+  "audit_records": 100,
+  "human_decision_records": 100,
+  "research_decision_records": 1,
+  "approved_topics": 1,
+  "blocked_topics": 99,
+  "workspaces_created_or_checked": 1,
+  "research_ready_topics": 1,
+  "research_packages_generated": 1,
+  "packages_are_production_approved": false,
+  "validation_errors": [],
+  "database_modified": false,
+  "youtube_api_calls": 0,
+  "automatic_source_verification": false,
+  "automatic_claim_verification": false,
+  "human_research_approval_required": true,
+  "script_generation_allowed_only_after_research_gate": true,
+  "outputs": {
+    "workspace": "data\\research\\youtube_universe_v33\\research_workspace_v33",
+    "queue": "data\\research\\youtube_universe_v33\\latest_research_workbench_queue_v33.csv",
+    "report": "data\\research\\youtube_universe_v33\\latest_research_workbench_report_v33.json",
+    "packages": "data\\research\\youtube_universe_v33\\research_packages_v33"
+  },
+  "status": "COMPLETED"
+}

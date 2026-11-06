@@ -1,0 +1,21 @@
+{
+  "decision_id": "AA1_E1irX9cDX8U_20261106_124759",
+  "created_at": "2026-11-06T12:47:59+05:30",
+  "ruleset_version": "1.0.0",
+  "input_fingerprint": "6c780ac1518da06c27b698da1060d2152c446ac1535b40c518484a69984245d3",
+  "input_files": [
+    "data\\research\\youtube_universe_v33\\research_workspace_v33\\E1irX9cDX8U\\sources.csv",
+    "data\\research\\youtube_universe_v33\\research_workspace_v33\\E1irX9cDX8U\\claims.csv",
+    "data\\research\\youtube_universe_v33\\research_workspace_v33\\E1irX9cDX8U\\evidence.csv",
+    "data\\research\\youtube_universe_v33\\human_review_decisions_v33.csv",
+    "data\\research\\youtube_universe_v33\\research_review_decisions_v33.csv"
+  ],
+  "decision": "AUTO_APPROVE",
+  "reason_codes": [
+    "ALL_RESEARCH_RULES_PASSED"
+  ],
+  "reason_details": [],
+  "human_decision_preserved": true,
+  "database_modified": false,
+  "youtube_api_calls": 0
+}

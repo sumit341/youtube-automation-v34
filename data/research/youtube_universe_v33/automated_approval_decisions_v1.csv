@@ -1,0 +1,2 @@
+﻿decision_id,video_id,stage,decision,ruleset_version,decided_at,reason_codes,reason_details,source_count,reviewed_source_count,claim_count,supported_claim_count,evidence_count,reviewed_evidence_count,conflict_count,input_fingerprint
+AA1_E1irX9cDX8U_20261106_124759,E1irX9cDX8U,RESEARCH,AUTO_APPROVE,1.0.0,2026-11-06T12:47:59+05:30,ALL_RESEARCH_RULES_PASSED,,6,6,6,6,6,6,0,6c780ac1518da06c27b698da1060d2152c446ac1535b40c518484a69984245d3

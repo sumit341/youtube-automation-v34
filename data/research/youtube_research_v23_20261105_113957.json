@@ -1,0 +1,2709 @@
+{
+  "engine": "YouTube Research Engine V2.3",
+  "generated_at": "2026-11-05T11:39:57",
+  "channel_name": "The Success Paradoxs",
+  "research_window_days": 180,
+  "search_requests_maximum": 10,
+  "total_unique_relevant_videos": 84,
+  "short_candidate_count": 48,
+  "long_form_count": 36,
+  "category_analysis": [
+    {
+      "category": "Power Dynamics",
+      "video_count": 24,
+      "recent_video_count": 12,
+      "median_views": 1252.0,
+      "median_views_per_day": 966.88,
+      "median_engagement_percent": 2.01,
+      "short_candidate_count": 10,
+      "long_form_count": 14,
+      "relative_demand_percentile": 100.0,
+      "research_opportunity_signal": 80.0
+    },
+    {
+      "category": "Success",
+      "video_count": 27,
+      "recent_video_count": 21,
+      "median_views": 691,
+      "median_views_per_day": 605.0,
+      "median_engagement_percent": 2.0,
+      "short_candidate_count": 16,
+      "long_form_count": 11,
+      "relative_demand_percentile": 75.0,
+      "research_opportunity_signal": 60.0
+    },
+    {
+      "category": "Human Psychology",
+      "video_count": 61,
+      "recent_video_count": 36,
+      "median_views": 621,
+      "median_views_per_day": 331.85,
+      "median_engagement_percent": 3.04,
+      "short_candidate_count": 34,
+      "long_form_count": 27,
+      "relative_demand_percentile": 50.0,
+      "research_opportunity_signal": 40.0
+    },
+    {
+      "category": "Money Psychology",
+      "video_count": 24,
+      "recent_video_count": 17,
+      "median_views": 123.5,
+      "median_views_per_day": 119.05,
+      "median_engagement_percent": 3.12,
+      "short_candidate_count": 9,
+      "long_form_count": 15,
+      "relative_demand_percentile": 25.0,
+      "research_opportunity_signal": 20.0
+    },
+    {
+      "category": "Social Comparison",
+      "video_count": 13,
+      "recent_video_count": 7,
+      "median_views": 460,
+      "median_views_per_day": 5.13,
+      "median_engagement_percent": 2.02,
+      "short_candidate_count": 7,
+      "long_form_count": 6,
+      "relative_demand_percentile": 0.0,
+      "research_opportunity_signal": 0.0
+    }
+  ],
+  "top_10_topic_candidates": [
+    {
+      "topic": "How emotional control influences power dynamics",
+      "category": "Power Dynamics",
+      "evidence_video_count": 24,
+      "median_views_per_day": 966.88,
+      "recent_video_count": 12,
+      "relative_demand_percentile": 100.0,
+      "research_opportunity_signal": 80.0
+    },
+    {
+      "topic": "Why influence is not always about authority",
+      "category": "Power Dynamics",
+      "evidence_video_count": 24,
+      "median_views_per_day": 966.88,
+      "recent_video_count": 12,
+      "relative_demand_percentile": 100.0,
+      "research_opportunity_signal": 80.0
+    },
+    {
+      "topic": "Why delayed gratification is harder than it looks",
+      "category": "Success",
+      "evidence_video_count": 27,
+      "median_views_per_day": 605.0,
+      "recent_video_count": 21,
+      "relative_demand_percentile": 75.0,
+      "research_opportunity_signal": 60.0
+    },
+    {
+      "topic": "How instant gratification affects long-term success",
+      "category": "Success",
+      "evidence_video_count": 27,
+      "median_views_per_day": 605.0,
+      "recent_video_count": 21,
+      "relative_demand_percentile": 75.0,
+      "research_opportunity_signal": 60.0
+    },
+    {
+      "topic": "Why do people make emotional decisions even when they know better?",
+      "category": "Human Psychology",
+      "evidence_video_count": 61,
+      "median_views_per_day": 331.85,
+      "recent_video_count": 36,
+      "relative_demand_percentile": 50.0,
+      "research_opportunity_signal": 40.0
+    },
+    {
+      "topic": "The hidden psychology behind everyday human behaviour",
+      "category": "Human Psychology",
+      "evidence_video_count": 61,
+      "median_views_per_day": 331.85,
+      "recent_video_count": 36,
+      "relative_demand_percentile": 50.0,
+      "research_opportunity_signal": 40.0
+    },
+    {
+      "topic": "Rich vs Poor: How everyday money decisions shape the future",
+      "category": "Money Psychology",
+      "evidence_video_count": 24,
+      "median_views_per_day": 119.05,
+      "recent_video_count": 17,
+      "relative_demand_percentile": 25.0,
+      "research_opportunity_signal": 20.0
+    },
+    {
+      "topic": "Why a higher income does not always create financial freedom",
+      "category": "Money Psychology",
+      "evidence_video_count": 24,
+      "median_views_per_day": 119.05,
+      "recent_video_count": 17,
+      "relative_demand_percentile": 25.0,
+      "research_opportunity_signal": 20.0
+    },
+    {
+      "topic": "Why seeing other people's lifestyle changes our spending",
+      "category": "Social Comparison",
+      "evidence_video_count": 13,
+      "median_views_per_day": 5.13,
+      "recent_video_count": 7,
+      "relative_demand_percentile": 0.0,
+      "research_opportunity_signal": 0.0
+    },
+    {
+      "topic": "The hidden cost of comparing your progress with friends",
+      "category": "Social Comparison",
+      "evidence_video_count": 13,
+      "median_views_per_day": 5.13,
+      "recent_video_count": 7,
+      "relative_demand_percentile": 0.0,
+      "research_opportunity_signal": 0.0
+    }
+  ],
+  "videos": [
+    {
+      "video_id": "-EbGahMBdhk",
+      "title": "#motivation  #factsaboutworld #psycholgyfacts #motivational",
+      "channel_name": "Psychology Gyan",
+      "channel_id": "UCMrGYMtpJBhKzBgDIPxS_aA",
+      "published_at": "2026-11-05T05:39:10Z",
+      "views": 605,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT6S",
+      "duration_seconds": 6,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 605.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "mindset",
+        "motivation",
+        "psychology",
+        "success",
+        "मनोविज्ञान"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=-EbGahMBdhk"
+    },
+    {
+      "video_id": "m_lcaPK83Ag",
+      "title": "आपका दिमाग आपको कैसे डराता है? | Fear Psychology Explained in Hindi #youtubeshorts #facts",
+      "channel_name": "The Secret Code Hindi",
+      "channel_id": "UCsFMveRHr-I34UgTEDxpMXg",
+      "published_at": "2026-11-05T05:14:02Z",
+      "views": 22,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate_percent": 4.545,
+      "duration": "PT1M37S",
+      "duration_seconds": 97,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 22.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "brain",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=m_lcaPK83Ag"
+    },
+    {
+      "video_id": "pEF_ecPStWk",
+      "title": "Kya log aapko ignore karte hai #hindimotivation #kuchkarona #humanpsychology #lifelessons #fypシ゚vira",
+      "channel_name": "kuchkaronaa • ▷ 47 lakh • 7 days  ago\n\n\n\n...",
+      "channel_id": "UCbb2q4XH-7TmXZulo4rR0_w",
+      "published_at": "2026-11-05T04:43:28Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT1M13S",
+      "duration_seconds": 73,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 1.0,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "motivation",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=pEF_ecPStWk"
+    },
+    {
+      "video_id": "QFADVRwIKO8",
+      "title": "Attention Is Power! | #48lawsofpower",
+      "channel_name": "PsycheTrainer",
+      "channel_id": "UCpN2-qr8F473RsmDnG6Rqaw",
+      "published_at": "2026-11-05T04:23:44Z",
+      "views": 228,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT41S",
+      "duration_seconds": 41,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 228.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "control",
+        "human behavior",
+        "human behaviour",
+        "influence",
+        "power",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=QFADVRwIKO8"
+    },
+    {
+      "video_id": "bbHqAkxtoHE",
+      "title": "Barnum Effect 🧠 | कोई तुम्हारा दिमाग कैसे पढ़ लेता है? | Psychology Facts Hindi #Shorts",
+      "channel_name": "they_sycothiix",
+      "channel_id": "UCJ8sI82blfeO-rCcW3zSc7Q",
+      "published_at": "2026-11-05T03:47:09Z",
+      "views": 103,
+      "likes": 6,
+      "comments": 0,
+      "engagement_rate_percent": 5.825,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 103.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "brain",
+        "human behavior",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=bbHqAkxtoHE"
+    },
+    {
+      "video_id": "bkwykfIP8sY",
+      "title": "5 Psychological Signs of Fake People 😈 | Dark Psychology Hindi #shorts",
+      "channel_name": "Arka_ff",
+      "channel_id": "UCTKhD5g9HLli7B5rq5FFeLg",
+      "published_at": "2026-11-05T03:30:39Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0,
+      "duration": "PT50S",
+      "duration_seconds": 50,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 0.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=bkwykfIP8sY"
+    },
+    {
+      "video_id": "fi-_UBE_VN0",
+      "title": "Human Psychology in Hindi | Top 5 Psychological Facts You Never Knew Existed! #psychology #facts",
+      "channel_name": "Hindi TV India",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "published_at": "2026-11-05T03:30:32Z",
+      "views": 340,
+      "likes": 35,
+      "comments": 0,
+      "engagement_rate_percent": 10.294,
+      "duration": "PT35S",
+      "duration_seconds": 35,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 340.0,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=fi-_UBE_VN0"
+    },
+    {
+      "video_id": "LX_kuBHi2yo",
+      "title": "🧠 The Human Nervous System! 🧠 #brain #spinalcord #humanbody #anatomy #science #teacher #education",
+      "channel_name": "Nancy Bullard (Mrs. B TV)",
+      "channel_id": "UCfnuZk44VjeHQq_5IIEJAnw",
+      "published_at": "2024-07-29T20:33:46Z",
+      "views": 106056887,
+      "likes": 4777854,
+      "comments": 62003,
+      "engagement_rate_percent": 4.563,
+      "duration": "PT1M",
+      "duration_seconds": 60,
+      "format_category": "short_candidate",
+      "days_since_upload": 828.4,
+      "views_per_day": 128026.16,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "brain"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=LX_kuBHi2yo"
+    },
+    {
+      "video_id": "wDq_3TEK66A",
+      "title": "Mind Blowing Psychological Facts 🤯🧠 Amazing Facts | Human Psychology | Top 10 #HindiTVIndia #Shorts",
+      "channel_name": "Hindi TV India",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "published_at": "2022-02-13T03:30:08Z",
+      "views": 32595182,
+      "likes": 2409168,
+      "comments": 1489,
+      "engagement_rate_percent": 7.396,
+      "duration": "PT58S",
+      "duration_seconds": 58,
+      "format_category": "short_candidate",
+      "days_since_upload": 1726.1,
+      "views_per_day": 18883.6,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=wDq_3TEK66A"
+    },
+    {
+      "video_id": "D-NR6empIQ0",
+      "title": "Mind Blowing Psychological Facts 🤯🧠 Amazing Facts | Human Psychology | Top 10 #HindiTVIndia #Shorts",
+      "channel_name": "Hindi TV India",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "published_at": "2022-03-22T15:30:03Z",
+      "views": 18383489,
+      "likes": 1347185,
+      "comments": 1036,
+      "engagement_rate_percent": 7.334,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 1688.6,
+      "views_per_day": 10886.75,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=D-NR6empIQ0"
+    },
+    {
+      "video_id": "VP1R8hhGfBU",
+      "title": "Apni Personality Test Karo | Hindi Psychology Facts | Psychology Status | The Official Geet #shorts",
+      "channel_name": "The Official Geet",
+      "channel_id": "UCEfwR1pITJFgqqyAX-RYxpg",
+      "published_at": "2021-05-08T08:30:03Z",
+      "views": 18276019,
+      "likes": 637123,
+      "comments": 16737,
+      "engagement_rate_percent": 3.578,
+      "duration": "PT52S",
+      "duration_seconds": 52,
+      "format_category": "short_candidate",
+      "days_since_upload": 2006.9,
+      "views_per_day": 9106.58,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "psychology",
+        "status"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=VP1R8hhGfBU"
+    },
+    {
+      "video_id": "BLEYCyrLpkI",
+      "title": "The Power of Your Subconscious Mind by Dr. Joseph Murphy Audiobook | Books Summary in Hindi",
+      "channel_name": "Readers Books Club",
+      "channel_id": "UCgI26KNITusiGOFL6MLz_8Q",
+      "published_at": "2020-09-01T05:30:11Z",
+      "views": 16644860,
+      "likes": 544973,
+      "comments": 11863,
+      "engagement_rate_percent": 3.345,
+      "duration": "PT34M15S",
+      "duration_seconds": 2055,
+      "format_category": "long_form",
+      "days_since_upload": 2256.0,
+      "views_per_day": 7377.95,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "power",
+        "शक्ति"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=BLEYCyrLpkI"
+    },
+    {
+      "video_id": "MTHaITAeKbo",
+      "title": "Mind Blowing Psychological Facts 🤯🧠 Amazing Facts | Human Psychology | Top 10 #HindiTVIndia #Shorts",
+      "channel_name": "Hindi TV India",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "published_at": "2022-02-23T03:30:08Z",
+      "views": 14495287,
+      "likes": 1132083,
+      "comments": 919,
+      "engagement_rate_percent": 7.816,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 1716.1,
+      "views_per_day": 8446.59,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=MTHaITAeKbo"
+    },
+    {
+      "video_id": "fHBR1j1kJ1I",
+      "title": "Billionaire’s Brain vs Your Brain: Morning Routine, Focus & Addiction | Dr Sweta | FO403 Raj Shamani",
+      "channel_name": "Raj Shamani",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "published_at": "2025-09-02T15:39:00Z",
+      "views": 12371959,
+      "likes": 269052,
+      "comments": 8175,
+      "engagement_rate_percent": 2.241,
+      "duration": "PT1H45M10S",
+      "duration_seconds": 6310,
+      "format_category": "long_form",
+      "days_since_upload": 428.6,
+      "views_per_day": 28865.65,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "brain",
+        "control",
+        "habits",
+        "human behaviour",
+        "leadership",
+        "mindset",
+        "power",
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=fHBR1j1kJ1I"
+    },
+    {
+      "video_id": "PABqo6xx7UA",
+      "title": "Mind Blowing Psychological Facts 🤯🧠 Amazing Facts | Human Psychology | Top 10 #HindiTVIndia #Shorts",
+      "channel_name": "Hindi TV India",
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "published_at": "2023-08-21T15:30:15Z",
+      "views": 10610235,
+      "likes": 528616,
+      "comments": 516,
+      "engagement_rate_percent": 4.987,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 1171.6,
+      "views_per_day": 9056.11,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=PABqo6xx7UA"
+    },
+    {
+      "video_id": "jjAevxoTG1Y",
+      "title": "WHY TRADERS LOSE MONEY  TRADING PSYCHOLOGY & EMOTIONAL MANAGEMENT  HINDI PODCAST Special - IIT",
+      "channel_name": "Indian Index Trading",
+      "channel_id": "UCwXjmZKWcyzbEU6krtAB9AA",
+      "published_at": "2026-11-05T05:23:55Z",
+      "views": 4,
+      "likes": 1,
+      "comments": 2,
+      "engagement_rate_percent": 75.0,
+      "duration": "PT16M18S",
+      "duration_seconds": 978,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 4.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "mindset",
+        "money",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=jjAevxoTG1Y"
+    },
+    {
+      "video_id": "MdYKyJVNnk8",
+      "title": "अमीर लोग अपना पैसा खर्च क्यों नहीं करते? 💰 | Money Psychology | Ankit Zyro #Shorts #viral #aivideo",
+      "channel_name": "Ankit Zyro",
+      "channel_id": "UCynNVuwo2W173CMw8MwTdCA",
+      "published_at": "2026-11-05T04:52:12Z",
+      "views": 4,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT2M6S",
+      "duration_seconds": 126,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 4.0,
+      "relevance_score": 100,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "finance",
+        "financial",
+        "mindset",
+        "money",
+        "psychology",
+        "rich",
+        "wealth",
+        "अमीर",
+        "गरीब",
+        "पैसा"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=MdYKyJVNnk8"
+    },
+    {
+      "video_id": "3N4nHxQ6Wiw",
+      "title": "#motivation  #factsaboutworld #psycholgyfacts #motivational",
+      "channel_name": "Psychology Gyan",
+      "channel_id": "UCMrGYMtpJBhKzBgDIPxS_aA",
+      "published_at": "2026-11-05T04:50:11Z",
+      "views": 3241,
+      "likes": 9,
+      "comments": 0,
+      "engagement_rate_percent": 0.278,
+      "duration": "PT6S",
+      "duration_seconds": 6,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 3241.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "mindset",
+        "motivation",
+        "psychology",
+        "success",
+        "मनोविज्ञान"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=3N4nHxQ6Wiw"
+    },
+    {
+      "video_id": "gd_asn8hiM0",
+      "title": "UPI और क्रेडिट कार्ड का सबसे बड़ा धोखा! 💸 #CashlessEffect #MoneyTricks #DarkPsychology #SaveMoney",
+      "channel_name": "Tips Mind Facts",
+      "channel_id": "UCK5ZTXod_DWLJ-5avSbZ2wQ",
+      "published_at": "2026-11-05T02:18:04Z",
+      "views": 16,
+      "likes": 0,
+      "comments": 1,
+      "engagement_rate_percent": 6.25,
+      "duration": "PT54S",
+      "duration_seconds": 54,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 16.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "finance",
+        "financial",
+        "habits",
+        "mindset",
+        "money",
+        "psychology",
+        "rich",
+        "wealth",
+        "पैसा"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=gd_asn8hiM0"
+    },
+    {
+      "video_id": "6Yp1ZJQOjQs",
+      "title": "The Psychology of Money Book Summary in Hindi | पैसे का असली खेल समझो 💰 | Morgan Housel",
+      "channel_name": "books attraction",
+      "channel_id": "UCxx2bPVnJnO_SvXw6F8sUEg",
+      "published_at": "2026-11-05T01:00:37Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0,
+      "duration": "PT7M13S",
+      "duration_seconds": 433,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 0.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "financial",
+        "mindset",
+        "money",
+        "psychology",
+        "saving",
+        "अमीर",
+        "बचत",
+        "व्यवहार"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=6Yp1ZJQOjQs"
+    },
+    {
+      "video_id": "iBgfOIhSmXU",
+      "title": "अगर पैसा आते ही खत्म हो जाता है 🙏😃# shortsfeed#trendingshorts #youtubeshorts#viralshorts #seo#shorts",
+      "channel_name": "Lokesh Kumar",
+      "channel_id": "UC52991SiIZJv9N0jS0T56zQ",
+      "published_at": "2026-11-04T23:38:54Z",
+      "views": 1,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate_percent": 100.0,
+      "duration": "PT59S",
+      "duration_seconds": 59,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 1.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "finance",
+        "financial",
+        "money",
+        "saving",
+        "पैसा"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=iBgfOIhSmXU"
+    },
+    {
+      "video_id": "LFhfP35rPwI",
+      "title": "10 लाख की सेविंग्स आपकी सोच बदल देगी! 💰 | Wealth Psychology in Hindi | Osho Inspired Speech",
+      "channel_name": "Manifest Wealth",
+      "channel_id": "UCbXdcoNQeYux1dzSHm9PBjw",
+      "published_at": "2026-11-04T17:30:10Z",
+      "views": 44,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate_percent": 4.545,
+      "duration": "PT21M10S",
+      "duration_seconds": 1270,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 44.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "finance",
+        "financial",
+        "habits",
+        "mindset",
+        "money",
+        "motivation",
+        "psychology",
+        "rich",
+        "saving",
+        "wealth",
+        "अनुशासन",
+        "बचत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=LFhfP35rPwI"
+    },
+    {
+      "video_id": "4NosDWfjolw",
+      "title": "The Psychology of Money,Hindi part 5 audiobooks #finwisepari ",
+      "channel_name": "Finwisepari ",
+      "channel_id": "UCLBBfKdRUEhfvG1fKolfuPQ",
+      "published_at": "2026-11-04T16:27:12Z",
+      "views": 18,
+      "likes": 5,
+      "comments": 2,
+      "engagement_rate_percent": 38.889,
+      "duration": "PT19M34S",
+      "duration_seconds": 1174,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 18.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "financial",
+        "money",
+        "psychology",
+        "मनोविज्ञान"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=4NosDWfjolw"
+    },
+    {
+      "video_id": "QEW4AAPEQ8k",
+      "title": "धन कमाने की कला | चाणक्य का माइंडसेट जो गरीब को अमीर बना देता है | Motivation video | Hindi kahani ",
+      "channel_name": "Chanakya Drishtikon ",
+      "channel_id": "UCTIvt9dzp2FU_2kgy4XTXAQ",
+      "published_at": "2026-11-04T15:39:27Z",
+      "views": 1440,
+      "likes": 22,
+      "comments": 0,
+      "engagement_rate_percent": 1.528,
+      "duration": "PT48M18S",
+      "duration_seconds": 2898,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 1440.0,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "finance",
+        "financial",
+        "habits",
+        "mindset",
+        "money",
+        "motivation",
+        "poor",
+        "psychology",
+        "rich",
+        "success",
+        "wealth",
+        "अनुशासन",
+        "अमीर",
+        "आदत",
+        "गरीब",
+        "पैसा",
+        "सफलता"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=QEW4AAPEQ8k"
+    },
+    {
+      "video_id": "_MszQodm588",
+      "title": "Do People Forget to Return Your Money? Do These 4 Things! 💡 | Psychology Facts | UFB Quotes #shorts",
+      "channel_name": "UFB Quotes",
+      "channel_id": "UCPHkIRP_cTK7NLSamOS_RSA",
+      "published_at": "2026-11-04T14:51:44Z",
+      "views": 458,
+      "likes": 15,
+      "comments": 0,
+      "engagement_rate_percent": 3.275,
+      "duration": "PT40S",
+      "duration_seconds": 40,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 458.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "financial",
+        "human behavior",
+        "mindset",
+        "money",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=_MszQodm588"
+    },
+    {
+      "video_id": "Toh9klox_uM",
+      "title": "How Ambani's Become Rich By This Book @AbhishekKar #shortsfeed #business #money",
+      "channel_name": "Scroll ups ",
+      "channel_id": "UCXEPVDNlm-qxRMDi8IxRecg",
+      "published_at": "2024-09-22T12:31:58Z",
+      "views": 15845906,
+      "likes": 708053,
+      "comments": 2849,
+      "engagement_rate_percent": 4.486,
+      "duration": "PT58S",
+      "duration_seconds": 58,
+      "format_category": "short_candidate",
+      "days_since_upload": 773.7,
+      "views_per_day": 20479.77,
+      "relevance_score": 50,
+      "matched_categories": [
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "money",
+        "rich"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=Toh9klox_uM"
+    },
+    {
+      "video_id": "5TF0fbzhSSo",
+      "title": "3 Daily Habits To Become Mentally Strong | Raj Shamani #shorts",
+      "channel_name": "Raj Shamani",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "published_at": "2022-04-27T15:58:15Z",
+      "views": 15681788,
+      "likes": 1096239,
+      "comments": 1850,
+      "engagement_rate_percent": 7.002,
+      "duration": "PT1M",
+      "duration_seconds": 60,
+      "format_category": "short_candidate",
+      "days_since_upload": 1652.6,
+      "views_per_day": 9489.21,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "habits"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=5TF0fbzhSSo"
+    },
+    {
+      "video_id": "OT53s6E04aQ",
+      "title": "Money : The Science or The Psychology | Camera 14",
+      "channel_name": "Harshvarrdhan Jain",
+      "channel_id": "UClbqFnwW_1qjWwO2zl0ggvw",
+      "published_at": "2018-10-13T03:05:54Z",
+      "views": 7407114,
+      "likes": 207312,
+      "comments": 3676,
+      "engagement_rate_percent": 2.848,
+      "duration": "PT18M7S",
+      "duration_seconds": 1087,
+      "format_category": "long_form",
+      "days_since_upload": 2945.1,
+      "views_per_day": 2515.04,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "habits",
+        "money",
+        "psychology",
+        "rich",
+        "अमीर",
+        "गरीब",
+        "पैसा",
+        "बचत"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=OT53s6E04aQ"
+    },
+    {
+      "video_id": "_5ecgEXLoCA",
+      "title": "The Psychology of Money in 20 minutes",
+      "channel_name": "Escaping Ordinary (B.C Marx) ",
+      "channel_id": "UCcf1t1tH-Pp5bmu4hbAytwA",
+      "published_at": "2023-09-13T17:11:33Z",
+      "views": 6281604,
+      "likes": 189063,
+      "comments": 3060,
+      "engagement_rate_percent": 3.059,
+      "duration": "PT20M36S",
+      "duration_seconds": 1236,
+      "format_category": "long_form",
+      "days_since_upload": 1148.5,
+      "views_per_day": 5469.21,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "financial",
+        "habits",
+        "money",
+        "poor",
+        "psychology",
+        "rich",
+        "wealth"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=_5ecgEXLoCA"
+    },
+    {
+      "video_id": "TJDcGv9OH4Q",
+      "title": "THE PSYCHOLOGY OF MONEY (BY MORGAN HOUSEL)",
+      "channel_name": "The Swedish Investor",
+      "channel_id": "UCAeAB8ABXGoGMbXuYPmiu2A",
+      "published_at": "2021-02-26T07:49:02Z",
+      "views": 5798206,
+      "likes": 120397,
+      "comments": 2166,
+      "engagement_rate_percent": 2.114,
+      "duration": "PT15M35S",
+      "duration_seconds": 935,
+      "format_category": "long_form",
+      "days_since_upload": 2077.9,
+      "views_per_day": 2790.37,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "finance",
+        "financial",
+        "income",
+        "money",
+        "psychology",
+        "rich",
+        "saving"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=TJDcGv9OH4Q"
+    },
+    {
+      "video_id": "uc1lLq0zLZU",
+      "title": "Learn Practical Human #Psychology | Personality Development",
+      "channel_name": "Pushkar Raj Thakur: Stock Market Educator 📈",
+      "channel_id": "UCEAAzv2OBqxsSczKJ2QZyGQ",
+      "published_at": "2021-05-01T03:45:30Z",
+      "views": 5251746,
+      "likes": 222535,
+      "comments": 2285,
+      "engagement_rate_percent": 4.281,
+      "duration": "PT23M36S",
+      "duration_seconds": 1416,
+      "format_category": "long_form",
+      "days_since_upload": 2014.1,
+      "views_per_day": 2607.49,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=uc1lLq0zLZU"
+    },
+    {
+      "video_id": "nnV0FIhB3PY",
+      "title": "Top 10 Psychology Facts | in hindi | रोचक तथ्य #facts #amazingfacts #shorts",
+      "channel_name": "해외선물 대장금",
+      "channel_id": "UCLipyadka5k0tWYidePqUdQ",
+      "published_at": "2023-03-17T12:05:41Z",
+      "views": 5327649,
+      "likes": 293616,
+      "comments": 626,
+      "engagement_rate_percent": 5.523,
+      "duration": "PT54S",
+      "duration_seconds": 54,
+      "format_category": "short_candidate",
+      "days_since_upload": 1328.8,
+      "views_per_day": 4009.51,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=nnV0FIhB3PY"
+    },
+    {
+      "video_id": "N7Q_56f39MQ",
+      "title": "Avadh Ojha on Power, Poverty, Ind Vs China, Pakistan, Geopolitics & Psychology | FO397 Raj Shamani",
+      "channel_name": "Raj Shamani",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "published_at": "2025-08-21T15:39:00Z",
+      "views": 4759775,
+      "likes": 107183,
+      "comments": 7743,
+      "engagement_rate_percent": 2.415,
+      "duration": "PT1H27M19S",
+      "duration_seconds": 5239,
+      "format_category": "long_form",
+      "days_since_upload": 440.6,
+      "views_per_day": 10802.82,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "control",
+        "discipline",
+        "emotions",
+        "human behaviour",
+        "manipulation",
+        "mindset",
+        "money",
+        "motivation",
+        "poor",
+        "power",
+        "psychology",
+        "rich",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=N7Q_56f39MQ"
+    },
+    {
+      "video_id": "02vOre90SCI",
+      "title": "Mind Power in Hindi | अपने दिमाग को शक्तिशाली कैसे बनाएं? | Human Psychology | new audio book 2026",
+      "channel_name": "Audio Book 2026",
+      "channel_id": "UC88Ocf1u97Hdq93FEiwxNxQ",
+      "published_at": "2026-11-04T16:41:34Z",
+      "views": 5,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT30M6S",
+      "duration_seconds": 1806,
+      "format_category": "long_form",
+      "days_since_upload": 1,
+      "views_per_day": 5.0,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "brain",
+        "mindset",
+        "power",
+        "psychology",
+        "प्रभाव",
+        "व्यवहार",
+        "शक्ति"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=02vOre90SCI"
+    },
+    {
+      "video_id": "dpjrs4KUpzo",
+      "title": "Law 10: Avoid Negative People 🧠 | 48 Laws of Power in Hindi | Silent Power #shorts  #motivation",
+      "channel_name": "Silent Power",
+      "channel_id": "UCfhWnSnlDIeHhWPE-Ok0ZfQ",
+      "published_at": "2026-11-04T12:38:23Z",
+      "views": 100,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate_percent": 2.0,
+      "duration": "PT48S",
+      "duration_seconds": 48,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 100.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "influence",
+        "motivation",
+        "power",
+        "आदत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=dpjrs4KUpzo"
+    },
+    {
+      "video_id": "Mpc6ZWb5A60",
+      "title": "The 48 Laws of Power Book Summary in Hindi | शक्ति, सफलता और लोगों को समझने के 48 नियम",
+      "channel_name": "Readers Mindset Hindi",
+      "channel_id": "UCLGwNOr7BKnEf8_iujguG1A",
+      "published_at": "2026-11-04T03:30:26Z",
+      "views": 6,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT7M20S",
+      "duration_seconds": 440,
+      "format_category": "long_form",
+      "days_since_upload": 1.1,
+      "views_per_day": 5.4,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "influence",
+        "mindset",
+        "power",
+        "psychology",
+        "success",
+        "प्रभाव",
+        "व्यवहार",
+        "शक्ति",
+        "सफलता"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=Mpc6ZWb5A60"
+    },
+    {
+      "video_id": "zh2EDKkzEaE",
+      "title": "The 48 Laws of Power in Hindi 🔥 | Robert Greene | Complete Audiobook | Power & Psychology",
+      "channel_name": "Listen & Learn",
+      "channel_id": "UCnLwFwDjvQ2AKQJE0gjkT-w",
+      "published_at": "2026-11-03T16:50:38Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0,
+      "duration": "PT17M2S",
+      "duration_seconds": 1022,
+      "format_category": "long_form",
+      "days_since_upload": 1.6,
+      "views_per_day": 0.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "human behaviour",
+        "influence",
+        "leadership",
+        "manipulation",
+        "mindset",
+        "power",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=zh2EDKkzEaE"
+    },
+    {
+      "video_id": "ET9XPRU44RM",
+      "title": "Conceal Your Intentions | Law 3 #shorts #48lawsofpower #youtubeshorts #productivity #hindishorts",
+      "channel_name": "Stick Mind ",
+      "channel_id": "UCPWEa3zIZNlfy9JDmRakhbg",
+      "published_at": "2026-11-03T11:50:24Z",
+      "views": 1317,
+      "likes": 37,
+      "comments": 2,
+      "engagement_rate_percent": 2.961,
+      "duration": "PT42S",
+      "duration_seconds": 42,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.8,
+      "views_per_day": 746.77,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "control",
+        "influence",
+        "leadership",
+        "manipulation",
+        "motivation",
+        "power",
+        "productivity",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=ET9XPRU44RM"
+    },
+    {
+      "video_id": "2SYsc95TR40",
+      "title": "THE POWER OF A SMALL YES! | Dark Psychology Explained #Shorts",
+      "channel_name": "Shrawan Mindset",
+      "channel_id": "UCGDiLXQ7uGtNVfK47F59T-Q",
+      "published_at": "2026-11-03T09:19:35Z",
+      "views": 620,
+      "likes": 7,
+      "comments": 0,
+      "engagement_rate_percent": 1.129,
+      "duration": "PT26S",
+      "duration_seconds": 26,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.9,
+      "views_per_day": 331.85,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "influence",
+        "manipulation",
+        "power",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=2SYsc95TR40"
+    },
+    {
+      "video_id": "Ekcox-VFFK4",
+      "title": "The Power of Words | शब्दों की शक्ति | Psychological & Emotional Hindi Video",
+      "channel_name": "Aarushi Chamoli",
+      "channel_id": "UCTv6u0v8uP09afxf9LVsWfg",
+      "published_at": "2026-11-03T08:37:57Z",
+      "views": 27,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT31M29S",
+      "duration_seconds": 1889,
+      "format_category": "long_form",
+      "days_since_upload": 1.9,
+      "views_per_day": 14.23,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "manipulation",
+        "mindset",
+        "power",
+        "psychology",
+        "प्रभाव",
+        "व्यवहार",
+        "शक्ति"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=Ekcox-VFFK4"
+    },
+    {
+      "video_id": "4mCTCEnaBmo",
+      "title": "The 48 Laws of Power: क्या आप इन नियमों से वाकिफ हैं?",
+      "channel_name": "SwaRaaj Readers",
+      "channel_id": "UCLVQLQSSleMSP6RULR6Moyw",
+      "published_at": "2026-11-02T14:00:02Z",
+      "views": 295,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT29M20S",
+      "duration_seconds": 1760,
+      "format_category": "long_form",
+      "days_since_upload": 2.7,
+      "views_per_day": 110.34,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "human behaviour",
+        "influence",
+        "leadership",
+        "manipulation",
+        "power",
+        "psychology",
+        "व्यवहार"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=4mCTCEnaBmo"
+    },
+    {
+      "video_id": "VFagpmWyP0I",
+      "title": "# ताकत के 48 नियम | The 48 Laws of Power | Robert Greene | Hindi Audiobook",
+      "channel_name": "kal_drishtii",
+      "channel_id": "UCTWRiK161mH-aUzN8TNlevg",
+      "published_at": "2026-11-02T13:42:56Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT8M3S",
+      "duration_seconds": 483,
+      "format_category": "long_form",
+      "days_since_upload": 2.7,
+      "views_per_day": 0.37,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "human behaviour",
+        "power",
+        "psychology",
+        "प्रभाव",
+        "मनोविज्ञान",
+        "व्यवहार",
+        "शक्ति"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=VFagpmWyP0I"
+    },
+    {
+      "video_id": "oag4yMKoPtY",
+      "title": "Law 8: Make Other People Come to You 🔥 | 48 Laws of Power in Hindi #shorts",
+      "channel_name": "Silent Power",
+      "channel_id": "UCfhWnSnlDIeHhWPE-Ok0ZfQ",
+      "published_at": "2026-11-02T11:00:33Z",
+      "views": 108,
+      "likes": 4,
+      "comments": 1,
+      "engagement_rate_percent": 4.63,
+      "duration": "PT41S",
+      "duration_seconds": 41,
+      "format_category": "short_candidate",
+      "days_since_upload": 2.8,
+      "views_per_day": 38.6,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "influence",
+        "power"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=oag4yMKoPtY"
+    },
+    {
+      "video_id": "Qv70RMUFlu0",
+      "title": "Robert Greene: How To Seduce Anyone, Build Confidence & Become Powerful | E232",
+      "channel_name": "The Diary Of A CEO",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "published_at": "2023-03-23T08:00:08Z",
+      "views": 21136625,
+      "likes": 412502,
+      "comments": 10253,
+      "engagement_rate_percent": 2.0,
+      "duration": "PT1H54M48S",
+      "duration_seconds": 6888,
+      "format_category": "long_form",
+      "days_since_upload": 1322.9,
+      "views_per_day": 15977.21,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "power"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=Qv70RMUFlu0"
+    },
+    {
+      "video_id": "7_vi9m4inyY",
+      "title": "Secret Psychology Tricks To Control",
+      "channel_name": "Facts' Mine",
+      "channel_id": "UCC6gbNO098rkQKCU0ZaLITQ",
+      "published_at": "2024-12-09T18:51:00Z",
+      "views": 12624165,
+      "likes": 1022793,
+      "comments": 1844,
+      "engagement_rate_percent": 8.116,
+      "duration": "PT46S",
+      "duration_seconds": 46,
+      "format_category": "short_candidate",
+      "days_since_upload": 695.5,
+      "views_per_day": 18151.95,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "control",
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=7_vi9m4inyY"
+    },
+    {
+      "video_id": "yrwSOMFZvHY",
+      "title": "The Manipulation Expert: You're Being Manipulated! Use Jealousy To Manipulate People! Robert Greene",
+      "channel_name": "The Diary Of A CEO",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "published_at": "2024-03-18T08:00:26Z",
+      "views": 9864246,
+      "likes": 187660,
+      "comments": 11774,
+      "engagement_rate_percent": 2.022,
+      "duration": "PT2H42S",
+      "duration_seconds": 7242,
+      "format_category": "long_form",
+      "days_since_upload": 961.9,
+      "views_per_day": 10254.71,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "influence",
+        "jealousy",
+        "manipulation",
+        "power"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=yrwSOMFZvHY"
+    },
+    {
+      "video_id": "EV_ewfdViKM",
+      "title": "Psychological Hand Trick to Make Anyone Agree With You | Mind Manipulation | Vanessa Van Ewards",
+      "channel_name": "True Value",
+      "channel_id": "UCcDcn4rfCoJfQZZXnzv3SQQ",
+      "published_at": "2025-01-29T18:30:10Z",
+      "views": 9943190,
+      "likes": 337852,
+      "comments": 3645,
+      "engagement_rate_percent": 3.434,
+      "duration": "PT50S",
+      "duration_seconds": 50,
+      "format_category": "short_candidate",
+      "days_since_upload": 644.5,
+      "views_per_day": 15428.09,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "leadership",
+        "manipulation",
+        "power"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=EV_ewfdViKM"
+    },
+    {
+      "video_id": "_X0mgOOSpLU",
+      "title": "The power of believing that you can improve | Carol Dweck | TED",
+      "channel_name": "TED",
+      "channel_id": "UCAuUUnT6oDeKwE6v1NGQxug",
+      "published_at": "2014-12-17T16:28:11Z",
+      "views": 7147343,
+      "likes": 144363,
+      "comments": 2496,
+      "engagement_rate_percent": 2.055,
+      "duration": "PT10M25S",
+      "duration_seconds": 625,
+      "format_category": "long_form",
+      "days_since_upload": 4340.6,
+      "views_per_day": 1646.64,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "power"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=_X0mgOOSpLU"
+    },
+    {
+      "video_id": "PFPjQyDd5ys",
+      "title": "Dangerous Psychology Tricks ⚠️ #youtubeshorts",
+      "channel_name": "Avinash Kumar",
+      "channel_id": "UCIyCXxOCbPa5uZGNTU4H-Ww",
+      "published_at": "2025-06-21T08:05:00Z",
+      "views": 10621490,
+      "likes": 450386,
+      "comments": 1233,
+      "engagement_rate_percent": 4.252,
+      "duration": "PT1M1S",
+      "duration_seconds": 61,
+      "format_category": "short_candidate",
+      "days_since_upload": 501.9,
+      "views_per_day": 21161.71,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=PFPjQyDd5ys"
+    },
+    {
+      "video_id": "cUFuzMagKmI",
+      "title": "Millionaire Mindset की 3 Habits 🧠💰 | Rich Mindset Secrets #shorts",
+      "channel_name": "Foxiqstudio ",
+      "channel_id": "UCPhYNOHhUHwQQ_UyVkQE_2w",
+      "published_at": "2026-11-05T03:36:32Z",
+      "views": 184,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT58S",
+      "duration_seconds": 58,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 184.0,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "habits",
+        "mindset",
+        "money",
+        "motivation",
+        "poor",
+        "productivity",
+        "psychology",
+        "rich",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=cUFuzMagKmI"
+    },
+    {
+      "video_id": "Cn46Yb5bTYM",
+      "title": "Chhoti Chhoti Adatein Aapki Zindagi Badal Sakti Hain! 🔥 | Hindi Motivation | #anilthecoach #shorts",
+      "channel_name": "Anil The Coach ",
+      "channel_id": "UClmY02GVXQoCKy3RwPwHsKA",
+      "published_at": "2026-11-04T16:05:36Z",
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0,
+      "duration": "PT46S",
+      "duration_seconds": 46,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 0.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Success"
+      ],
+      "matched_terms": [
+        "consistency",
+        "discipline",
+        "motivation",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=Cn46Yb5bTYM"
+    },
+    {
+      "video_id": "bU0WTlGYm2s",
+      "title": "3 Habits That Make You Unstoppable 🔥 | Log Kya Kahenge? Expectations & Silent Work #Shorts",
+      "channel_name": "Aasim, As Is",
+      "channel_id": "UCEA1RASrH5A-rlCmPiJNk7A",
+      "published_at": "2026-11-04T15:04:34Z",
+      "views": 6,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate_percent": 16.667,
+      "duration": "PT1M6S",
+      "duration_seconds": 66,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 6.0,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "consistency",
+        "discipline",
+        "habits",
+        "mindset",
+        "motivation",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=bU0WTlGYm2s"
+    },
+    {
+      "video_id": "RxVhJbIzVH4",
+      "title": "ये 5 आदतें तुम्हें जिंदगी में पीछे रख रही हैं! 😳 | 5 Bad Habits You Must Quit | #shorts #viral",
+      "channel_name": "Talk Like Prabh",
+      "channel_id": "UCwGXlQva--JI_Q7w9eRK3ig",
+      "published_at": "2026-11-04T12:30:29Z",
+      "views": 691,
+      "likes": 21,
+      "comments": 0,
+      "engagement_rate_percent": 3.039,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 691.0,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "habits",
+        "mindset",
+        "motivation",
+        "productivity",
+        "success",
+        "आदत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=RxVhJbIzVH4"
+    },
+    {
+      "video_id": "s0J-bKIhPhU",
+      "title": "Aadat 🧠 Ka Asar | आदत का असर 💯 #shorts #motivation",
+      "channel_name": "CREATE MOTIVATION",
+      "channel_id": "UCEPKRbUKvAog_xBplp9x81w",
+      "published_at": "2026-11-04T10:30:18Z",
+      "views": 973,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT27S",
+      "duration_seconds": 27,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 973.0,
+      "relevance_score": 70,
+      "matched_categories": [
+        "Success"
+      ],
+      "matched_terms": [
+        "motivation",
+        "success",
+        "आदत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=s0J-bKIhPhU"
+    },
+    {
+      "video_id": "2MDGMtqtnsA",
+      "title": "जीवन बदलने के लिए आदतें बदलनी पड़ती हैं 📚💯🔥|Motivational video #shorts#motivation#ytshorts#dicipline",
+      "channel_name": "Devil motivation0007",
+      "channel_id": "UCw72dra8lRc1vj7v2Sk1s3Q",
+      "published_at": "2026-11-04T06:58:58Z",
+      "views": 1187,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT23S",
+      "duration_seconds": 23,
+      "format_category": "short_candidate",
+      "days_since_upload": 1,
+      "views_per_day": 1187.0,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Money Psychology",
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "consistency",
+        "control",
+        "discipline",
+        "financial",
+        "goals",
+        "money",
+        "motivation",
+        "power",
+        "rich",
+        "status",
+        "success",
+        "wealth",
+        "आदत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=2MDGMtqtnsA"
+    },
+    {
+      "video_id": "240oT9rCrJo",
+      "title": "जिंदगी बदलने से पहले ये सच्चाई जान लो #LifeLessons #Shorts",
+      "channel_name": "Tungnath valley vlogs",
+      "channel_id": "UCm23QwT3JjQFmrNdQV8Mudg",
+      "published_at": "2026-11-04T03:46:44Z",
+      "views": 1165,
+      "likes": 10,
+      "comments": 0,
+      "engagement_rate_percent": 0.858,
+      "duration": "PT38S",
+      "duration_seconds": 38,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.1,
+      "views_per_day": 1059.61,
+      "relevance_score": 30,
+      "matched_categories": [
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "goals",
+        "motivation",
+        "success",
+        "आदत",
+        "सफलता"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=240oT9rCrJo"
+    },
+    {
+      "video_id": "R7hv0JLdexE",
+      "title": "6 Habit high value people follow 🔥 #growthmindset #selfimprovement #success #shorts",
+      "channel_name": "Raja Aura+999",
+      "channel_id": "UCGroRB2q8vtMKYh6Ik_P8iA",
+      "published_at": "2026-11-04T03:30:27Z",
+      "views": 621,
+      "likes": 31,
+      "comments": 0,
+      "engagement_rate_percent": 4.992,
+      "duration": "PT51S",
+      "duration_seconds": 51,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.1,
+      "views_per_day": 559.07,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "habits",
+        "mindset",
+        "motivation",
+        "psychology",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=R7hv0JLdexE"
+    },
+    {
+      "video_id": "tyMVqkSI8kQ",
+      "title": "करोड़पतियों की Morning Routine का असली Secre. #shorts #viral",
+      "channel_name": "TubeXGyan",
+      "channel_id": "UCuOjI-3kdvo8KzZuo_RZBJA",
+      "published_at": "2026-11-04T02:13:04Z",
+      "views": 63,
+      "likes": 2,
+      "comments": 0,
+      "engagement_rate_percent": 3.175,
+      "duration": "PT1M10S",
+      "duration_seconds": 70,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.2,
+      "views_per_day": 54.1,
+      "relevance_score": 30,
+      "matched_categories": [
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "consistency",
+        "discipline",
+        "financial",
+        "money",
+        "motivation",
+        "productivity",
+        "rich",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=tyMVqkSI8kQ"
+    },
+    {
+      "video_id": "Z18V6KytShc",
+      "title": "3 Bad Habits Destroying Your Success! #shorts#trending#viral",
+      "channel_name": "SuMindX",
+      "channel_id": "UC8IeR-jtTudGIksDuwzJyUw",
+      "published_at": "2026-11-03T15:29:08Z",
+      "views": 1295,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT38S",
+      "duration_seconds": 38,
+      "format_category": "short_candidate",
+      "days_since_upload": 1.6,
+      "views_per_day": 803.51,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "habits",
+        "mindset",
+        "motivation",
+        "psychology",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=Z18V6KytShc"
+    },
+    {
+      "video_id": "fG1oNm2tCro",
+      "title": "MORNING MOTIVATIONAL VIDEO - Sandeep Maheshwari | DAILY MORNING AFFIRMATIONS Hindi",
+      "channel_name": "Sandeep Maheshwari",
+      "channel_id": "UCBqFKDipsnzvJdt6UT0lMIg",
+      "published_at": "2020-09-16T06:56:10Z",
+      "views": 52775144,
+      "likes": 1370845,
+      "comments": 33453,
+      "engagement_rate_percent": 2.661,
+      "duration": "PT5M26S",
+      "duration_seconds": 326,
+      "format_category": "long_form",
+      "days_since_upload": 2241.0,
+      "views_per_day": 23550.16,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Success"
+      ],
+      "matched_terms": [
+        "goals",
+        "motivation",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=fG1oNm2tCro"
+    },
+    {
+      "video_id": "PZ7lDrwYdZc",
+      "title": "How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)",
+      "channel_name": "Escaping Ordinary (B.C Marx) ",
+      "channel_id": "UCcf1t1tH-Pp5bmu4hbAytwA",
+      "published_at": "2021-10-06T11:00:04Z",
+      "views": 22321246,
+      "likes": 789758,
+      "comments": 8807,
+      "engagement_rate_percent": 3.578,
+      "duration": "PT28M11S",
+      "duration_seconds": 1691,
+      "format_category": "long_form",
+      "days_since_upload": 1855.8,
+      "views_per_day": 12027.84,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "goals",
+        "habits",
+        "motivation",
+        "psychology",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=PZ7lDrwYdZc"
+    },
+    {
+      "video_id": "MoLaqosHlyY",
+      "title": "5 Habits of Mentally Strong People in Hindi",
+      "channel_name": "TheSutraas हिन्दी",
+      "channel_id": "UCoWhIOUIUCeMxJw4XVbI_6A",
+      "published_at": "2021-08-01T11:54:36Z",
+      "views": 21960554,
+      "likes": 687256,
+      "comments": 4384,
+      "engagement_rate_percent": 3.149,
+      "duration": "PT6M27S",
+      "duration_seconds": 387,
+      "format_category": "long_form",
+      "days_since_upload": 1921.8,
+      "views_per_day": 11427.31,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "habits"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=MoLaqosHlyY"
+    },
+    {
+      "video_id": "7cZDRM28LgM",
+      "title": "How to control your Mind? By Sandeep Maheshwari I Hindi",
+      "channel_name": "Sandeep Maheshwari",
+      "channel_id": "UCBqFKDipsnzvJdt6UT0lMIg",
+      "published_at": "2016-04-06T10:55:29Z",
+      "views": 16767721,
+      "likes": 315723,
+      "comments": 10235,
+      "engagement_rate_percent": 1.944,
+      "duration": "PT49M31S",
+      "duration_seconds": 2971,
+      "format_category": "long_form",
+      "days_since_upload": 3864.8,
+      "views_per_day": 4338.57,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "control",
+        "power"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=7cZDRM28LgM"
+    },
+    {
+      "video_id": "BzynYwGx-qg",
+      "title": "Neuroscientist: TRY IT FOR 1 DAY! You Won't Regret It! Habits of The Ultra Wealthy for 2023",
+      "channel_name": "Motivation Madness",
+      "channel_id": "UCHbq_l1qnuomfJCYQTsWf_Q",
+      "published_at": "2022-11-14T12:30:03Z",
+      "views": 11061154,
+      "likes": 229906,
+      "comments": 2318,
+      "engagement_rate_percent": 2.099,
+      "duration": "PT11M13S",
+      "duration_seconds": 673,
+      "format_category": "long_form",
+      "days_since_upload": 1451.7,
+      "views_per_day": 7619.26,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "brain",
+        "habits",
+        "mindset",
+        "rich",
+        "wealth"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=BzynYwGx-qg"
+    },
+    {
+      "video_id": "Sp9M1oH9Ehc",
+      "title": "15 Super Habits of Highly Successful People! Best Habits for Success, Money and Fame in Life | Hindi",
+      "channel_name": "JeetFix",
+      "channel_id": "UCuOxudQSUtgikcXETRrzXCQ",
+      "published_at": "2022-01-09T03:19:25Z",
+      "views": 10365877,
+      "likes": 331715,
+      "comments": 4476,
+      "engagement_rate_percent": 3.243,
+      "duration": "PT15M50S",
+      "duration_seconds": 950,
+      "format_category": "long_form",
+      "days_since_upload": 1761.1,
+      "views_per_day": 5885.96,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "habits",
+        "money",
+        "motivation",
+        "rich",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=Sp9M1oH9Ehc"
+    },
+    {
+      "video_id": "Y566_T-YlNQ",
+      "title": "Andrew Huberman: Become Mentally Dangerous With These Daily Habits | FO556 Raj Shamani",
+      "channel_name": "Raj Shamani",
+      "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+      "published_at": "2026-09-01T15:39:02Z",
+      "views": 19357138,
+      "likes": 234758,
+      "comments": 5943,
+      "engagement_rate_percent": 1.243,
+      "duration": "PT2H46M56S",
+      "duration_seconds": 10016,
+      "format_category": "long_form",
+      "days_since_upload": 64.6,
+      "views_per_day": 299623.77,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "brain",
+        "habits",
+        "human behaviour",
+        "mindset",
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=Y566_T-YlNQ"
+    },
+    {
+      "video_id": "NDtGxujpdC8",
+      "title": "3 Steps to Control Your Mind - By Sandeep Maheshwari | Motivational Video | Hindi",
+      "channel_name": "Sandeep Maheshwari",
+      "channel_id": "UCBqFKDipsnzvJdt6UT0lMIg",
+      "published_at": "2019-12-26T12:30:01Z",
+      "views": 9176679,
+      "likes": 359141,
+      "comments": 9034,
+      "engagement_rate_percent": 4.012,
+      "duration": "PT20M42S",
+      "duration_seconds": 1242,
+      "format_category": "long_form",
+      "days_since_upload": 2505.7,
+      "views_per_day": 3662.27,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Power Dynamics",
+        "Success"
+      ],
+      "matched_terms": [
+        "control",
+        "goals",
+        "motivation",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=NDtGxujpdC8"
+    },
+    {
+      "video_id": "4g2phsXEcNM",
+      "title": " दूसरों से तुलना बंद करें ❌ आपकी खुशियों का दुश्मन | Mindset Secrets | Money & Mindset Psychology ",
+      "channel_name": "Seekho Our Badlo ",
+      "channel_id": "UCkmG-SGS498SUEH9dmtk_BA",
+      "published_at": "2026-10-31T13:30:04Z",
+      "views": 63,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT9M35S",
+      "duration_seconds": 575,
+      "format_category": "long_form",
+      "days_since_upload": 4.7,
+      "views_per_day": 13.42,
+      "relevance_score": 70,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "mindset",
+        "money",
+        "motivation",
+        "psychology",
+        "wealth",
+        "आदत",
+        "तुलना",
+        "पैसा",
+        "सफलता"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=4g2phsXEcNM"
+    },
+    {
+      "video_id": "qIxTecMboaY",
+      "title": "दुनिया तुम्हें जीने नहीं, दिखावा करने पर मजबूर कर रही है! | Philosophy In हिन्दी",
+      "channel_name": "Philosophy In हिन्दी ",
+      "channel_id": "UCC5kTXYR_VvTVlHBSmc95yw",
+      "published_at": "2026-10-30T07:15:05Z",
+      "views": 1418,
+      "likes": 0,
+      "comments": 4,
+      "engagement_rate_percent": 0.282,
+      "duration": "PT1M17S",
+      "duration_seconds": 77,
+      "format_category": "short_candidate",
+      "days_since_upload": 6.0,
+      "views_per_day": 238.13,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "human behaviour",
+        "lifestyle",
+        "psychology",
+        "society",
+        "तुलना",
+        "दिखावा",
+        "व्यवहार",
+        "समाज"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=qIxTecMboaY"
+    },
+    {
+      "video_id": "UvhdUU-mIpY",
+      "title": "अमीर लोग अमीर दिखने की कोशिश क्यों नहीं करते? #youtube  #moneymindset #personalfinance ",
+      "channel_name": "Road2xfinedu",
+      "channel_id": "UCGUzKllnP0AiB4rNnTNF9Iw",
+      "published_at": "2026-10-24T12:02:08Z",
+      "views": 31,
+      "likes": 4,
+      "comments": 0,
+      "engagement_rate_percent": 12.903,
+      "duration": "PT6M7S",
+      "duration_seconds": 367,
+      "format_category": "long_form",
+      "days_since_upload": 11.8,
+      "views_per_day": 2.64,
+      "relevance_score": 100,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Success"
+      ],
+      "matched_terms": [
+        "discipline",
+        "finance",
+        "financial",
+        "goals",
+        "habits",
+        "income",
+        "mindset",
+        "money",
+        "psychology",
+        "rich",
+        "saving",
+        "spending",
+        "success",
+        "wealth",
+        "अमीर"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=UvhdUU-mIpY"
+    },
+    {
+      "video_id": "NM44wCDnjAw",
+      "title": "दिखावा आपको गरीब बना रहा है! 😱 | Dark Psychology of Money in Hindi",
+      "channel_name": "cash vichar",
+      "channel_id": "UCa8LkT48DHwsuf-FD169Jvw",
+      "published_at": "2026-10-24T11:02:23Z",
+      "views": 1,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT19M18S",
+      "duration_seconds": 1158,
+      "format_category": "long_form",
+      "days_since_upload": 11.8,
+      "views_per_day": 0.08,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "finance",
+        "financial",
+        "lifestyle",
+        "mindset",
+        "money",
+        "poor",
+        "psychology",
+        "rich",
+        "saving",
+        "spending",
+        "wealth",
+        "अमीर",
+        "गरीब",
+        "तुलना",
+        "दिखावा",
+        "पैसा",
+        "बचत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=NM44wCDnjAw"
+    },
+    {
+      "video_id": "4j92341otE4",
+      "title": "Doosron Ki Life Behtar Kyun Lagti Hai? 😔| Social Comparison Trap 🧠 #Shorts #youtubeshorts #mindhacks",
+      "channel_name": "FUELED BEAST",
+      "channel_id": "UCcsckzn_DvxVsIo4RHXaojg",
+      "published_at": "2026-10-18T20:55:31Z",
+      "views": 14,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT59S",
+      "duration_seconds": 59,
+      "format_category": "short_candidate",
+      "days_since_upload": 17.4,
+      "views_per_day": 0.81,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "lifestyle"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=4j92341otE4"
+    },
+    {
+      "video_id": "sm2b0Ws12G0",
+      "title": "हम बार-बार अपनी तुलना दूसरों से क्यों करते हैं? | Psychology Hindi #shorts #psychology #love",
+      "channel_name": "Jeevan Sutra",
+      "channel_id": "UCDwKmTIX63DVBypbsL-sdwQ",
+      "published_at": "2026-10-18T13:25:34Z",
+      "views": 43,
+      "likes": 0,
+      "comments": 1,
+      "engagement_rate_percent": 2.326,
+      "duration": "PT23S",
+      "duration_seconds": 23,
+      "format_category": "short_candidate",
+      "days_since_upload": 17.7,
+      "views_per_day": 2.43,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "lifestyle",
+        "mindset",
+        "psychology",
+        "तुलना"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=sm2b0Ws12G0"
+    },
+    {
+      "video_id": "7Fl238Qp9Bg",
+      "title": "अमीर दिखने वालों की \"सच्चाई\" जो कोई नहीं बताता। (Dark Psychology of Fake Wealth)",
+      "channel_name": "Finance Decoded ",
+      "channel_id": "UCTlSEJQ3DmeJcnx9VaDMlEQ",
+      "published_at": "2026-10-17T15:30:21Z",
+      "views": 3620,
+      "likes": 51,
+      "comments": 83,
+      "engagement_rate_percent": 3.702,
+      "duration": "PT22M40S",
+      "duration_seconds": 1360,
+      "format_category": "long_form",
+      "days_since_upload": 18.6,
+      "views_per_day": 194.51,
+      "relevance_score": 80,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "finance",
+        "financial",
+        "habits",
+        "lifestyle",
+        "mindset",
+        "money",
+        "poor",
+        "psychology",
+        "rich",
+        "saving",
+        "spending",
+        "wealth",
+        "अमीर",
+        "गरीब",
+        "दिखावा",
+        "पैसा"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=7Fl238Qp9Bg"
+    },
+    {
+      "video_id": "jVn2lkGj9DU",
+      "title": "₹1 Lakh कमाते हो फिर भी Bank Balance ₹0? | Psychology of Money",
+      "channel_name": "Uplift Urself",
+      "channel_id": "UCN2TKJzcLetPASyRgjf6ztQ",
+      "published_at": "2026-10-14T05:30:34Z",
+      "views": 32,
+      "likes": 3,
+      "comments": 0,
+      "engagement_rate_percent": 9.375,
+      "duration": "PT1M4S",
+      "duration_seconds": 64,
+      "format_category": "short_candidate",
+      "days_since_upload": 22.0,
+      "views_per_day": 1.45,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Money Psychology"
+      ],
+      "matched_terms": [
+        "finance",
+        "financial",
+        "income",
+        "mindset",
+        "money",
+        "psychology",
+        "saving",
+        "wealth",
+        "बचत"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=jVn2lkGj9DU"
+    },
+    {
+      "video_id": "pBjHcymc-ls",
+      "title": "Har kisi ki life perfect nhi hoti || #stopsocialcomparison || ",
+      "channel_name": "Pradeep Kumar ",
+      "channel_id": "UCE7oGsQOg6Ab5B5oh-YybYw",
+      "published_at": "2026-10-13T09:46:05Z",
+      "views": 12,
+      "likes": 1,
+      "comments": 0,
+      "engagement_rate_percent": 8.333,
+      "duration": "PT7M7S",
+      "duration_seconds": 427,
+      "format_category": "long_form",
+      "days_since_upload": 22.8,
+      "views_per_day": 0.53,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Success",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "goals",
+        "jealousy",
+        "lifestyle",
+        "motivation",
+        "success"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=pBjHcymc-ls"
+    },
+    {
+      "video_id": "_eT0Dqg3vKE",
+      "title": "Why You Compare Yourself to Others 🧠 | Teen Psychology #sciencefacts #scienceshorts",
+      "channel_name": "HD Nightmares List",
+      "channel_id": "UC6fwYIYnZOCUgL0m7qFHyZw",
+      "published_at": "2026-10-10T10:40:53Z",
+      "views": 1363,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT28S",
+      "duration_seconds": 28,
+      "format_category": "short_candidate",
+      "days_since_upload": 25.8,
+      "views_per_day": 52.81,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "human behavior",
+        "human behaviour",
+        "mindset",
+        "psychology"
+      ],
+      "research_type": "recent",
+      "video_url": "https://www.youtube.com/watch?v=_eT0Dqg3vKE"
+    },
+    {
+      "video_id": "LGx_cmEH8Lw",
+      "title": "Psychology of People Who Don't Post their Photos on Social Media",
+      "channel_name": "KnowSense",
+      "channel_id": "UCLAtlGr4AaEQtLd033j5w7A",
+      "published_at": "2025-10-19T15:00:53Z",
+      "views": 7336757,
+      "likes": 235739,
+      "comments": 17406,
+      "engagement_rate_percent": 3.45,
+      "duration": "PT3M2S",
+      "duration_seconds": 182,
+      "format_category": "long_form",
+      "days_since_upload": 381.6,
+      "views_per_day": 19224.73,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Human Psychology"
+      ],
+      "matched_terms": [
+        "mindset",
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=LGx_cmEH8Lw"
+    },
+    {
+      "video_id": "cr9ANn2na4Y",
+      "title": "The Comparison You Don’t Talk About#motivation#success#psychology #ytshorts",
+      "channel_name": "think4real",
+      "channel_id": "UCCkc15N0FwWmYJ_t8Z3t9gg",
+      "published_at": "2026-01-31T13:36:58Z",
+      "views": 2196,
+      "likes": 0,
+      "comments": 0,
+      "engagement_rate_percent": 0.0,
+      "duration": "PT32S",
+      "duration_seconds": 32,
+      "format_category": "short_candidate",
+      "days_since_upload": 277.7,
+      "views_per_day": 7.91,
+      "relevance_score": 70,
+      "matched_categories": [
+        "Human Psychology",
+        "Success",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "jealousy",
+        "lifestyle",
+        "mindset",
+        "motivation",
+        "psychology",
+        "success"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=cr9ANn2na4Y"
+    },
+    {
+      "video_id": "2Ogyn2CN8_g",
+      "title": "The Life You Post vs The Life You Live |Why Comparison Is Stealing Your Happines🎙 Midweek Vartalap",
+      "channel_name": "Khushie | Khushie Ki Duniya",
+      "channel_id": "UCXqY0y7ltkG_7FEjLUEFItw",
+      "published_at": "2026-07-13T11:14:32Z",
+      "views": 680,
+      "likes": 28,
+      "comments": 50,
+      "engagement_rate_percent": 11.471,
+      "duration": "PT37M3S",
+      "duration_seconds": 2223,
+      "format_category": "long_form",
+      "days_since_upload": 114.8,
+      "views_per_day": 5.92,
+      "relevance_score": 45,
+      "matched_categories": [
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "validation"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=2Ogyn2CN8_g"
+    },
+    {
+      "video_id": "9MAQXcB0oHY",
+      "title": "Impact of Social Media on Self Worth and Self Confidence - Comparison Syndrome Monica Josan",
+      "channel_name": "Psychology by Monica Josan",
+      "channel_id": "UCKWmP-hrpi3Jb0AOH1VvEsA",
+      "published_at": "2024-10-08T15:10:53Z",
+      "views": 667,
+      "likes": 24,
+      "comments": 2,
+      "engagement_rate_percent": 3.898,
+      "duration": "PT1M",
+      "duration_seconds": 60,
+      "format_category": "short_candidate",
+      "days_since_upload": 757.6,
+      "views_per_day": 0.88,
+      "relevance_score": 25,
+      "matched_categories": [
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=9MAQXcB0oHY"
+    },
+    {
+      "video_id": "ifvDoGegvzA",
+      "title": "Unlocking Your Potential: The Social Comparison Theory and Self-Improvement",
+      "channel_name": "Naval Badhiya",
+      "channel_id": "UClv-gnVFhHHmS-k0ook8PjQ",
+      "published_at": "2024-03-12T15:06:51Z",
+      "views": 460,
+      "likes": 30,
+      "comments": 5,
+      "engagement_rate_percent": 7.609,
+      "duration": "PT57S",
+      "duration_seconds": 57,
+      "format_category": "short_candidate",
+      "days_since_upload": 967.6,
+      "views_per_day": 0.48,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=ifvDoGegvzA"
+    },
+    {
+      "video_id": "AoUd7u7hLxw",
+      "title": "Everyone Your Age Is Ahead… Or Are They? 👀 | Social Comparison #feelingbad #psychology",
+      "channel_name": "Mindset with Sukh",
+      "channel_id": "UCEj3TnJ0d3NLs4hO_1ZvAHg",
+      "published_at": "2026-08-19T21:23:35Z",
+      "views": 397,
+      "likes": 5,
+      "comments": 0,
+      "engagement_rate_percent": 1.259,
+      "duration": "PT32S",
+      "duration_seconds": 32,
+      "format_category": "short_candidate",
+      "days_since_upload": 77.4,
+      "views_per_day": 5.13,
+      "relevance_score": 35,
+      "matched_categories": [
+        "Human Psychology",
+        "Social Comparison"
+      ],
+      "matched_terms": [
+        "comparison",
+        "psychology"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=AoUd7u7hLxw"
+    },
+    {
+      "video_id": "ullR8peTY0M",
+      "title": "Brands aapko \"Insecurities\" bechte hain! 🛑 (Dark Psychology of Marketing) | Ankit Negi",
+      "channel_name": "Ankit Negi",
+      "channel_id": "UCEkETe3oUE8rh5lXmaaNs-g",
+      "published_at": "2026-06-17T14:05:28Z",
+      "views": 125,
+      "likes": 8,
+      "comments": 4,
+      "engagement_rate_percent": 9.6,
+      "duration": "PT2M55S",
+      "duration_seconds": 175,
+      "format_category": "short_candidate",
+      "days_since_upload": 140.7,
+      "views_per_day": 0.89,
+      "relevance_score": 55,
+      "matched_categories": [
+        "Human Psychology",
+        "Power Dynamics"
+      ],
+      "matched_terms": [
+        "brain",
+        "habits",
+        "influence",
+        "manipulation",
+        "mindset",
+        "psychology",
+        "status"
+      ],
+      "research_type": "high_views",
+      "video_url": "https://www.youtube.com/watch?v=ullR8peTY0M"
+    }
+  ],
+  "methodology_notes": [
+    "Recent search covers the last 180 days.",
+    "High-view search is a separate lifetime view-count search.",
+    "Duplicate video IDs are merged.",
+    "Relevance uses title and description matches.",
+    "Short candidate means duration is 180 seconds or less; it does not confirm YouTube Shorts eligibility.",
+    "Views per day is a historical average, not real-time velocity.",
+    "Opportunity signal is a small-sample heuristic, not a competition measurement.",
+    "Public engagement does not reveal audience retention or subscriber conversion."
+  ]
+}

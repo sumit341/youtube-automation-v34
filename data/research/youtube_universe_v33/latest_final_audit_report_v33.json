@@ -1,0 +1,36 @@
+{
+  "engine": "V33.1-CONSOLIDATED-AUDIT",
+  "generated_at": "2026-11-06T06:56:59.115326+00:00",
+  "total_ranking_videos": 100,
+  "unique_video_ids": 100,
+  "source_record_counts": {
+    "ranking": 100,
+    "performance": 100,
+    "format": 100,
+    "quality": 100,
+    "relevance": 100
+  },
+  "human_decisions": {
+    "APPROVE": 1,
+    "REJECT": 0,
+    "HOLD": 0,
+    "PENDING": 99
+  },
+  "possible_duplicate_groups": 3,
+  "possible_duplicate_video_records": 16,
+  "transcript_limitation": "Transcript availability is checked from the existing quality CSV. Missing transcripts mean content quality cannot be verified.",
+  "automatic_final_approval": false,
+  "production_approval": false,
+  "database_modified": false,
+  "api_calls": 0,
+  "outputs": {
+    "audit": "latest_final_audit_v33.csv",
+    "approved": "latest_final_approved_v33.csv",
+    "hold": "latest_final_hold_v33.csv",
+    "rejected": "latest_final_rejected_v33.csv",
+    "duplicates": "latest_duplicate_groups_v33.csv",
+    "priority": "latest_research_priority_v33.csv",
+    "pending": "latest_final_pending_v33.csv",
+    "report": "latest_final_audit_report_v33.json"
+  }
+}

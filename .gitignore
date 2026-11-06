@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+*.log
+secrets/
+credentials/
+token.json
+client_secret*.json
+reports/v34_final_source_snapshot.txt

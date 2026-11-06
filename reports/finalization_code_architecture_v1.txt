@@ -1,0 +1,891 @@
+
+======================================================================
+FILE: app\approval_engine_v1.py
+======================================================================
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime
+IMPORT from urllib.parse import urlparse
+IMPORT import csv
+IMPORT import json
+IMPORT import hashlib
+IMPORT import sys
+CONSTANT BASE
+
+
+
+
+
+
+
+
+
+
+FUNCTION read_csv LINE 44
+FUNCTION clean LINE 51
+FUNCTION duplicate_values LINE 54
+FUNCTION valid_locator LINE 59
+FUNCTION fingerprint LINE 71
+FUNCTION evaluate_research LINE 86
+FUNCTION main LINE 295
+
+
+======================================================================
+FILE: app\batch10_approval_engine_preflight.py
+======================================================================
+IMPORT from pathlib import Path
+IMPORT import csv
+
+
+
+
+FUNCTION read_csv LINE 15
+FUNCTION short LINE 24
+
+
+
+
+
+
+
+CONSTANT csv_files
+
+
+
+
+CONSTANT package_dir
+
+
+CONSTANT app_dir
+
+
+
+
+
+
+
+
+
+
+======================================================================
+FILE: app\batch10_production_preflight.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT from pathlib import Path
+CONSTANT BASE
+
+
+
+
+FUNCTION main LINE 13
+
+
+======================================================================
+FILE: app\batch10_save_research_approval.py
+======================================================================
+IMPORT import csv
+IMPORT import shutil
+IMPORT from datetime import datetime
+IMPORT from pathlib import Path
+CONSTANT BASE
+
+CONSTANT BACKUP_DIR
+CONSTANT VIDEO_ID
+
+
+FUNCTION main LINE 18
+
+
+======================================================================
+FILE: app\batch9_preflight.py
+======================================================================
+IMPORT import csv
+IMPORT import collections
+IMPORT import json
+IMPORT from pathlib import Path
+CONSTANT BASE
+CONSTANT FILES
+
+
+
+
+
+
+
+CONSTANT base_ids
+
+
+
+CONSTANT report_path
+
+
+
+======================================================================
+FILE: app\batch9_schema_inspection.py
+======================================================================
+IMPORT import csv
+IMPORT from pathlib import Path
+CONSTANT BASE
+CONSTANT FILES
+
+
+
+
+======================================================================
+FILE: app\research_quality_audit_v24.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import statistics
+IMPORT from collections import Counter, defaultdict
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+CONSTANT RESEARCH_DIR
+CONSTANT SOURCE_FILE
+
+FUNCTION median LINE 24
+FUNCTION safe_date LINE 29
+FUNCTION csv_write LINE 41
+FUNCTION load_source LINE 66
+FUNCTION audit_video_quality LINE 81
+FUNCTION analyze_duplicates LINE 148
+FUNCTION analyze_categories LINE 172
+FUNCTION analyze_category_overlap LINE 290
+FUNCTION analyze_formats LINE 327
+FUNCTION build_topic_shortlist LINE 354
+FUNCTION main LINE 422
+
+
+======================================================================
+FILE: app\research_quality_audit_v241.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import statistics
+IMPORT from collections import Counter, defaultdict
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+CONSTANT RESEARCH_DIR
+CONSTANT SOURCE_FILE
+
+FUNCTION median LINE 23
+FUNCTION safe_date LINE 28
+FUNCTION write_csv LINE 37
+FUNCTION load_source LINE 59
+FUNCTION audit_video_quality LINE 72
+FUNCTION analyze_duplicates LINE 153
+FUNCTION analyze_categories LINE 176
+FUNCTION analyze_competitors LINE 263
+FUNCTION analyze_overlap LINE 308
+FUNCTION analyze_formats LINE 330
+FUNCTION build_topic_shortlist LINE 357
+FUNCTION main LINE 420
+
+
+======================================================================
+FILE: app\topic_intelligence.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT from datetime import datetime
+IMPORT from pathlib import Path
+IMPORT from statistics import median
+
+CONSTANT DATA_DIR
+CONSTANT INPUT_FILE
+
+
+
+FUNCTION safe_number LINE 66
+FUNCTION median_of LINE 75
+FUNCTION percentile_scores LINE 85
+FUNCTION write_csv LINE 109
+FUNCTION age_group LINE 127
+FUNCTION load_research LINE 144
+FUNCTION analyse_videos LINE 168
+FUNCTION analyse_categories LINE 226
+FUNCTION analyse_formats LINE 293
+FUNCTION analyse_age_groups LINE 329
+FUNCTION generate_topic_directions LINE 361
+FUNCTION save_reports LINE 404
+FUNCTION main LINE 510
+
+
+======================================================================
+FILE: app\topic_research.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+IMPORT import yaml
+
+CONSTANT CONFIG_FILE
+CONSTANT IDEAS_FILE
+CONSTANT OUTPUT_DIR
+CONSTANT REPORT_DIR
+FUNCTION load_yaml LINE 19
+FUNCTION calculate_relevance LINE 27
+FUNCTION generate_report LINE 42
+
+
+======================================================================
+FILE: app\youtube_research.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import os
+IMPORT import re
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+IMPORT import yaml
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+CONSTANT CONFIG_FILE
+CONSTANT OUTPUT_DIR
+CONSTANT ENV_FILE
+
+
+
+
+
+FUNCTION parse_duration LINE 95
+FUNCTION classify_format LINE 116
+FUNCTION load_settings LINE 127
+FUNCTION get_search_queries LINE 141
+FUNCTION search_videos LINE 154
+FUNCTION calculate_relevance LINE 193
+FUNCTION get_video_details LINE 249
+
+FUNCTION save_csv LINE 398
+FUNCTION save_results LINE 415
+FUNCTION main LINE 495
+
+
+======================================================================
+FILE: app\youtube_research_v23.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import os
+IMPORT import re
+IMPORT import statistics
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from pathlib import Path
+IMPORT import yaml
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+
+CONSTANT CONFIG_FILE
+CONSTANT RESEARCH_DIR
+CONSTANT ENV_FILE
+
+FUNCTION parse_duration LINE 74
+FUNCTION median_or_zero LINE 88
+FUNCTION percentile_ranks LINE 93
+FUNCTION load_configuration LINE 111
+FUNCTION get_youtube_client LINE 119
+FUNCTION search_category LINE 136
+FUNCTION calculate_relevance LINE 182
+FUNCTION enrich_videos LINE 199
+FUNCTION build_category_analysis LINE 313
+FUNCTION build_topic_candidates LINE 370
+FUNCTION write_csv LINE 406
+FUNCTION main LINE 419
+
+
+======================================================================
+FILE: app\youtube_universe_apply_pilot_research_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import shutil
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime
+
+CONSTANT BASE
+CONSTANT VIDEO_ID
+
+CONSTANT HUMAN_FILE
+CONSTANT RESEARCH_DECISIONS_FILE
+
+CONSTANT SOURCES_FILE
+CONSTANT CLAIMS_FILE
+CONSTANT EVIDENCE_FILE
+CONSTANT BACKUP_DIR
+
+
+
+
+FUNCTION read_csv LINE 43
+FUNCTION write_csv LINE 51
+FUNCTION backup LINE 67
+FUNCTION merge_by_id LINE 73
+FUNCTION main LINE 102
+
+
+======================================================================
+FILE: app\youtube_universe_content_quality_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import sqlite3
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+CONSTANT OUTPUT_DIR
+CONSTANT DB_PATH
+
+
+FUNCTION write_csv LINE 31
+FUNCTION main LINE 44
+
+
+======================================================================
+FILE: app\youtube_universe_correct_pilot_research_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import shutil
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime
+
+CONSTANT BASE
+
+
+
+FUNCTION update_csv LINE 13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================================================
+FILE: app\youtube_universe_final_audit_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import re
+IMPORT from datetime import datetime, timezone
+IMPORT from difflib import SequenceMatcher
+IMPORT from pathlib import Path
+
+
+CONSTANT INPUTS
+CONSTANT DECISIONS_FILE
+CONSTANT OUTPUTS
+
+FUNCTION read_csv LINE 36
+FUNCTION write_csv LINE 44
+FUNCTION get_video_id LINE 65
+FUNCTION normalize_title LINE 73
+FUNCTION title_similarity LINE 81
+FUNCTION find_duplicates LINE 91
+FUNCTION load_decisions LINE 168
+FUNCTION main LINE 192
+
+
+======================================================================
+FILE: app\youtube_universe_format_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import math
+IMPORT import sqlite3
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+IMPORT from youtube_universe_scoring_v33 import load_videos, score_videos
+
+CONSTANT OUTPUT_DIR
+CONSTANT DB_PATH
+CONSTANT PERFORMANCE_FILE
+
+
+FUNCTION number LINE 53
+FUNCTION duration_score LINE 63
+FUNCTION topic_score LINE 94
+FUNCTION load_performance LINE 149
+FUNCTION write_csv LINE 166
+FUNCTION main LINE 195
+
+
+======================================================================
+FILE: app\youtube_universe_human_review_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+CONSTANT OUTPUT_DIR
+CONSTANT RANKING_FILE
+CONSTANT DECISIONS_FILE
+
+
+
+FUNCTION read_csv LINE 26
+FUNCTION write_csv LINE 31
+FUNCTION clean_decision LINE 42
+FUNCTION main LINE 52
+
+
+======================================================================
+FILE: app\youtube_universe_master_dashboard_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import shutil
+IMPORT from collections import Counter
+IMPORT from datetime import datetime
+IMPORT from pathlib import Path
+
+
+
+CONSTANT OUTPUT_CSV
+CONSTANT OUTPUT_JSON
+CONSTANT OUTPUT_MD
+CONSTANT BACKUP_DIR
+CONSTANT FILES
+FUNCTION read_csv LINE 31
+FUNCTION clean LINE 39
+FUNCTION make_index LINE 44
+FUNCTION count_values LINE 66
+FUNCTION number LINE 73
+FUNCTION write_csv LINE 81
+FUNCTION main LINE 90
+
+
+======================================================================
+FILE: app\youtube_universe_performance_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import math
+IMPORT import sqlite3
+IMPORT import sys
+IMPORT from collections import Counter
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+IMPORT from youtube_universe_scoring_v33 import load_videos, score_videos, write_csv
+
+CONSTANT DB_PATH
+CONSTANT OUTPUT_DIR
+
+FUNCTION valid_number LINE 29
+FUNCTION calculate_performance LINE 44
+FUNCTION evaluate_video LINE 122
+FUNCTION main LINE 155
+
+
+======================================================================
+FILE: app\youtube_universe_ranking_v33.py
+======================================================================
+IMPORT import csv
+IMPORT import json
+IMPORT import sqlite3
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+
+
+
+FUNCTION read_csv LINE 15
+FUNCTION numeric LINE 27
+FUNCTION write_csv LINE 40
+FUNCTION main LINE 55
+
+
+======================================================================
+FILE: app\youtube_universe_research_package_v33.py
+======================================================================
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime
+IMPORT import csv
+IMPORT import json
+IMPORT import re
+IMPORT import sys
+CONSTANT BASE
+CONSTANT AUDIT_FILE
+CONSTANT DECISIONS_FILE
+CONSTANT RANKING_FILE
+CONSTANT FORMAT_FILE
+CONSTANT PERFORMANCE_FILE
+CONSTANT QUALITY_FILE
+CONSTANT RELEVANCE_FILE
+CONSTANT PACKAGE_DIR
+CONSTANT QUEUE_FILE
+CONSTANT REPORT_FILE
+
+FUNCTION read_csv LINE 25
+FUNCTION clean LINE 32
+FUNCTION first_value LINE 38
+FUNCTION safe_filename LINE 46
+FUNCTION write_csv LINE 51
+FUNCTION make_package LINE 58
+FUNCTION main LINE 224
+
+
+======================================================================
+FILE: app\youtube_universe_research_workbench_v33.py
+======================================================================
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime
+IMPORT from urllib.parse import urlparse
+IMPORT import csv
+IMPORT import json
+IMPORT import re
+IMPORT import sys
+CONSTANT BASE
+
+
+
+CONSTANT AUDIT_FILE
+CONSTANT DECISIONS_FILE
+CONSTANT RESEARCH_DECISIONS_FILE
+CONSTANT QUEUE_FILE
+CONSTANT REPORT_FILE
+
+
+
+
+
+
+
+FUNCTION read_csv LINE 53
+FUNCTION write_csv LINE 60
+FUNCTION create_template_if_missing LINE 68
+FUNCTION value LINE 75
+FUNCTION safe_name LINE 79
+FUNCTION valid_source_locator LINE 84
+FUNCTION make_workspace LINE 94
+FUNCTION analyze_workspace LINE 112
+FUNCTION build_package LINE 272
+FUNCTION main LINE 392
+
+
+======================================================================
+FILE: app\youtube_universe_scanner_v30.py
+======================================================================
+IMPORT import os
+IMPORT import argparse
+IMPORT import re
+IMPORT import json
+IMPORT import csv
+IMPORT import sqlite3
+IMPORT import statistics
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from pathlib import Path
+IMPORT from collections import defaultdict, Counter
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+
+CONSTANT OUTPUT_DIR
+
+CONSTANT DATABASE
+
+
+
+
+
+
+FUNCTION log LINE 126
+FUNCTION load_api_key LINE 130
+FUNCTION parse_duration LINE 148
+FUNCTION parse_date LINE 167
+FUNCTION median LINE 179
+FUNCTION json_list LINE 192
+FUNCTION write_csv LINE 200
+FUNCTION connect_database LINE 227
+FUNCTION save_video LINE 308
+FUNCTION export_database LINE 369
+FUNCTION build_jobs LINE 398
+FUNCTION initialize_jobs LINE 423
+FUNCTION get_pending_jobs LINE 452
+FUNCTION search_youtube LINE 463
+FUNCTION calculate_relevance LINE 504
+FUNCTION fetch_video_details LINE 560
+FUNCTION make_video_record LINE 576
+IMPORT import os
+IMPORT import re
+IMPORT import json
+IMPORT import csv
+IMPORT import sqlite3
+IMPORT import argparse
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from collections import defaultdict, Counter
+IMPORT from statistics import median as get_median
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+
+CONSTANT OUTPUT_DIR
+
+CONSTANT DATABASE
+
+
+
+
+
+
+FUNCTION log LINE 772
+FUNCTION utc_now LINE 776
+FUNCTION load_api_key LINE 780
+FUNCTION parse_duration LINE 797
+FUNCTION parse_date LINE 816
+FUNCTION safe_int LINE 831
+FUNCTION safe_json_list LINE 838
+FUNCTION write_csv LINE 846
+FUNCTION connect_database LINE 869
+FUNCTION merge_discovered_video LINE 940
+FUNCTION save_search_page LINE 983
+FUNCTION get_saved_page LINE 1021
+FUNCTION get_discovered LINE 1029
+FUNCTION save_video LINE 1048
+FUNCTION export_database LINE 1117
+FUNCTION build_jobs LINE 1129
+FUNCTION search_youtube LINE 1152
+FUNCTION calculate_relevance LINE 1184
+FUNCTION make_video_record LINE 1227
+FUNCTION is_quota_error LINE 1298
+FUNCTION median_value LINE 1312
+FUNCTION category_analysis LINE 1322
+FUNCTION channel_analysis LINE 1357
+FUNCTION prepare_video_exports LINE 1406
+FUNCTION generate_reports LINE 1443
+FUNCTION run LINE 1595
+
+
+======================================================================
+FILE: app\youtube_universe_scanner_v32.py
+======================================================================
+IMPORT import os
+IMPORT import re
+IMPORT import json
+IMPORT import csv
+IMPORT import math
+IMPORT import sqlite3
+IMPORT import argparse
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from collections import defaultdict, Counter
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+
+CONSTANT OUTPUT_DIR
+
+CONSTANT DATABASE
+
+
+
+
+
+
+FUNCTION log LINE 156
+FUNCTION utc_now LINE 160
+FUNCTION safe_int LINE 164
+FUNCTION safe_float LINE 171
+FUNCTION safe_json_list LINE 178
+FUNCTION parse_duration LINE 186
+FUNCTION parse_date LINE 205
+FUNCTION load_api_key LINE 223
+FUNCTION write_csv LINE 241
+FUNCTION save_json LINE 264
+FUNCTION classify_format LINE 279
+FUNCTION short_suitability LINE 300
+FUNCTION short_form_suitability LINE 318
+FUNCTION documentary_suitability LINE 336
+FUNCTION calculate_relevance LINE 361
+FUNCTION calculate_performance_score LINE 408
+FUNCTION connect_database LINE 440
+FUNCTION build_jobs LINE 519
+FUNCTION search_youtube LINE 546
+FUNCTION merge_discovered_video LINE 582
+FUNCTION save_search_page LINE 639
+FUNCTION get_saved_page LINE 693
+FUNCTION get_discovered LINE 704
+FUNCTION make_video_record LINE 734
+FUNCTION save_video LINE 822
+FUNCTION export_database LINE 927
+FUNCTION prepare_video_exports LINE 941
+FUNCTION median_value LINE 1017
+FUNCTION category_analysis LINE 1044
+FUNCTION channel_analysis LINE 1090
+FUNCTION duration_analysis LINE 1151
+FUNCTION generate_reports LINE 1179
+FUNCTION is_quota_error LINE 1402
+FUNCTION run LINE 1416
+
+
+======================================================================
+FILE: app\youtube_universe_scanner_v32_backup.py
+======================================================================
+IMPORT import os
+IMPORT import argparse
+IMPORT import re
+IMPORT import json
+IMPORT import csv
+IMPORT import sqlite3
+IMPORT import statistics
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from pathlib import Path
+IMPORT from collections import defaultdict, Counter
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+
+CONSTANT OUTPUT_DIR
+
+CONSTANT DATABASE
+
+
+
+
+
+
+FUNCTION log LINE 126
+FUNCTION load_api_key LINE 130
+FUNCTION parse_duration LINE 148
+FUNCTION parse_date LINE 167
+FUNCTION median LINE 179
+FUNCTION json_list LINE 192
+FUNCTION write_csv LINE 200
+FUNCTION connect_database LINE 227
+FUNCTION save_video LINE 308
+FUNCTION export_database LINE 369
+FUNCTION build_jobs LINE 398
+FUNCTION initialize_jobs LINE 423
+FUNCTION get_pending_jobs LINE 452
+FUNCTION search_youtube LINE 463
+FUNCTION calculate_relevance LINE 504
+FUNCTION fetch_video_details LINE 560
+FUNCTION make_video_record LINE 576
+IMPORT import os
+IMPORT import re
+IMPORT import json
+IMPORT import csv
+IMPORT import sqlite3
+IMPORT import argparse
+IMPORT from pathlib import Path
+IMPORT from datetime import datetime, timedelta, timezone
+IMPORT from collections import defaultdict, Counter
+IMPORT from statistics import median as get_median
+IMPORT from dotenv import load_dotenv
+IMPORT from googleapiclient.discovery import build
+IMPORT from googleapiclient.errors import HttpError
+
+
+CONSTANT OUTPUT_DIR
+
+CONSTANT DATABASE
+
+
+
+
+
+
+FUNCTION log LINE 772
+FUNCTION utc_now LINE 776
+FUNCTION load_api_key LINE 780
+FUNCTION parse_duration LINE 797
+FUNCTION parse_date LINE 816
+FUNCTION safe_int LINE 831
+FUNCTION safe_json_list LINE 838
+FUNCTION write_csv LINE 846
+FUNCTION connect_database LINE 869
+FUNCTION merge_discovered_video LINE 940
+FUNCTION save_search_page LINE 983
+FUNCTION get_saved_page LINE 1021
+FUNCTION get_discovered LINE 1029
+FUNCTION save_video LINE 1048
+FUNCTION export_database LINE 1117
+FUNCTION build_jobs LINE 1129
+FUNCTION search_youtube LINE 1152
+FUNCTION calculate_relevance LINE 1184
+FUNCTION make_video_record LINE 1227
+FUNCTION is_quota_error LINE 1298
+FUNCTION median_value LINE 1312
+FUNCTION category_analysis LINE 1322
+FUNCTION channel_analysis LINE 1357
+FUNCTION prepare_video_exports LINE 1406
+FUNCTION generate_reports LINE 1443
+FUNCTION run LINE 1595
+
+
+======================================================================
+FILE: app\youtube_universe_scoring_v33.py
+======================================================================
+IMPORT import argparse
+IMPORT import csv
+IMPORT import json
+IMPORT import re
+IMPORT import sqlite3
+IMPORT from collections import Counter
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+
+CONSTANT DEFAULT_OUTPUT
+
+
+
+
+
+
+FUNCTION utc_timestamp LINE 145
+FUNCTION parse_json_list LINE 149
+FUNCTION normalize_text LINE 160
+FUNCTION clean_description LINE 170
+FUNCTION contains_term LINE 208
+FUNCTION find_matches LINE 222
+FUNCTION calculate_relevance LINE 229
+FUNCTION load_videos LINE 406
+FUNCTION score_videos LINE 416
+FUNCTION write_csv LINE 444
+FUNCTION main LINE 482
+
+IMPORT import argparse
+IMPORT import csv
+IMPORT import json
+IMPORT import re
+IMPORT import sqlite3
+IMPORT from collections import Counter
+IMPORT from datetime import datetime, timezone
+IMPORT from pathlib import Path
+
+
+CONSTANT DEFAULT_OUTPUT
+
+
+
+
+
+
+FUNCTION utc_timestamp LINE 864
+FUNCTION parse_json_list LINE 868
+FUNCTION normalize_text LINE 879
+FUNCTION clean_description LINE 889
+FUNCTION contains_term LINE 927
+FUNCTION find_matches LINE 941
+FUNCTION calculate_relevance LINE 948
+FUNCTION load_videos LINE 1125
+FUNCTION score_videos LINE 1135
+FUNCTION write_csv LINE 1163
+FUNCTION main LINE 1201

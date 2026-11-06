@@ -1,0 +1,24 @@
+{
+  "engine": "YOUTUBE_UNIVERSE_V3.3_RESEARCH_PACKAGE_GENERATOR",
+  "generated_at": "2026-11-06T12:20:56.510544+05:30",
+  "audit_records": 100,
+  "human_decision_records": 100,
+  "supporting_source_counts": {
+    "ranking": 100,
+    "format": 100,
+    "performance": 100,
+    "quality": 100,
+    "relevance": 100
+  },
+  "packages_generated": 0,
+  "topics_blocked": 100,
+  "approved_topics_missing_audit": 0,
+  "package_directory": "data\\research\\youtube_universe_v33\\research_packages_v33",
+  "queue_file": "data\\research\\youtube_universe_v33\\latest_research_package_queue_v33.csv",
+  "database_modified": false,
+  "youtube_api_calls": 0,
+  "automatic_topic_approval": false,
+  "automatic_fact_verification": false,
+  "production_approval": false,
+  "status": "COMPLETED"
+}

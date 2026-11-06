@@ -1,0 +1,203 @@
+﻿YOUTUBE AUTOMATION V3.4 - READ ONLY INVENTORY
+Generated: 2026-11-06T12:50:32.8701442+05:30
+Project root: G:\youtube automation
+This audit does not run workflows, render videos, or upload content.
+
+===========================================================================
+1. SYSTEM ENVIRONMENT
+===========================================================================
+
+[Python]
+Python 3.12.10
+
+[Python launcher]
+Python 3.14.8
+
+[FFmpeg]
+ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+
+[Git]
+git version 2.56.0.windows.4
+
+[Docker]
+UNAVAILABLE: The term 'docker' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+[Docker containers]
+UNAVAILABLE: The term 'docker' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+
+===========================================================================
+2. PROJECT DIRECTORY STRUCTURE
+===========================================================================
+DIRECTORY: app
+DIRECTORY: config
+DIRECTORY: data
+DIRECTORY: assets
+DIRECTORY: production
+DIRECTORY: output
+DIRECTORY: reports
+DIRECTORY: logs
+DIRECTORY: backups
+DIRECTORY: workflows
+DIRECTORY: tests
+
+===========================================================================
+3. APPLICATION AND WORKFLOW FILES
+===========================================================================
+app\approval_engine_v1.py | 14,812 bytes
+app\batch10_approval_engine_preflight.py | 3,463 bytes
+app\batch10_production_preflight.py | 2,808 bytes
+app\batch10_save_research_approval.py | 3,421 bytes
+app\batch9_preflight.py | 2,995 bytes
+app\batch9_schema_inspection.py | 1,031 bytes
+app\finalization_inventory_v1.ps1 | 7,836 bytes
+app\research_quality_audit_v24.py | 18,592 bytes
+app\research_quality_audit_v241.py | 17,180 bytes
+app\topic_intelligence.py | 16,197 bytes
+app\topic_research.py | 4,759 bytes
+app\youtube_research.py | 17,034 bytes
+app\youtube_research_v23.py | 18,550 bytes
+app\youtube_universe_apply_pilot_research_v33.py | 18,683 bytes
+app\youtube_universe_content_quality_v33.py | 9,168 bytes
+app\youtube_universe_correct_pilot_research_v33.py | 8,907 bytes
+app\youtube_universe_final_audit_v33.py | 14,304 bytes
+app\youtube_universe_format_v33.py | 12,908 bytes
+app\youtube_universe_human_review_v33.py | 8,139 bytes
+app\youtube_universe_master_dashboard_v33.py | 18,910 bytes
+app\youtube_universe_performance_v33.py | 9,304 bytes
+app\youtube_universe_ranking_v33.py | 11,016 bytes
+app\youtube_universe_research_package_v33.py | 13,039 bytes
+app\youtube_universe_research_workbench_v33.py | 19,947 bytes
+app\youtube_universe_scanner_v30.py | 53,748 bytes
+app\youtube_universe_scanner_v32.py | 48,458 bytes
+app\youtube_universe_scanner_v32_backup.py | 53,748 bytes
+app\youtube_universe_scoring_v33.py | 38,506 bytes
+config\channel.yaml | 1,185 bytes
+data\research\latest_research_quality_audit_v24.json | 40,161 bytes
+data\research\latest_research_quality_audit_v241.json | 40,998 bytes
+data\research\latest_topic_intelligence.json | 15,804 bytes
+data\research\latest_topics.json | 11,373 bytes
+data\research\latest_youtube_research.json | 25,484 bytes
+data\research\latest_youtube_research_v21.json | 25,445 bytes
+data\research\latest_youtube_research_v23.json | 86,253 bytes
+data\research\research_quality_audit_v24_20261105_114250.json | 40,161 bytes
+data\research\research_quality_audit_v241_20261105_114714.json | 40,998 bytes
+data\research\topic_ideas.yaml | 4,417 bytes
+data\research\topic_intelligence_20261105_103248.json | 15,804 bytes
+data\research\topics_20261104_111739.json | 11,373 bytes
+data\research\youtube_research_20261104_165524.json | 25,484 bytes
+data\research\youtube_research_v21_20261104_170522.json | 25,445 bytes
+data\research\youtube_research_v23_20261105_113957.json | 86,253 bytes
+data\research\youtube_universe_v30\latest_universe_report_v31.json | 13,869 bytes
+data\research\youtube_universe_v30\universe_report_v31_20261105_122730.json | 2,147 bytes
+data\research\youtube_universe_v30\universe_report_v31_20261105_122857.json | 11,385 bytes
+data\research\youtube_universe_v30\universe_report_v31_20261105_123152.json | 13,869 bytes
+data\research\youtube_universe_v32\latest_universe_report_v32.json | 3,45,338 bytes
+data\research\youtube_universe_v32\universe_report_v32_20261105_154137.json | 3,45,338 bytes
+data\research\youtube_universe_v33\automated_approval_audit_v1.json | 903 bytes
+data\research\youtube_universe_v33\latest_automated_approval_report_v1.json | 1,343 bytes
+data\research\youtube_universe_v33\latest_candidate_ranking_report_v33.json | 1,534 bytes
+data\research\youtube_universe_v33\latest_content_quality_report_v33.json | 1,300 bytes
+data\research\youtube_universe_v33\latest_final_audit_report_v33.json | 1,177 bytes
+data\research\youtube_universe_v33\latest_format_report_v33.json | 1,922 bytes
+data\research\youtube_universe_v33\latest_human_review_report_v33.json | 1,011 bytes
+data\research\youtube_universe_v33\latest_master_dashboard_report_v33.json | 3,132 bytes
+data\research\youtube_universe_v33\latest_performance_report_v33.json | 1,481 bytes
+data\research\youtube_universe_v33\latest_relevance_report_v33.json | 1,505 bytes
+data\research\youtube_universe_v33\latest_research_package_report_v33.json | 802 bytes
+data\research\youtube_universe_v33\latest_research_workbench_report_v33.json | 1,093 bytes
+data\research\youtube_universe_v33\relevance_report_v33_20261106_120606.json | 1,505 bytes
+data\research\youtube_universe_v33\relevance_report_v33_20261106_120607.json | 1,505 bytes
+
+TOTAL CODE/CONFIG FILES: 64
+
+===========================================================================
+4. ENVIRONMENT FILE PRESENCE - NO SECRET VALUES READ
+===========================================================================
+No environment files found.
+IMPORTANT: Environment file contents and credentials were not read.
+
+===========================================================================
+5. DATABASE AND APPROVED OUTPUT PRESENCE
+===========================================================================
+PRESENT | data\research\youtube_universe_v33\youtube_universe.db | 4,05,504 bytes
+PRESENT | data\research\youtube_universe_v33\human_review_decisions_v33.csv | 12,753 bytes
+PRESENT | data\research\youtube_universe_v33\research_review_decisions_v33.csv | 215 bytes
+PRESENT | data\research\youtube_universe_v33\automated_approval_decisions_v1.csv | 441 bytes
+PRESENT | data\research\youtube_universe_v33\latest_automated_approval_report_v1.json | 1,343 bytes
+NOT FOUND | output\youtube_landscape_final.mp4
+NOT FOUND | output\short_vertical_final.mp4
+NOT FOUND | output\qa_reports\latest_qa_report.json
+
+===========================================================================
+6. IMPORTANT CSV DATA SUMMARY
+===========================================================================
+
+FILE: data\research\youtube_universe_v33\human_review_decisions_v33.csv
+ROWS: 100
+COLUMNS: video_id, title, decision, reviewer_notes, decision_reason, decided_at
+
+FILE: data\research\youtube_universe_v33\research_review_decisions_v33.csv
+ROWS: 1
+COLUMNS: video_id, research_decision, reviewer_notes, decided_at
+
+FILE: data\research\youtube_universe_v33\automated_approval_decisions_v1.csv
+ROWS: 1
+COLUMNS: decision_id, video_id, stage, decision, ruleset_version, decided_at, reason_codes, reason_details, source_count, reviewed_source_count, claim_count, supported_claim_count, evidence_count, reviewed_evidence_count, conflict_count, input_fingerprint
+
+FILE: data\research\youtube_universe_v33\latest_candidate_ranking_v33.csv
+ROWS: 100
+COLUMNS: rank, video_id, title, relevance_score, performance_score, format_score, ranking_score, ranking_status, relevance_status, performance_status, recommended_format, content_quality_status, content_quality_score, quality_weight_included, review_required, review_reasons
+
+FILE: data\research\youtube_universe_v33\latest_master_scored_videos_v33.csv
+ROWS: 100
+COLUMNS: video_id, title, description, channel_id, channel_name, published_at, duration_seconds, views, likes, comments, views_per_day, engagement_rate, category_matches, languages, search_queries, relevance_score, relevance_status, first_seen_at, last_seen_at, scan_count, relevance_confidence, relevance_reason, relevance_category, title_score, description_score, category_score, context_score, title_matches, description_matches, context_matches, video_url
+
+FILE: data\research\youtube_universe_v33\latest_final_audit_v33.csv
+ROWS: 100
+COLUMNS: rank, video_id, title, relevance_score, performance_score, format_score, ranking_score, ranking_status, relevance_status, performance_status, recommended_format, content_quality_status, content_quality_score, quality_weight_included, review_required, review_reasons, audit_rank_position, performance__title, performance__description, performance__channel_id, performance__channel_name, performance__published_at, performance__duration_seconds, performance__views, performance__likes, performance__comments, performance__views_per_day, performance__engagement_rate, performance__category_matches, performance__languages, performance__search_queries, performance__relevance_score, performance__relevance_status, performance__first_seen_at, performance__last_seen_at, performance__scan_count, performance__relevance_confidence, performance__relevance_reason, performance__relevance_category, performance__title_score, performance__description_score, performance__category_score, performance__context_score, performance__title_matches, performance__description_matches, performance__context_matches, performance__video_url, performance__performance_score, performance__performance_status, performance__performance_confidence, performance__velocity_score, performance__engagement_score, performance__total_views_score, performance__engagement_rate_calculated, performance__performance_missing_fields, performance__relevance_review_reason, performance__final_review_flag, format__title, format__description, format__channel_id, format__channel_name, format__published_at, format__duration_seconds, format__views, format__likes, format__comments, format__views_per_day, format__engagement_rate, format__category_matches, format__languages, format__search_queries, format__relevance_score, format__relevance_status, format__first_seen_at, format__last_seen_at, format__scan_count, format__relevance_confidence, format__relevance_reason, format__relevance_category, format__title_score, format__description_score, format__category_score, format__context_score, format__title_matches, format__description_matches, format__context_matches, format__video_url, format__youtube_shorts_eligibility, format__format_scores, format__recommended_format, format__best_format_score, format__format_review_flag, quality__title, quality__transcript_available, quality__transcript_word_count, quality__hook_score, quality__storytelling_score, quality__psychological_depth_score, quality__originality_score, quality__practical_value_score, quality__clarity_score, quality__content_quality_score, quality__content_quality_status, quality__review_reason, relevance__title, relevance__description, relevance__channel_id, relevance__channel_name, relevance__published_at, relevance__duration_seconds, relevance__views, relevance__likes, relevance__comments, relevance__views_per_day, relevance__engagement_rate, relevance__category_matches, relevance__languages, relevance__search_queries, relevance__relevance_score, relevance__relevance_status, relevance__first_seen_at, relevance__last_seen_at, relevance__scan_count, relevance__relevance_confidence, relevance__relevance_reason, relevance__relevance_category, relevance__title_score, relevance__description_score, relevance__category_score, relevance__context_score, relevance__title_matches, relevance__description_matches, relevance__context_matches, relevance__video_url, human_decision, reviewer_notes, decision_reason, ranking_data_available, performance_data_available, format_data_available, quality_record_available, relevance_data_available, content_quality_verification, duplicate_group_id, duplicate_check, final_audit_status, production_approval, recommended_next_action
+
+FILE: data\research\youtube_universe_v33\latest_master_dashboard_v33.csv
+ROWS: 100
+COLUMNS: rank, video_id, title, relevance_score, performance_score, format_score, ranking_score, ranking_status, relevance_status, performance_status, recommended_format, shorts_eligibility, content_quality_status, content_quality_score, quality_weight_included, human_review_decision, human_reviewer_notes, human_decision_reason, topic_decision, workspace_status, source_count, reviewed_source_count, claim_count, supported_claim_count, conflict_count, research_gate, research_decision, research_package_status, production_approval, production_gate
+
+===========================================================================
+7. RESEARCH WORKSPACE SUMMARY
+===========================================================================
+VIDEO WORKSPACES: 2
+_templates | sources.csv=MISSING | claims.csv=MISSING | evidence.csv=MISSING
+E1irX9cDX8U | sources.csv=6 | claims.csv=6 | evidence.csv=6
+
+===========================================================================
+8. PRODUCTION ASSETS AND OUTPUTS
+===========================================================================
+production | FILES=0 | BYTES=0
+assets | FILES=0 | BYTES=0
+output | FILES=0 | BYTES=0
+workflows | FILES=0 | BYTES=0
+tests | FILES=0 | BYTES=0
+reports | FILES=0 | BYTES=0
+logs | FILES=0 | BYTES=0
+
+===========================================================================
+9. PYTHON DEPENDENCY SNAPSHOT
+===========================================================================
+
+[Installed packages]
+pip==25.0.1
+
+===========================================================================
+10. GIT STATUS
+===========================================================================
+
+[Git repository status]
+
+===========================================================================
+11. INVENTORY SAFETY DECLARATION
+===========================================================================
+Database writes: NONE
+CSV writes: NONE
+Production rendering: NOT STARTED
+YouTube API calls: NONE
+Uploads: NONE
+Credentials displayed: NONE
+Inventory completed: 2026-11-06T12:50:42.5808291+05:30

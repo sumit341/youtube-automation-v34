@@ -1,0 +1,35 @@
+{
+  "engine": "V33.1-CONTENT-QUALITY-READINESS",
+  "generated_at": "2026-11-06T06:41:13.253838+00:00",
+  "total_videos": 100,
+  "database_integrity": "ok",
+  "database_read_only": true,
+  "api_calls": 0,
+  "transcript_columns_detected": [],
+  "transcript_available": 0,
+  "transcript_missing": 100,
+  "content_quality_scored": 0,
+  "content_quality_not_evaluated": 100,
+  "transcript_available_pending_review": 0,
+  "quality_dimensions": {
+    "hook": 20,
+    "storytelling": 20,
+    "psychological_depth": 20,
+    "originality": 15,
+    "practical_value": 15,
+    "clarity": 10
+  },
+  "scoring_policy": "No content quality score is assigned without transcript-based validated evaluation.",
+  "limitations": [
+    "A title or description is not a full transcript.",
+    "Transcript presence alone does not prove quality.",
+    "Originality requires comparison against other content.",
+    "No AI model or external API is called by this engine.",
+    "All quality scores remain blank until valid evaluation."
+  ],
+  "files": {
+    "master": "content_quality_master_v33_20261106_121113.csv",
+    "not_evaluated": "content_quality_not_evaluated_v33_20261106_121113.csv",
+    "transcripts_available": "content_quality_transcripts_available_v33_20261106_121113.csv"
+  }
+}

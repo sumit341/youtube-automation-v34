@@ -1,0 +1,106 @@
+{
+  "dashboard_name": "YouTube Universe V3.3 Master Research Dashboard",
+  "generated_at": "2026-11-06T12:34:31.498676+05:30",
+  "mode": "READ_ONLY",
+  "canonical_source": "latest_candidate_ranking_v33.csv",
+  "canonical_rows": 100,
+  "canonical_unique_video_ids": 100,
+  "dashboard_rows": 100,
+  "kpis": {
+    "ranking_status": {
+      "LOW_PRIORITY": 33,
+      "REVIEW_CANDIDATE": 53,
+      "TOP_CANDIDATE": 14
+    },
+    "human_review_decision": {
+      "PENDING": 100
+    },
+    "topic_decision": {
+      "APPROVE": 1,
+      "PENDING": 99
+    },
+    "research_decision": {
+      "NOT_RECORDED": 99,
+      "PENDING": 1
+    },
+    "research_gate": {
+      "BLOCKED": 100
+    },
+    "research_package_status": {
+      "BLOCKED_HUMAN_DECISION_PENDING": 100
+    },
+    "content_quality_status": {
+      "NOT_EVALUATED": 100
+    },
+    "recommended_format": {
+      "DOCUMENTARY": 3,
+      "MEDIUM_FORM": 1,
+      "SHORTS_CANDIDATE": 90,
+      "SHORT_FORM": 5,
+      "VERY_LONG_FORM": 1
+    },
+    "performance_status": {
+      "NORMAL_PERFORMANCE": 95,
+      "PERFORMANCE_OUTLIER": 5
+    },
+    "average_scores": {
+      "relevance_score": 48.34,
+      "performance_score": 48.93,
+      "format_score": 88.45,
+      "ranking_score": 60.58
+    },
+    "production_approval": {
+      "NO": 100
+    },
+    "final_audit_human_decision_diagnostic_only": {
+      "APPROVE": 1,
+      "PENDING": 99
+    }
+  },
+  "integrity": {
+    "missing_files": [],
+    "duplicate_ids": {},
+    "orphan_ids": {},
+    "missing_join_records": {
+      "research_review_decisions_v33.csv": 99
+    },
+    "canonical_duplicate_ids": [],
+    "canonical_rows": 100,
+    "canonical_unique_ids": 100
+  },
+  "warnings": [
+    "Ranking scores are provisional and require human review.",
+    "Content quality is NOT_EVALUATED because transcripts are unavailable.",
+    "Shorts eligibility remains NOT_VERIFIED because aspect-ratio evidence is unavailable.",
+    "Research topic approval does not equal research approval or production approval.",
+    "Production approval is hard-blocked for every dashboard row.",
+    "Final audit human_decision is shown only as a diagnostic and is not used as human review status.",
+    "Some canonical candidates have no matching auxiliary record; these are shown as NOT_RECORDED."
+  ],
+  "safety": {
+    "database_modified": false,
+    "youtube_api_calls": 0,
+    "source_csv_files_modified": false,
+    "human_decisions_modified": false,
+    "automatic_approval": false,
+    "production_approval_granted": false,
+    "transcript_quality_scores_invented": false,
+    "ambiguous_final_audit_decisions_used": false
+  },
+  "audit_report_reference": {
+    "total_ranking_videos": 100,
+    "unique_video_ids": 100,
+    "human_decisions": {
+      "APPROVE": 1,
+      "REJECT": 0,
+      "HOLD": 0,
+      "PENDING": 99
+    },
+    "possible_duplicate_groups": 3,
+    "possible_duplicate_video_records": 16,
+    "automatic_final_approval": false,
+    "production_approval": false,
+    "database_modified": false,
+    "api_calls": 0
+  }
+}

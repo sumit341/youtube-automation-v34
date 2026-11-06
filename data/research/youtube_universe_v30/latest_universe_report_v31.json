@@ -1,0 +1,492 @@
+{
+  "engine": "YouTube Universe Scanner V3.1",
+  "generated_at": "2026-11-05T07:01:54.594776+00:00",
+  "started_at": "2026-11-05T07:01:52.819648+00:00",
+  "recent_window_days": 365,
+  "search_calls_this_run": 1,
+  "detail_calls_this_run": 1,
+  "search_jobs_planned": 30,
+  "raw_search_results_this_run": 50,
+  "unique_discovered_total": 100,
+  "new_video_details_saved_this_run": 50,
+  "master_database_total": 100,
+  "relevance_summary_this_run": {
+    "relevant_candidates": 44,
+    "review": 6,
+    "low_relevance": 0
+  },
+  "category_analysis": [
+    {
+      "category": "Human Psychology",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Money Psychology",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Power Dynamics",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Success",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    },
+    {
+      "category": "Social Comparison",
+      "video_count": 0,
+      "unique_channels": 0,
+      "median_views": 0,
+      "median_views_per_day": 0,
+      "median_engagement_percent": 0
+    }
+  ],
+  "top_channels": [
+    {
+      "channel_id": "UCMrGYMtpJBhKzBgDIPxS_aA",
+      "channel_name": "Psychology Gyan",
+      "video_count": 8,
+      "categories": [],
+      "median_views": 44604.0,
+      "median_views_per_day": 20529.61
+    },
+    {
+      "channel_id": "UCQAb13ds_JJnC7V76fPX-qg",
+      "channel_name": "Hindi TV India",
+      "video_count": 7,
+      "categories": [],
+      "median_views": 2964.0,
+      "median_views_per_day": 2550.0
+    },
+    {
+      "channel_id": "UCJ8sI82blfeO-rCcW3zSc7Q",
+      "channel_name": "they_sycothiix",
+      "video_count": 4,
+      "categories": [],
+      "median_views": 408.0,
+      "median_views_per_day": 173.0
+    },
+    {
+      "channel_id": "UCxiIAhm1z2nIBfnyOplyI0g",
+      "channel_name": "Rคhul ຮคᎥnᎥ",
+      "video_count": 3,
+      "categories": [],
+      "median_views": 3216.0,
+      "median_views_per_day": 3216.0
+    },
+    {
+      "channel_id": "UCSCEE547JP3Cpw-tzZp7PHQ",
+      "channel_name": "Dark Psychology Hindi",
+      "video_count": 3,
+      "categories": [],
+      "median_views": 15.0,
+      "median_views_per_day": 15.0
+    },
+    {
+      "channel_id": "UCkEAPWmGwdicnxfbXrJCcvg",
+      "channel_name": "Thought Fuse | Dark Psychology Hindi",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 2655.5,
+      "median_views_per_day": 1536.97
+    },
+    {
+      "channel_id": "UCYIA3U10bvX5C9-9o4P10ow",
+      "channel_name": "Deeper Meaning of Life",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 1701.0,
+      "median_views_per_day": 1104.41
+    },
+    {
+      "channel_id": "UCVv3GWLjYnH4HA3-k29x48Q",
+      "channel_name": "Facto Gyan",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 903.5,
+      "median_views_per_day": 472.35
+    },
+    {
+      "channel_id": "UCfhWnSnlDIeHhWPE-Ok0ZfQ",
+      "channel_name": "Silent Power",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 93.0,
+      "median_views_per_day": 75.44
+    },
+    {
+      "channel_id": "UCbw-gf0z171Pja1xmzRlHSg",
+      "channel_name": "Mind Sketches Hindi",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 41.5,
+      "median_views_per_day": 41.5
+    },
+    {
+      "channel_id": "UCTKhD5g9HLli7B5rq5FFeLg",
+      "channel_name": "Arka_ff",
+      "video_count": 2,
+      "categories": [],
+      "median_views": 4.0,
+      "median_views_per_day": 1.86
+    },
+    {
+      "channel_id": "UCYoUuK_uXILQmvip-6jDZ-A",
+      "channel_name": "Vaibhav Kadnar",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 62279.0,
+      "median_views_per_day": 30874.26
+    },
+    {
+      "channel_id": "UCp9FVXApQuZWyxaXDu0pWdQ",
+      "channel_name": "Volk Mind",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 31089.0,
+      "median_views_per_day": 11519.26
+    },
+    {
+      "channel_id": "UC5ysqoSmBmXxe8_UhPdIoWA",
+      "channel_name": "Thought Wave ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 18510.0,
+      "median_views_per_day": 6757.06
+    },
+    {
+      "channel_id": "UCZeeNIIb4TEPiSGrzQZ7-GA",
+      "channel_name": "@Mindzovix",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2711.0,
+      "median_views_per_day": 2711.0
+    },
+    {
+      "channel_id": "UCnz7zEdDfyVzSqQ27wyjmQQ",
+      "channel_name": "Mindset Talks",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 6989.0,
+      "median_views_per_day": 2250.55
+    },
+    {
+      "channel_id": "UCndkEWkBoAVlMXbi--_2QjA",
+      "channel_name": "TheDeepVerse",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 3856.0,
+      "median_views_per_day": 2184.11
+    },
+    {
+      "channel_id": "UCU0hMPRq6qaWcLsoT6rK_lg",
+      "channel_name": "Your self ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2000.0,
+      "median_views_per_day": 2000.0
+    },
+    {
+      "channel_id": "UCwGXlQva--JI_Q7w9eRK3ig",
+      "channel_name": "Talk Like Prabh",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1680.0,
+      "median_views_per_day": 1680.0
+    },
+    {
+      "channel_id": "UC-fGoW3ca23Pq3qn--Lkc9w",
+      "channel_name": "Sketch Finance",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1667.0,
+      "median_views_per_day": 1667.0
+    },
+    {
+      "channel_id": "UCSoIUYMdwN2ATzQijIlXutw",
+      "channel_name": "Depth Labs",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2000.0,
+      "median_views_per_day": 1656.2
+    },
+    {
+      "channel_id": "UCM179cBHAVSzIVxx8hDNv6w",
+      "channel_name": "Unmanipulated Mind",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2706.0,
+      "median_views_per_day": 1521.34
+    },
+    {
+      "channel_id": "UC-mBdWnmzdrB02LSPV-uVMg",
+      "channel_name": "Bhushan Shendre ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 3780.0,
+      "median_views_per_day": 1406.05
+    },
+    {
+      "channel_id": "UCN-MEmP9KrIxrz99qbfv2wQ",
+      "channel_name": "Neuro",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1388.0,
+      "median_views_per_day": 1388.0
+    },
+    {
+      "channel_id": "UCn0DIh-OjUbHHJXAajvB_gg",
+      "channel_name": "@sukhi_hub123",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 3791.0,
+      "median_views_per_day": 1353.98
+    },
+    {
+      "channel_id": "UCzKfeqFtaSxbPUG_xDQWKlw",
+      "channel_name": "Stickflixy",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1338.0,
+      "median_views_per_day": 1338.0
+    },
+    {
+      "channel_id": "UCbYejNWMWUw21gcL84EYBBw",
+      "channel_name": "मनत्व",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1329.0,
+      "median_views_per_day": 1329.0
+    },
+    {
+      "channel_id": "UCmgpU5XY9ZqYn-c9gAGH6Nw",
+      "channel_name": "ZEVARO RISE ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2253.0,
+      "median_views_per_day": 1019.66
+    },
+    {
+      "channel_id": "UCiKIU-aMiVczwgjwscmYWjg",
+      "channel_name": "RIVEN THEORY",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1151.0,
+      "median_views_per_day": 942.65
+    },
+    {
+      "channel_id": "UChl-ui1IxL1-iP1w2Zbq0Ng",
+      "channel_name": "potential Decode ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 2038.0,
+      "median_views_per_day": 940.05
+    },
+    {
+      "channel_id": "UCrC7ARux5RRCIRI3GUx55vw",
+      "channel_name": "MPT_song",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1096.0,
+      "median_views_per_day": 895.84
+    },
+    {
+      "channel_id": "UC0bj7PCaOGhjjwSjHnXqjVA",
+      "channel_name": "Aman Growth Lab",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 885.0,
+      "median_views_per_day": 885.0
+    },
+    {
+      "channel_id": "UCoxvY3e6fHWdOw1qOYVZ6Lw",
+      "channel_name": "psychological mindset ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1505.0,
+      "median_views_per_day": 869.87
+    },
+    {
+      "channel_id": "UCk3ys4sj1kmSBna-iz_yjNg",
+      "channel_name": "Motivate liife ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 864.0,
+      "median_views_per_day": 864.0
+    },
+    {
+      "channel_id": "UCKs4PoLXmLumoulym_TFetA",
+      "channel_name": "psycho verse01",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1494.0,
+      "median_views_per_day": 845.15
+    },
+    {
+      "channel_id": "UCRIeAXyl-r5WF71m_IXtqgg",
+      "channel_name": "Rohit mind aura ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 787.0,
+      "median_views_per_day": 787.0
+    },
+    {
+      "channel_id": "UCmaZMLGtZPnZIo4nKqML15g",
+      "channel_name": "How We Figured It Out",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1193.0,
+      "median_views_per_day": 715.29
+    },
+    {
+      "channel_id": "UCbyVZ1x1_1RoDlPt2IgF1fw",
+      "channel_name": "Define mindset ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1980.0,
+      "median_views_per_day": 697.99
+    },
+    {
+      "channel_id": "UCq8_V4I3z3KFYnM0--wNQ-w",
+      "channel_name": "namo budhay 1M ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1799.0,
+      "median_views_per_day": 679.86
+    },
+    {
+      "channel_id": "UCipQW2UNw9INPhlX0Z8R_1g",
+      "channel_name": "wake2mindx01",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 646.0,
+      "median_views_per_day": 646.0
+    },
+    {
+      "channel_id": "UCZcCH1dPutgwqtADPR_NU9Q",
+      "channel_name": "LoopLog",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1257.0,
+      "median_views_per_day": 621.61
+    },
+    {
+      "channel_id": "UCOpMKoanUfpoXQrGoxmNM8A",
+      "channel_name": "Create By Rohan",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 953.0,
+      "median_views_per_day": 575.06
+    },
+    {
+      "channel_id": "UCcf2zVt5DZowYBZ2kulV_Tg",
+      "channel_name": "MG MIND FACTS ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 553.0,
+      "median_views_per_day": 553.0
+    },
+    {
+      "channel_id": "UCroI4hty9W1H-hffpKMt17A",
+      "channel_name": "FactTube FactTube",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1455.0,
+      "median_views_per_day": 534.26
+    },
+    {
+      "channel_id": "UCr66m4j9fmjmAg8qAbIpf5w",
+      "channel_name": "MINDexe",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 1351.0,
+      "median_views_per_day": 490.51
+    },
+    {
+      "channel_id": "UCJNfW2w8JbCnaWFcD_3GafQ",
+      "channel_name": "PSYXO",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 822.0,
+      "median_views_per_day": 455.36
+    },
+    {
+      "channel_id": "UC8YZRc2cGiqyQOBnXI3dqHw",
+      "channel_name": "@Alpha Mindset",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 768.0,
+      "median_views_per_day": 379.81
+    },
+    {
+      "channel_id": "UCv1hj8RMDdhSfU2fGxaNE0g",
+      "channel_name": "SK RAJA SELF GROWTH ",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 366.0,
+      "median_views_per_day": 366.0
+    },
+    {
+      "channel_id": "UCcy4Maqhiakwc_bOljVRWUQ",
+      "channel_name": "Samar Jha",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 339.0,
+      "median_views_per_day": 339.0
+    },
+    {
+      "channel_id": "UCpN2-qr8F473RsmDnG6Rqaw",
+      "channel_name": "PsycheTrainer",
+      "video_count": 1,
+      "categories": [],
+      "median_views": 281.0,
+      "median_views_per_day": 281.0
+    }
+  ],
+  "search_audit": [
+    {
+      "category": "Human Psychology",
+      "language": "Hindi",
+      "query": "human psychology Hindi",
+      "mode": "recent",
+      "page": 1,
+      "results": 50,
+      "checkpoint_time": "2026-11-05T06:58:59.042788+00:00"
+    },
+    {
+      "category": "Human Psychology",
+      "language": "Hindi",
+      "query": "human psychology Hindi",
+      "mode": "recent",
+      "page": 2,
+      "results": 50,
+      "checkpoint_time": "2026-11-05T07:01:54.154419+00:00"
+    }
+  ],
+  "stop_reason": "Search call limit reached. Run again later to resume.",
+  "limitations": [
+    "YouTube Search API does not expose every YouTube video.",
+    "Search results are ranked and incomplete.",
+    "Videos of 180 seconds or less are only short candidates, not confirmed Shorts.",
+    "Relevance scoring is keyword-based and needs human review.",
+    "Views per day is not true growth velocity.",
+    "A video may match more than one category.",
+    "The database contains only videos discovered by this scanner."
+  ]
+}

@@ -1,0 +1,63 @@
+
+channel:
+  name: "The Success Paradoxs"
+  youtube_url: "https://www.youtube.com/@The_Success_Paradoxs"
+
+content:
+  niche:
+    - human psychology
+    - money
+    - power
+    - success
+
+  language: "Hindi"
+  script_language: "Roman Hinglish"
+  style: "Realistic conversational documentary"
+
+  audience: "Hindi and Hinglish speaking viewers"
+
+  formats:
+    - long_video
+    - short_video
+
+  long_video:
+    target_minutes: 8
+    aspect_ratio: "16:9"
+
+  short_video:
+    target_seconds: 45
+    aspect_ratio: "9:16"
+
+research:
+  enabled: true
+  language: "Hindi"
+  region: "IN"
+  topics_per_run: 20
+
+  keywords:
+    - human psychology
+    - money psychology
+    - rich vs poor mindset
+    - social comparison
+    - power dynamics
+    - success habits
+    - financial behavior
+    - emotional spending
+    - decision making
+    - human behavior
+
+production:
+  voice_language: "hi-IN"
+  visual_style: "Cinematic documentary"
+  captions: true
+  background_music: true
+
+publishing:
+  youtube: false
+  instagram: false
+  facebook: false
+  require_human_approval: true
+  default_privacy: "private"
+
+budget:
+  monthly_target_inr: 0

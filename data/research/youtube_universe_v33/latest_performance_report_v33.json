@@ -1,0 +1,42 @@
+{
+  "engine": "YouTube Universe Scanner V3.3",
+  "engine_version": "V33.2-FIXED-PERFORMANCE",
+  "generated_at": "2026-11-06T06:37:22.927687+00:00",
+  "database_read_only": true,
+  "api_calls": 0,
+  "database_integrity": "ok",
+  "total_videos": 100,
+  "performance_summary": {
+    "outliers": 5,
+    "not_evaluated": 0,
+    "normal": 95
+  },
+  "relevance_summary": {
+    "HUMAN_REVIEW": 27,
+    "REVIEW_RELEVANCE": 53,
+    "HIGH_RELEVANCE": 10,
+    "LOW_RELEVANCE": 10
+  },
+  "human_review_count": 27,
+  "performance_formula": {
+    "velocity": "min(50, 10*log10(1+views_per_day))",
+    "engagement": "min(35, 7*engagement_rate_percent)",
+    "total_views": "min(15, 3*log10(1+views))",
+    "engagement_rate": "(likes+comments)/views*100"
+  },
+  "limitations": [
+    "Views per day is an existing metric proxy, not true growth velocity.",
+    "Public metrics do not reveal audience retention.",
+    "Performance score is not viral probability.",
+    "Fixed formula is not cohort-normalized.",
+    "Missing required metrics are not treated as zero.",
+    "Low-confidence relevance is routed to HUMAN_REVIEW.",
+    "Metadata relevance is not transcript verification."
+  ],
+  "files": {
+    "master": "master_scored_v33_20261106_120721.csv",
+    "outliers": "performance_outliers_v33_20261106_120721.csv",
+    "human_review": "human_review_v33_20261106_120721.csv",
+    "not_evaluated": "performance_not_evaluated_v33_20261106_120721.csv"
+  }
+}
