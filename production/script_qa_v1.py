@@ -1,12 +1,12 @@
-
+﻿
 from pathlib import Path
 from datetime import datetime
 import json
 import re
+import argparse
 
-ROOT = Path(__file__).resolve().parent.parent
-RUN_DIR = ROOT / "production/runs/E1irX9cDX8U"
-AUDIT_FILE = RUN_DIR / "research_consistency_report.json"
+ROOT = Path(__file__).resolve().parent.parent
+RUN_DIR = ROOT / "production" / "runs" / "E1irX9cDX8U"
 
 TARGETS = {
     "long": {"minimum": 900, "maximum": 1200, "wpm": 130},
@@ -89,8 +89,14 @@ def check_sections(text, required):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Automated script QA for a research topic")
+    parser.add_argument("--topic-id", default="E1irX9cDX8U")
+    args = parser.parse_args()
+    run_dir = ROOT / "production" / "runs" / args.topic_id
+    audit_file = run_dir / "research_consistency_report.json"
+
     draft_manifests = sorted(
-        (RUN_DIR / "drafts").glob("*/draft_manifest.json"),
+        (run_dir / "drafts").glob("*/draft_manifest.json"),
         key=lambda p: p.stat().st_mtime,
         reverse=True,
     )
@@ -101,7 +107,7 @@ def main():
     manifest_path = draft_manifests[0]
     draft_dir = manifest_path.parent
     manifest = read_json(manifest_path)
-    research = read_json(AUDIT_FILE)
+    research = read_json(audit_file)
 
     long_text = read_text(draft_dir / manifest["long_script"]["file"])
     short_text = read_text(draft_dir / manifest["short_script"]["file"])
@@ -244,7 +250,7 @@ def main():
 
     result = {
         "qa_version": "1.2",
-        "topic_id": "E1irX9cDX8U",
+        "topic_id": args.topic_id,
         "generated_at": datetime.now().astimezone().isoformat(),
         "draft_directory": str(draft_dir),
         "status": status,
@@ -289,3 +295,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

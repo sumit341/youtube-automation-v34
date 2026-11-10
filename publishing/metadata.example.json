@@ -1,0 +1,9 @@
+{
+  "title": "Video title (maximum 100 characters)",
+  "description": "Video description with source references and disclosures where applicable.",
+  "tags": ["psychology", "money mindset", "Hindi documentary"],
+  "category_id": "27",
+  "default_language": "hi",
+  "default_audio_language": "hi",
+  "made_for_kids": false
+}

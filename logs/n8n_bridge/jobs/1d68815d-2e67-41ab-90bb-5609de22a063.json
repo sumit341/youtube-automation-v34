@@ -1,0 +1,17 @@
+{
+  "job_id": "1d68815d-2e67-41ab-90bb-5609de22a063",
+  "action": "research",
+  "status": "completed",
+  "created_at": "2026-11-10T09:44:01.697462+00:00",
+  "updated_at": "2026-11-10T09:44:26.894883+00:00",
+  "exit_code": 0,
+  "safety": {
+    "research_backup_created_by_orchestrator": true,
+    "video_render_executed": false,
+    "youtube_upload_executed": false
+  },
+  "started_at": "2026-11-10T09:44:01.746614+00:00",
+  "log_file": "logs\\n8n_bridge\\1d68815d-2e67-41ab-90bb-5609de22a063.log",
+  "process_id": 3296,
+  "finished_at": "2026-11-10T09:44:26.894883+00:00"
+}
