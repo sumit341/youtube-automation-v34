@@ -1,0 +1,49 @@
+﻿{
+    "settings":  {
+                     "executionOrder":  "v1"
+                 },
+    "name":  "YouTube Automation - Bridge Health Test",
+    "connections":  {
+                        "Manual Test":  {
+                                            "main":  [
+                                                         {
+                                                             "node":  "Check Python Bridge",
+                                                             "type":  "main",
+                                                             "index":  0
+                                                         }
+                                                     ]
+                                        }
+                    },
+    "active":  false,
+    "nodes":  [
+                  {
+                      "id":  "health-manual-trigger",
+                      "name":  "Manual Test",
+                      "type":  "n8n-nodes-base.manualTrigger",
+                      "position":  [
+                                       260,
+                                       300
+                                   ],
+                      "parameters":  {
+
+                                     },
+                      "typeVersion":  1
+                  },
+                  {
+                      "id":  "health-request",
+                      "name":  "Check Python Bridge",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       500,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "options":  {
+
+                                                     },
+                                         "url":  "http://host.docker.internal:8765/health"
+                                     },
+                      "typeVersion":  4.2
+                  }
+              ]
+}

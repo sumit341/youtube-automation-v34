@@ -305,7 +305,7 @@ def build_package(video, decision, folder, analysis, research_decision):
     ]
 
     research_ready = analysis["research_ready"]
-    approved = research_decision == "APPROVE_RESEARCH" and research_ready
+    approved = research_decision in ("APPROVE", "APPROVE_RESEARCH") and research_ready
     package_status = (
         "RESEARCH_APPROVED_FOR_SCRIPT_BRIEF"
         if approved else "RESEARCH_DRAFT_NOT_READY"
@@ -381,7 +381,7 @@ Every factual claim in a future script must map to a reviewed source and evidenc
 
 - Topic approval: {'PASS' if value(decision, 'decision').upper() == 'APPROVE' else 'BLOCKED'}
 - Research readiness: {'PASS' if research_ready else 'BLOCKED'}
-- Research human approval: {'PASS' if research_decision == 'APPROVE_RESEARCH' else 'BLOCKED'}
+- Research human approval: {'PASS' if research_decision in ('APPROVE', 'APPROVE_RESEARCH') else 'BLOCKED'}
 - Script approval: NOT_STARTED
 - Production approval: BLOCKED
 
@@ -482,7 +482,7 @@ def main():
 
         gate_pass = (
             analysis["research_ready"]
-            and research_decision == "APPROVE_RESEARCH"
+            and research_decision in ("APPROVE", "APPROVE_RESEARCH")
         )
 
         queue.append({

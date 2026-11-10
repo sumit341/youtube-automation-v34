@@ -19,7 +19,7 @@ from googleapiclient.errors import HttpError
 # CHECKPOINT + RESUME + QUOTA CONTROL
 # ============================================================
 
-ROOT = Path(r"G:\youtube automation")
+ROOT = Path(__file__).resolve().parent.parent
 
 RUNTIME_ENV = (
     Path.home()
@@ -683,7 +683,7 @@ from googleapiclient.errors import HttpError
 # RESUMABLE + CHECKPOINTED + QUOTA CONTROLLED
 # ============================================================
 
-ROOT = Path(r"G:\youtube automation")
+ROOT = Path(__file__).resolve().parent.parent
 RUNTIME_ENV = Path.home() / "youtube-automation-runtime" / ".env"
 
 OUTPUT_DIR = (

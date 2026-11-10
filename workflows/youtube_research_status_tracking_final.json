@@ -1,0 +1,292 @@
+﻿{
+    "name":  "YouTube Automation - Research with Status Tracking",
+    "nodes":  [
+                  {
+                      "parameters":  {
+
+                                     },
+                      "id":  "79582cb1-606a-4b96-96d3-f3e7ff0eba4e",
+                      "name":  "Start Research",
+                      "type":  "n8n-nodes-base.manualTrigger",
+                      "position":  [
+                                       768,
+                                       64
+                                   ],
+                      "typeVersion":  1
+                  },
+                  {
+                      "parameters":  {
+                                         "method":  "POST",
+                                         "url":  "http://host.docker.internal:8765/run",
+                                         "sendHeaders":  true,
+                                         "headerParameters":  {
+                                                                  "parameters":  [
+                                                                                     {
+                                                                                         "name":  "X-Bridge-Token",
+                                                                                         "value":  "35n15ZLOnMrMw3TtRRHhQ5wBdFd4JnnXNBmEQcIeg4c="
+                                                                                     }
+                                                                                 ]
+                                                              },
+                                         "sendBody":  true,
+                                         "specifyBody":  "json",
+                                         "jsonBody":  "={{ { action: \"research\", confirm_overwrite: true } }}",
+                                         "options":  {
+
+                                                     }
+                                     },
+                      "id":  "af52299d-7f7c-4af2-928f-596487d58515",
+                      "name":  "Run Project Research",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       1040,
+                                       64
+                                   ],
+                      "typeVersion":  4.2
+                  },
+                  {
+                      "parameters":  {
+
+                                     },
+                      "id":  "03fc1633-6869-4a94-8214-aed6a09e70be",
+                      "name":  "Wait 5 Seconds",
+                      "type":  "n8n-nodes-base.wait",
+                      "position":  [
+                                       1280,
+                                       64
+                                   ],
+                      "typeVersion":  1.1,
+                      "webhookId":  "e994738d-25a2-4483-9bd4-80b57a782735"
+                  },
+                  {
+                      "parameters":  {
+                                         "url":  "={{ \"http://host.docker.internal:8765\" + $node[\"Run Project Research\"].json.status_url }}",
+                                         "sendHeaders":  true,
+                                         "headerParameters":  {
+                                                                  "parameters":  [
+                                                                                     {
+                                                                                         "name":  "X-Bridge-Token",
+                                                                                         "value":  "35n15ZLOnMrMw3TtRRHhQ5wBdFd4JnnXNBmEQcIeg4c="
+                                                                                     }
+                                                                                 ]
+                                                              },
+                                         "options":  {
+
+                                                     }
+                                     },
+                      "id":  "f6681a3b-90c1-4664-87da-610fa64e120b",
+                      "name":  "Check Research Status",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       1472,
+                                       64
+                                   ],
+                      "typeVersion":  4.2
+                  },
+                  {
+                      "parameters":  {
+                                         "conditions":  {
+                                                            "options":  {
+                                                                            "version":  2,
+                                                                            "typeValidation":  "strict",
+                                                                            "leftValue":  "",
+                                                                            "caseSensitive":  true
+                                                                        },
+                                                            "conditions":  [
+                                                                               {
+                                                                                   "operator":  {
+                                                                                                    "operation":  "equals",
+                                                                                                    "type":  "string"
+                                                                                                },
+                                                                                   "rightValue":  "queued",
+                                                                                   "id":  "246f9ad5-638d-42c0-a332-80986495e7f2",
+                                                                                   "leftValue":  "={{ $json.status }}"
+                                                                               },
+                                                                               {
+                                                                                   "operator":  {
+                                                                                                    "operation":  "equals",
+                                                                                                    "type":  "string"
+                                                                                                },
+                                                                                   "rightValue":  "running",
+                                                                                   "id":  "e6dfbc5b-950e-4123-a8ac-d8e044f2faeb",
+                                                                                   "leftValue":  "={{ $json.status }}"
+                                                                               }
+                                                                           ],
+                                                            "combinator":  "or"
+                                                        },
+                                         "options":  {
+
+                                                     }
+                                     },
+                      "id":  "85d12e93-9c04-4021-864a-04ea52f2a608",
+                      "name":  "Research Still Running?",
+                      "type":  "n8n-nodes-base.if",
+                      "position":  [
+                                       1824,
+                                       64
+                                   ],
+                      "typeVersion":  2.2
+                  },
+                  {
+                      "parameters":  {
+                                         "options":  {
+
+                                                     },
+                                         "conditions":  {
+                                                            "options":  {
+                                                                            "version":  2,
+                                                                            "typeValidation":  "strict",
+                                                                            "leftValue":  "",
+                                                                            "caseSensitive":  true
+                                                                        },
+                                                            "conditions":  [
+                                                                               {
+                                                                                   "operator":  {
+                                                                                                    "operation":  "equals",
+                                                                                                    "type":  "string"
+                                                                                                },
+                                                                                   "rightValue":  "completed",
+                                                                                   "id":  "fa98a96b-8d40-4f31-a184-9ef7cc344b16",
+                                                                                   "leftValue":  "={{ $json.status }}"
+                                                                               }
+                                                                           ],
+                                                            "combinator":  "and"
+                                                        }
+                                     },
+                      "type":  "n8n-nodes-base.if",
+                      "typeVersion":  2.2,
+                      "position":  [
+                                       1000,
+                                       360
+                                   ],
+                      "id":  "cb31eb04-7178-4c3c-ada4-eea5b9d91b0f",
+                      "name":  "Research Completed?"
+                  },
+                  {
+                      "parameters":  {
+
+                                     },
+                      "type":  "n8n-nodes-base.noOp",
+                      "typeVersion":  1,
+                      "position":  [
+                                       1240,
+                                       280
+                                   ],
+                      "id":  "9e31d9a4-a102-46b2-9d94-8104dea25688",
+                      "name":  "Research Successful"
+                  },
+                  {
+                      "parameters":  {
+
+                                     },
+                      "type":  "n8n-nodes-base.noOp",
+                      "typeVersion":  1,
+                      "position":  [
+                                       1240,
+                                       460
+                                   ],
+                      "id":  "363c2bd6-af7b-401c-8728-5b6afbc86694",
+                      "name":  "Research Failed"
+                  }
+              ],
+    "pinData":  {
+
+                },
+    "connections":  {
+                        "Start Research":  {
+                                               "main":  [
+                                                            [
+                                                                {
+                                                                    "node":  "Run Project Research",
+                                                                    "type":  "main",
+                                                                    "index":  0
+                                                                }
+                                                            ]
+                                                        ]
+                                           },
+                        "Research Still Running?":  {
+                                                        "main":  [
+                                                                     [
+                                                                         {
+                                                                             "node":  "Wait 5 Seconds",
+                                                                             "type":  "main",
+                                                                             "index":  0
+                                                                         }
+                                                                     ],
+                                                                     [
+                                                                         {
+                                                                             "node":  "Research Completed?",
+                                                                             "type":  "main",
+                                                                             "index":  0
+                                                                         }
+                                                                     ]
+                                                                 ]
+                                                    },
+                        "Run Project Research":  {
+                                                     "main":  [
+                                                                  [
+                                                                      {
+                                                                          "node":  "Wait 5 Seconds",
+                                                                          "type":  "main",
+                                                                          "index":  0
+                                                                      }
+                                                                  ]
+                                                              ]
+                                                 },
+                        "Wait 5 Seconds":  {
+                                               "main":  [
+                                                            [
+                                                                {
+                                                                    "node":  "Check Research Status",
+                                                                    "type":  "main",
+                                                                    "index":  0
+                                                                }
+                                                            ]
+                                                        ]
+                                           },
+                        "Check Research Status":  {
+                                                      "main":  [
+                                                                   [
+                                                                       {
+                                                                           "node":  "Research Still Running?",
+                                                                           "type":  "main",
+                                                                           "index":  0
+                                                                       }
+                                                                   ]
+                                                               ]
+                                                  },
+                        "Research Completed?":  {
+                                                    "main":  [
+                                                                 [
+                                                                     {
+                                                                         "node":  "Research Successful",
+                                                                         "type":  "main",
+                                                                         "index":  0
+                                                                     }
+                                                                 ],
+                                                                 [
+                                                                     {
+                                                                         "node":  "Research Failed",
+                                                                         "type":  "main",
+                                                                         "index":  0
+                                                                     }
+                                                                 ]
+                                                             ]
+                                                }
+                    },
+    "active":  false,
+    "settings":  {
+                     "executionOrder":  "v1",
+                     "binaryMode":  "separate"
+                 },
+    "versionId":  "bd004e3b-9664-4676-89b9-94c2a8efed96",
+    "meta":  {
+                 "instanceId":  "08f7f14b71b208a3fcff23c2483a744dfb4454e8c2a410fded9a184e099432ca"
+             },
+    "nodeGroups":  [
+
+                   ],
+    "id":  "6IdcOWjb4Riz7A9O",
+    "tags":  [
+
+             ]
+}

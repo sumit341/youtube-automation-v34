@@ -1,0 +1,63 @@
+﻿{
+    "settings":  {
+                     "executionOrder":  "v1"
+                 },
+    "name":  "YouTube Automation - Research Runner",
+    "connections":  {
+                        "Start Research Manually":  {
+                                                        "main":  [
+                                                                     {
+                                                                         "node":  "Send Research Job",
+                                                                         "type":  "main",
+                                                                         "index":  0
+                                                                     }
+                                                                 ]
+                                                    }
+                    },
+    "active":  false,
+    "nodes":  [
+                  {
+                      "id":  "research-manual-trigger",
+                      "name":  "Start Research Manually",
+                      "type":  "n8n-nodes-base.manualTrigger",
+                      "position":  [
+                                       260,
+                                       300
+                                   ],
+                      "parameters":  {
+
+                                     },
+                      "typeVersion":  1
+                  },
+                  {
+                      "id":  "research-start-request",
+                      "name":  "Send Research Job",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       520,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "url":  "http://host.docker.internal:8765/run",
+                                         "options":  {
+
+                                                     },
+                                         "contentType":  "json",
+                                         "method":  "POST",
+                                         "specifyBody":  "json",
+                                         "sendBody":  true,
+                                         "sendHeaders":  true,
+                                         "jsonBody":  "={{ { action: \u0027research\u0027, confirm_overwrite: true } }}",
+                                         "headerParameters":  {
+                                                                  "parameters":  [
+                                                                                     {
+                                                                                         "value":  "Z9mz7yNSJhLUZuwjKS/Oq89pQe1AjC/8WatU+mnQyFg=",
+                                                                                         "name":  "X-Bridge-Token"
+                                                                                     }
+                                                                                 ]
+                                                              }
+                                     },
+                      "typeVersion":  4.2
+                  }
+              ]
+}

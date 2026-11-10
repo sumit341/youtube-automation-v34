@@ -22,7 +22,7 @@ from googleapiclient.errors import HttpError
 # FORMAT + RELEVANCE + PERFORMANCE ANALYSIS
 # ============================================================
 
-ROOT = Path(r"G:\youtube automation")
+ROOT = Path(__file__).resolve().parent.parent
 
 RUNTIME_ENV = (
     Path.home()

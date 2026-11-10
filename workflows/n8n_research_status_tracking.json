@@ -1,0 +1,184 @@
+﻿{
+    "settings":  {
+                     "executionOrder":  "v1"
+                 },
+    "name":  "YouTube Automation - Research with Status Tracking",
+    "connections":  {
+                        "Research Still Running?":  {
+                                                        "main":  [
+                                                                     [
+                                                                         {
+                                                                             "node":  "Wait 5 Seconds",
+                                                                             "type":  "main",
+                                                                             "index":  0
+                                                                         }
+                                                                     ],
+                                                                     [
+
+                                                                     ]
+                                                                 ]
+                                                    },
+                        "Run Project Research":  {
+                                                     "main":  [
+                                                                  {
+                                                                      "node":  "Wait 5 Seconds",
+                                                                      "type":  "main",
+                                                                      "index":  0
+                                                                  }
+                                                              ]
+                                                 },
+                        "Check Research Status":  {
+                                                      "main":  [
+                                                                   {
+                                                                       "node":  "Research Still Running?",
+                                                                       "type":  "main",
+                                                                       "index":  0
+                                                                   }
+                                                               ]
+                                                  },
+                        "Start Research":  {
+                                               "main":  [
+                                                            {
+                                                                "node":  "Run Project Research",
+                                                                "type":  "main",
+                                                                "index":  0
+                                                            }
+                                                        ]
+                                           },
+                        "Wait 5 Seconds":  {
+                                               "main":  [
+                                                            {
+                                                                "node":  "Check Research Status",
+                                                                "type":  "main",
+                                                                "index":  0
+                                                            }
+                                                        ]
+                                           }
+                    },
+    "active":  false,
+    "nodes":  [
+                  {
+                      "id":  "yt-trigger",
+                      "name":  "Start Research",
+                      "type":  "n8n-nodes-base.manualTrigger",
+                      "position":  [
+                                       200,
+                                       300
+                                   ],
+                      "parameters":  {
+
+                                     },
+                      "typeVersion":  1
+                  },
+                  {
+                      "id":  "yt-start-job",
+                      "name":  "Run Project Research",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       440,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "url":  "http://host.docker.internal:8765/run",
+                                         "options":  {
+
+                                                     },
+                                         "contentType":  "json",
+                                         "method":  "POST",
+                                         "specifyBody":  "json",
+                                         "sendBody":  true,
+                                         "sendHeaders":  true,
+                                         "jsonBody":  "={{ { action: \"research\", confirm_overwrite: true } }}",
+                                         "headerParameters":  {
+                                                                  "parameters":  [
+                                                                                     {
+                                                                                         "value":  "Z9mz7yNSJhLUZuwjKS/Oq89pQe1AjC/8WatU+mnQyFg=",
+                                                                                         "name":  "X-Bridge-Token"
+                                                                                     }
+                                                                                 ]
+                                                              }
+                                     },
+                      "typeVersion":  4.2
+                  },
+                  {
+                      "id":  "yt-wait",
+                      "name":  "Wait 5 Seconds",
+                      "type":  "n8n-nodes-base.wait",
+                      "position":  [
+                                       680,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "unit":  "seconds",
+                                         "amount":  5
+                                     },
+                      "typeVersion":  1.1
+                  },
+                  {
+                      "id":  "yt-check-status",
+                      "name":  "Check Research Status",
+                      "type":  "n8n-nodes-base.httpRequest",
+                      "position":  [
+                                       920,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "url":  "={{ \"http://host.docker.internal:8765\" + $node[\"Run Project Research\"].json.status_url }}",
+                                         "sendHeaders":  true,
+                                         "headerParameters":  {
+                                                                  "parameters":  [
+                                                                                     {
+                                                                                         "value":  "Z9mz7yNSJhLUZuwjKS/Oq89pQe1AjC/8WatU+mnQyFg=",
+                                                                                         "name":  "X-Bridge-Token"
+                                                                                     }
+                                                                                 ]
+                                                              },
+                                         "options":  {
+
+                                                     }
+                                     },
+                      "typeVersion":  4.2
+                  },
+                  {
+                      "id":  "yt-status-if",
+                      "name":  "Research Still Running?",
+                      "type":  "n8n-nodes-base.if",
+                      "position":  [
+                                       1160,
+                                       300
+                                   ],
+                      "parameters":  {
+                                         "options":  {
+
+                                                     },
+                                         "conditions":  {
+                                                            "options":  {
+                                                                            "version":  2,
+                                                                            "typeValidation":  "strict",
+                                                                            "caseSensitive":  true
+                                                                        },
+                                                            "conditions":  [
+                                                                               {
+                                                                                   "operator":  {
+                                                                                                    "operation":  "equals",
+                                                                                                    "type":  "string"
+                                                                                                },
+                                                                                   "rightValue":  "queued",
+                                                                                   "leftValue":  "={{ .status }}"
+                                                                               },
+                                                                               {
+                                                                                   "operator":  {
+                                                                                                    "operation":  "equals",
+                                                                                                    "type":  "string"
+                                                                                                },
+                                                                                   "rightValue":  "running",
+                                                                                   "leftValue":  "={{ .status }}"
+                                                                               }
+                                                                           ],
+                                                            "combinator":  "or"
+                                                        }
+                                     },
+                      "typeVersion":  2.2
+                  }
+              ]
+}

@@ -13,3 +13,12 @@ credentials/
 token.json
 client_secret*.json
 reports/v34_final_source_snapshot.txt
+config/n8n.env
+
+workflows/n8n_research_status_tracking.json
+
+# Local credentials and integration tokens
+*.token
+config/n8n_bridge.token
+client_secret*.json
+token.json
