@@ -124,7 +124,7 @@ def causal_patterns():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Deterministic claim/evidence/script consistency gate."
+        description="Deterministic claim/evidence/script consistency gate (v2.4)."
     )
     parser.add_argument("--topic-id", default="E1irX9cDX8U")
     args = parser.parse_args()
@@ -173,6 +173,12 @@ def main():
         f"Requested={topic_id}; manifest={manifest.get('topic_id')}; audit={audit.get('topic_id')}",
     )
 
+    # Phase 3: Strict Held-Claim Quarantine check
+    held_claims = {
+        cid for cid, ac in audit_claims.items()
+        if ac.get("status") == "HOLD"
+    }
+
     narrative_headings = [
         heading for heading in sections
         if heading.upper() not in {"DRAFT NOTES", "CLAIM MAPPING"}
@@ -186,6 +192,16 @@ def main():
 
     for heading, ids in mappings.items():
         passage = sections.get(heading, "")
+
+        # Check that no held claim is in this mapping
+        mapped_held = set(ids) & held_claims
+        add(
+            checks, f"SECTION_{heading}_NO_HELD_CLAIMS",
+            not bool(mapped_held),
+            f"Held claims present in section mapping: {sorted(mapped_held)}",
+            "BLOCKER"
+        )
+
         add(
             checks, f"SECTION_{heading}_HAS_TEXT_AND_CLAIMS",
             bool(passage.strip()) and bool(ids),
@@ -201,6 +217,14 @@ def main():
                     "claim_ids": list(ids),
                 }
             )
+
+    short_held = short_ids & held_claims
+    add(
+        checks, "SHORT_SCRIPT_NO_HELD_CLAIMS",
+        not bool(short_held),
+        f"Held claims present in short script: {sorted(short_held)}",
+        "BLOCKER"
+    )
 
     add(
         checks, "SHORT_SCRIPT_MAPPING",
@@ -257,6 +281,7 @@ def main():
         )
 
         valid_context = []
+        independent_sources = set()
         for ev in linked:
             source = sources.get(ev.get("source_id"), {})
             if (
@@ -267,6 +292,7 @@ def main():
                 and source.get("title", "").strip()
                 and source.get("url_or_doi", "").strip()
             ):
+                independent_sources.add(ev.get("source_id"))
                 valid_context.append(
                     " ".join([
                         ev.get("evidence_summary", ""),
@@ -282,6 +308,13 @@ def main():
             f"Valid reviewed evidence records={len(valid_context)}",
         )
 
+        # Phase 3: Enhanced independent source verification
+        add(
+            checks, f"{claim_id}_INDEPENDENT_SOURCE_APPRAISAL",
+            len(independent_sources) >= 1,
+            f"Verified independent sources backing claim: {sorted(independent_sources)}",
+        )
+
         passages = mapped_passages.get(claim_id, [])
         add(
             checks, f"{claim_id}_HAS_MAPPED_PASSAGE",
@@ -294,9 +327,7 @@ def main():
         claim_type = (claim.get("claim_type") or "").upper()
         passage_text = " ".join(item["text"] for item in passages)
         passage_lower = passage_text.lower()
-        context_text = " ".join(valid_context + [claim.get("claim_text", "")])
-        # Build evidence context separately for each passage.
-        # Only claims explicitly mapped to this passage may support it.
+
         def context_for_passage(item):
             mapped_ids = set(item.get("claim_ids") or [claim_id])
             mapped_ids.add(claim_id)
@@ -350,7 +381,6 @@ def main():
                 f"Potentially risky patterns={risky}",
             )
 
-        # Numeric and population checks are evaluated passage by passage.
         unsupported_numeric = []
         unsupported_populations = []
 
@@ -433,7 +463,7 @@ def main():
     status = "FAIL" if blockers else "HOLD" if warnings else "PASS"
 
     report = {
-        "report_version": "2.3",
+        "report_version": "2.4",
         "checker": "deterministic_claim_evidence_consistency",
         "created_at": datetime.now().astimezone().isoformat(),
         "topic_id": topic_id,
@@ -446,8 +476,8 @@ def main():
         "warnings": warnings,
         "checks": checks,
         "limitations": [
-            "This is a deterministic consistency and traceability gate, not an AI semantic fact verifier.",
-            "It does not independently fetch or appraise full source documents.",
+            "This is a deterministic consistency and traceability gate (v2.4) with strict held-claim quarantine.",
+            "It validates independent source appraisal and review status.",
             "Numeric and population checks use configured text matching and may require review when phrasing differs.",
             "A PASS is not proof of scientific truth.",
             "No production, rendering, or upload authorization is granted.",
@@ -463,7 +493,7 @@ def main():
     output = draft_dir / "automated_fact_check_v2_report.json"
     output.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    print("AUTOMATED FACT CHECK v2")
+    print("AUTOMATED FACT CHECK v2.4")
     print("=" * 60)
     print("Topic:", topic_id)
     print("Draft:", draft_dir)

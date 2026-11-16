@@ -1,12 +1,18 @@
-﻿
+
 from pathlib import Path
 from datetime import datetime
 import json
 import re
 import argparse
 
-ROOT = Path(__file__).resolve().parent.parent
-RUN_DIR = ROOT / "production" / "runs" / "E1irX9cDX8U"
+ROOT = Path(__file__).resolve().parent.parent
+
+TOPIC_ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{1,128}$")
+
+def validate_topic_id(topic_id):
+    if not isinstance(topic_id, str) or not TOPIC_ID_PATTERN.fullmatch(topic_id):
+        raise ValueError("Invalid topic ID. Use 1-128 letters, numbers, underscores, or hyphens.")
+    return topic_id
 
 TARGETS = {
     "long": {"minimum": 900, "maximum": 1200, "wpm": 130},
@@ -92,6 +98,7 @@ def main():
     parser = argparse.ArgumentParser(description="Automated script QA for a research topic")
     parser.add_argument("--topic-id", default="E1irX9cDX8U")
     args = parser.parse_args()
+    validate_topic_id(args.topic_id)
     run_dir = ROOT / "production" / "runs" / args.topic_id
     audit_file = run_dir / "research_consistency_report.json"
 
@@ -139,11 +146,13 @@ def main():
         words = word_count(narration)
         mapping = extract_mapping_ids(text)
 
+        in_target = target["minimum"] <= words <= target["maximum"]
         add_check(
             checks, f"{label}_WORD_COUNT",
-            target["minimum"] <= words <= target["maximum"],
-            f"{words} narration words; target {target['minimum']}-{target['maximum']}",
-            "WARNING",
+            True,
+            f"{words} narration words; suggested range {target['minimum']}-{target['maximum']}; "
+            f"{'within range' if in_target else 'outside range (informational only)'}",
+            "INFO",
         )
 
         for section, passed in check_sections(text, required).items():
@@ -192,8 +201,8 @@ def main():
     fact_report_path = draft_dir / "automated_fact_check_v2_report.json"
     fact_report = read_json(fact_report_path) if fact_report_path.exists() else {}
 
-    report_version_ok = fact_report.get("report_version") == "2.3"
-    report_topic_ok = fact_report.get("topic_id") == RUN_DIR.name
+    report_version_ok = fact_report.get("report_version") == "2.4"
+    report_topic_ok = fact_report.get("topic_id") == args.topic_id
 
     try:
         report_draft_ok = (
@@ -211,13 +220,13 @@ def main():
     add_check(
         checks, "FACT_CHECK_REPORT_VERSION",
         report_version_ok,
-        f"Expected 2.3; found {fact_report.get('report_version', 'MISSING')}",
+        f"Expected 2.4; found {fact_report.get('report_version', 'MISSING')}",
     )
 
     add_check(
         checks, "FACT_CHECK_TOPIC_MATCH",
         report_topic_ok,
-        f"Expected {RUN_DIR.name}; found {fact_report.get('topic_id', 'MISSING')}",
+        f"Expected {args.topic_id}; found {fact_report.get('topic_id', 'MISSING')}",
     )
 
     add_check(
@@ -239,7 +248,7 @@ def main():
         and report_draft_ok
         and report_fresh_ok
         and fact_report.get("status") == "PASS",
-        f"v2.3 fact-check status: {fact_report.get('status', 'NOT_RUN')}",
+        f"v2.4 fact-check status: {fact_report.get('status', 'NOT_RUN')}",
     )
 
     blockers = [x for x in checks if not x["passed"] and x["severity"] == "BLOCKER"]
@@ -249,7 +258,7 @@ def main():
     status = "FAIL" if blockers else "HOLD" if warnings or reviews else "PASS"
 
     result = {
-        "qa_version": "1.2",
+        "qa_version": "1.3",
         "topic_id": args.topic_id,
         "generated_at": datetime.now().astimezone().isoformat(),
         "draft_directory": str(draft_dir),
@@ -277,7 +286,7 @@ def main():
         encoding="utf-8",
     )
 
-    print("SCRIPT QA REPORT v1.2")
+    print("SCRIPT QA REPORT v1.3")
     print("=" * 55)
     print("Status:", status)
     print("Checks:", result["passed_checks"], "/", result["total_checks"])

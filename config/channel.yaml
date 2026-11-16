@@ -1,7 +1,6 @@
-
 channel:
-  name: "The Success Paradoxs"
-  youtube_url: "https://www.youtube.com/@The_Success_Paradoxs"
+  name: "The Success Paradox"
+  youtube_url: "https://www.youtube.com/@TheSuccessParadox"   # update if you chose a different handle
 
 content:
   niche:
@@ -10,11 +9,11 @@ content:
     - power
     - success
 
-  language: "Hindi"
-  script_language: "Roman Hinglish"
-  style: "Realistic conversational documentary"
+  language: "English"
+  script_language: "American English"
+  style: "Calm, authoritative documentary narration"
 
-  audience: "Hindi and Hinglish speaking viewers"
+  audience: "US viewers interested in psychology, money, power and self-improvement"
 
   formats:
     - long_video
@@ -30,24 +29,25 @@ content:
 
 research:
   enabled: true
-  language: "Hindi"
-  region: "IN"
+  language: "English"
+  region: "US"
   topics_per_run: 20
 
   keywords:
     - human psychology
-    - money psychology
+    - psychology of money
     - rich vs poor mindset
     - social comparison
     - power dynamics
+    - 48 laws of power
     - success habits
     - financial behavior
-    - emotional spending
+    - lifestyle inflation
     - decision making
-    - human behavior
+    - dark psychology awareness
 
 production:
-  voice_language: "hi-IN"
+  voice_language: "en-US"
   visual_style: "Cinematic documentary"
   captions: true
   background_music: true
@@ -61,3 +61,4 @@ publishing:
 
 budget:
   monthly_target_inr: 0
+  monthly_target_usd: 0

@@ -22,3 +22,11 @@ workflows/n8n_research_status_tracking.json
 config/n8n_bridge.token
 client_secret*.json
 token.json
+
+# Local virtual environments and accidental root artifacts
+.venv*/
+venv*/
+/limit
+/portable
+/pyyaml
+/nul

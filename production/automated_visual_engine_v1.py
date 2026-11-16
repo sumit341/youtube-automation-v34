@@ -1,14 +1,21 @@
-﻿from pathlib import Path
+from pathlib import Path
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFilter, ImageChops
 import hashlib, json, random, argparse, sys
 
 ROOT = Path(__file__).resolve().parent.parent
-TOPIC = "E1irX9cDX8U"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
+
+def validate_topic_id(topic):
+    import re
+    if not re.fullmatch(r"[A-Za-z0-9_-]{3,80}", str(topic or "")):
+        raise ValueError("Invalid topic ID; path separators and traversal are not allowed.")
 
 def latest_draft(topic):
+    validate_topic_id(topic)
     base = ROOT / "production" / "runs" / topic / "drafts"
+    if not base.is_dir():
+        raise RuntimeError(f"Draft directory not found for topic: {topic}")
     candidates = []
     for p in base.iterdir():
         if p.is_dir() and (p / "creative_package.json").is_file():
@@ -112,6 +119,61 @@ def make_artwork(task, output, attempt=0):
     draw.line(points, fill=(*accent, 150), width=max(3, short // 220),
               joint="curve")
 
+    # Scene-aware visual motif. This is deterministic and uses only Pillow
+    # primitives; it is not represented as photorealistic AI imagery.
+    scene_text = " ".join([
+        str(task.get("visual_direction", "")),
+        str(task.get("narration_excerpt", "")),
+        str(task.get("section", "")),
+    ]).lower()
+    cx, cy = width // 2, height // 2
+    unit = max(12, short // 35)
+    ink = (*accent, 220)
+    pale = (225, 235, 245, 190)
+
+    def line(coords, fill=ink, w=None):
+        draw.line(coords, fill=fill, width=w or max(3, unit // 5), joint="curve")
+
+    def ellipse(box, outline=ink, w=None, fill=None):
+        draw.ellipse(box, outline=outline, width=w or max(3, unit // 5), fill=fill)
+
+    if any(k in scene_text for k in ("money", "wealth", "finance", "cash", "debt", "invest", "rich", "poor", "price", "income")):
+        # Coin stack + rising financial trajectory.
+        for n in range(4):
+            y = cy + unit * (2 - n)
+            draw.rounded_rectangle((cx-unit*3, y, cx-unit, y+unit//2),
+                radius=unit//5, outline=pale, width=max(3, unit//6), fill=(20, 35, 55, 120))
+        line([(cx, cy+unit*2), (cx+unit, cy+unit), (cx+unit*2, cy+unit//2), (cx+unit*3, cy-unit*2)], w=max(5,unit//4))
+        line([(cx+unit*2,cy-unit*2),(cx+unit*3,cy-unit*2),(cx+unit*3,cy-unit)], w=max(5,unit//4))
+    elif any(k in scene_text for k in ("brain", "psychology", "mind", "thought", "emotion", "memory", "overthink", "behavior", "decision")):
+        # Abstract brain hemispheres with neural connections.
+        ellipse((cx-unit*3,cy-unit*3,cx,cy+unit*3), pale, max(4,unit//4))
+        ellipse((cx,cy-unit*3,cx+unit*3,cy+unit*3), pale, max(4,unit//4))
+        line([(cx,cy-unit*2),(cx-unit,cy-unit),(cx-unit*2,cy),(cx-unit,cy+unit),(cx,cy+unit*2)],w=max(3,unit//5))
+        line([(cx,cy-unit*2),(cx+unit,cy-unit),(cx+unit*2,cy),(cx+unit,cy+unit),(cx,cy+unit*2)],w=max(3,unit//5))
+        for dx,dy in [(-2,-1),(-1,1),(1,-1),(2,1)]:
+            ellipse((cx+dx*unit-unit//5,cy+dy*unit-unit//5,cx+dx*unit+unit//5,cy+dy*unit+unit//5),ink,fill=ink)
+    elif any(k in scene_text for k in ("power", "status", "hierarchy", "influence", "leader", "control", "authority", "dominance")):
+        # Tiered hierarchy / influence pyramid.
+        draw.polygon([(cx,cy-unit*3),(cx-unit*3,cy+unit*2),(cx+unit*3,cy+unit*2)], outline=pale, fill=(20,35,55,100))
+        line([(cx-unit*2,cy+unit//3),(cx+unit*2,cy+unit//3)],pale)
+        line([(cx-unit*5//2,cy+unit),(cx+unit*5//2,cy+unit)],pale)
+        for dx,dy in [(0,-unit*2),(-unit,unit),(unit,unit)]:
+            ellipse((cx+dx-unit//4,cy+dy-unit//4,cx+dx+unit//4,cy+dy+unit//4),ink,fill=ink)
+    elif any(k in scene_text for k in ("time", "habit", "routine", "discipline", "focus", "productivity", "morning", "clock")):
+        # Clock face with deliberate hands.
+        ellipse((cx-unit*3,cy-unit*3,cx+unit*3,cy+unit*3),pale,max(5,unit//4))
+        line([(cx,cy),(cx,cy-unit*2)],pale,max(5,unit//4))
+        line([(cx,cy),(cx+unit*2,cy+unit)],ink,max(5,unit//4))
+        ellipse((cx-unit//4,cy-unit//4,cx+unit//4,cy+unit//4),ink,fill=ink)
+    elif any(k in scene_text for k in ("social", "phone", "screen", "notification", "internet", "media", "scroll")):
+        # Smartphone silhouette with notification.
+        draw.rounded_rectangle((cx-unit*2,cy-unit*3,cx+unit*2,cy+unit*3),
+            radius=unit//2, outline=pale, width=max(5,unit//4), fill=(10,20,35,130))
+        line([(cx-unit,cy-unit*2),(cx+unit,cy-unit*2)],pale)
+        ellipse((cx-unit//4,cy+unit*2,cx+unit//4,cy+unit*2+unit//2),pale)
+        ellipse((cx+unit,cy-unit*3-unit//3,cx+unit*2,cy-unit*2),ink,fill=ink)
+
     composed = Image.alpha_composite(background, layer)
 
     # Subtle vignette.
@@ -168,6 +230,7 @@ def collect_tasks(creative):
     return tasks
 
 def run(topic):
+    validate_topic_id(topic)
     draft = latest_draft(topic)
     creative_path = draft / "creative_package.json"
     creative = json.loads(creative_path.read_text(encoding="utf-8-sig"))
@@ -214,14 +277,17 @@ def run(topic):
             "status": "AUTOMATED_TECHNICAL_PASS",
             "sha256": file_hash,
             "provenance": {
-                "source_type": "local_procedural_original",
+                 "source_type": "local_procedural_original",
+                "creator": "Project-authored local visual renderer",
+                "source_code_reference": "production/automated_visual_engine_v1.py",
+                "rights_basis": "Generated from project-authored Pillow drawing primitives; no external image inputs.",
+                "commercial_use_confirmed": True,
                 "renderer": "project-authored Pillow drawing pipeline",
                 "renderer_version": VERSION,
                 "external_images_used": False,
                 "stock_media_used": False,
                 "third_party_fonts_used": False,
                 "generation_seed": seed_for(task["asset_id"] + task["visual_direction"], 0),
-                "rights_basis": "Locally rendered geometric artwork; no external media inputs.",
             },
             "quality": {
                 "width": task["width"], "height": task["height"],
@@ -292,16 +358,26 @@ def self_test():
     assert seed_for("scene", 0) == seed_for("scene", 0)
     assert seed_for("scene", 0) != seed_for("scene", 1)
     assert (1920, 1080) != (1080, 1920)
-    print("[PASS] Visual engine self-tests: 3 scenarios")
+    try:
+        validate_topic_id("../escape")
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("Path traversal topic ID was not rejected")
+    print("[PASS] Visual engine self-tests: 4 scenarios")
     return 0
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--topic-id", default=TOPIC)
+    parser.add_argument("--topic-id")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
     try:
-        sys.exit(self_test() if args.self_test else run(args.topic_id))
+        if args.self_test:
+            sys.exit(self_test())
+        if not args.topic_id:
+            parser.error("--topic-id is required unless --self-test is used")
+        sys.exit(run(args.topic_id))
     except Exception as exc:
         print("[HOLD]", type(exc).__name__ + ":", exc)
         sys.exit(1)
