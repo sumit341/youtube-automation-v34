@@ -1,0 +1,16 @@
+{
+  "name": "YouTube Automation - Publish Contract",
+  "active": false,
+  "notes": "Import/build this contract in n8n after local paths and credentials are configured. Publishing engine remains the safety authority.",
+  "nodes": [
+    {"name": "Manual or Schedule Trigger", "type": "n8n-nodes-base.manualTrigger", "purpose": "Start one approved production run"},
+    {"name": "Run Production Orchestrator", "type": "n8n-nodes-base.executeCommand", "purpose": "Execute existing production pipeline only after explicit authorization"},
+    {"name": "Check Production Report", "type": "n8n-nodes-base.if", "purpose": "Continue only when report status and all safety flags pass"},
+    {"name": "Run QA Gate", "type": "n8n-nodes-base.executeCommand", "purpose": "Require ffprobe and full decode QA before publishing"},
+    {"name": "Publish Long Video", "type": "n8n-nodes-base.executeCommand", "purpose": "Call publishing.engine with long-form manifest, metadata, and MP4"},
+    {"name": "Publish Short Video", "type": "n8n-nodes-base.executeCommand", "purpose": "Call publishing.engine with Shorts manifest, metadata, and MP4"},
+    {"name": "Notify and Archive Report", "type": "n8n-nodes-base.noOp", "purpose": "Send report through configured email/GitHub integration"}
+  ],
+  "required_guards": ["production_approved=true", "render_authorized=true", "upload_authorized=true", "human_approved=true when config requires it", "QA=PASS", "unique video SHA256"],
+  "failure_policy": "Stop; retain artifacts and logs; never auto-retry an uncertain upload; regenerate only a failed production artifact after a new authorized run."
+}
