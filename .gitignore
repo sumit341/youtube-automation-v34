@@ -30,3 +30,11 @@ venv*/
 /portable
 /pyyaml
 /nul
+
+# Generated/local artifacts - do not publish
+backups/
+workflows/backups/
+production/runs/
+*.bak
+*.backup*
+*.zip

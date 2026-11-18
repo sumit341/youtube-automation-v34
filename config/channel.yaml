@@ -20,7 +20,6 @@ content:
     - short_video
 
   long_video:
-    target_minutes: 8
     aspect_ratio: "16:9"
 
   short_video:
